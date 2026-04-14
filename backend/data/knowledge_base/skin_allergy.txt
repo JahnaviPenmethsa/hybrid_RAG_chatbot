@@ -1,0 +1,104 @@
+SOURCE: ICMR — Dermatological and Allergic Conditions
+CATEGORY: Skin, Allergy, Dermatology
+TAGS: skin rash, itching, swelling, jaundice, urticaria, allergic reaction
+
+--- URTICARIA (HIVES) ---
+
+Urticaria is an itchy skin rash characterized by raised, red welts (wheals).
+
+Causes:
+- Allergic reactions (food, drugs, insect stings)
+- Infections
+- Physical triggers (cold, heat, pressure)
+- Autoimmune conditions
+
+Symptoms:
+- Raised, red, itchy welts on skin
+- Can appear anywhere on the body
+- Individual welts typically resolve within 24 hours
+- May be associated with angioedema (swelling of lips, eyes, throat)
+
+⚠️ Seek emergency care if throat swelling or difficulty breathing (anaphylaxis).
+
+Treatment:
+- Antihistamines (cetirizine, loratadine, fexofenadine) — first line
+- Oral corticosteroids (short course) for severe cases
+- Epinephrine (adrenaline) auto-injector for anaphylaxis
+
+--- CONTACT DERMATITIS ---
+
+Inflammatory skin reaction from direct contact with an irritant or allergen.
+
+Symptoms:
+- Red rash at contact site
+- Itching, burning, or stinging
+- Blisters (in severe cases)
+- Dry, cracked skin
+
+Common triggers:
+- Metals (nickel), soaps, detergents
+- Cosmetics, perfumes
+- Plants (Parthenium, poison ivy)
+
+Treatment:
+- Identify and avoid trigger
+- Hydrocortisone cream (mild-moderate)
+- Antihistamines for itching
+- Moisturizers and emollients
+
+--- CHICKENPOX (VARICELLA) ---
+
+A highly contagious viral disease caused by Varicella-Zoster Virus (VZV).
+
+Symptoms:
+- Fever
+- Fatigue and malaise
+- Characteristic rash: starts as red spots → fluid-filled blisters → crusts
+- Intense itching
+- Rash progresses from trunk to face and limbs
+
+Management:
+- Calamine lotion for itching
+- Antihistamines (oral) for itching
+- Acyclovir (antiviral) for high-risk groups
+- Keep nails short to prevent scratching
+- Isolate until all lesions have crusted
+
+--- JAUNDICE ---
+
+Yellowing of skin and eyes due to elevated bilirubin levels.
+
+Symptoms:
+- Yellow skin and sclera (whites of eyes)
+- Dark urine (tea-colored)
+- Pale stools
+- Fatigue
+- Itching
+- Abdominal pain (if liver disease)
+
+Causes:
+- Hepatitis A, B, C
+- Gallstones
+- Liver cirrhosis
+- Hemolytic anemia
+
+Diagnosis: Liver function tests (LFT), bilirubin levels, liver ultrasound, hepatitis serology
+
+⚠️ Always seek medical evaluation — jaundice is a sign of underlying disease.
+
+--- ANAPHYLAXIS ---
+
+A severe, life-threatening allergic reaction.
+
+Symptoms (develop within minutes of exposure):
+- Throat tightening or swelling
+- Difficulty breathing
+- Rapid heart rate
+- Severe skin rash
+- Vomiting
+- Dizziness or fainting
+- Loss of consciousness
+
+⚠️ EMERGENCY: Inject epinephrine (EpiPen) immediately and call 112.
+
+Triggers: Food (peanuts, shellfish), bee stings, medications (penicillin), latex

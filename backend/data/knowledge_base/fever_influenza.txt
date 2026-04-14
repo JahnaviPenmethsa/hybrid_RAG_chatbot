@@ -1,0 +1,71 @@
+SOURCE: World Health Organization (WHO) — Influenza and Fever Guidelines
+CATEGORY: Fever, Influenza, Respiratory Infections
+TAGS: fever, headache, body pain, fatigue, chills, cough, sore throat
+
+--- FEVER ---
+
+Fever is defined as a body temperature above 38°C (100.4°F). It is a common sign of infection and the immune system's response to pathogens.
+
+Common Causes of Fever:
+- Viral infections: influenza, common cold, dengue, COVID-19
+- Bacterial infections: typhoid, urinary tract infection, pneumonia
+- Other: heat exhaustion, autoimmune conditions, drug reactions
+
+Symptoms typically associated with fever:
+- Body temperature above 38°C
+- Chills and shivering
+- Sweating
+- Headache
+- Muscle pain and body aches
+- Fatigue and weakness
+- Loss of appetite
+
+Management of Fever:
+- Rest and hydration (oral rehydration salts if needed)
+- Paracetamol (acetaminophen): 500–1000mg every 4–6 hours for adults (do not exceed 4g/day)
+- Ibuprofen (if no contraindications): 400mg every 8 hours
+- Tepid sponging for comfort
+- Monitor temperature every 4 hours
+
+Seek emergency care if:
+- Temperature exceeds 40°C (104°F)
+- Fever in infants under 3 months (any fever = emergency)
+- Fever persists beyond 3 days
+- Associated with stiff neck, rash, confusion, or difficulty breathing
+- Febrile seizure occurs
+
+--- INFLUENZA (FLU) ---
+
+Influenza is a contagious respiratory illness caused by influenza viruses. It spreads via respiratory droplets.
+
+Symptoms of Influenza:
+- Sudden onset high fever (38–40°C)
+- Severe headache
+- Muscle aches and body pain
+- Extreme fatigue
+- Dry cough
+- Sore throat
+- Runny or stuffy nose
+- Chills
+
+Duration: 5–7 days for most symptoms; fatigue may last 2 weeks.
+
+Treatment:
+- Bed rest
+- Adequate hydration
+- Antipyretics for fever (paracetamol preferred)
+- Antiviral medications (oseltamivir/Tamiflu) within 48 hours for high-risk groups
+- Isolation to prevent spread
+
+Prevention:
+- Annual influenza vaccination (recommended by WHO)
+- Hand hygiene
+- Respiratory etiquette (covering mouth when coughing)
+- Avoiding close contact with sick individuals
+
+High-risk groups requiring early medical attention:
+- Children under 5 years
+- Adults over 65 years
+- Pregnant women
+- Immunocompromised individuals
+- Persons with chronic conditions (diabetes, heart disease, asthma)

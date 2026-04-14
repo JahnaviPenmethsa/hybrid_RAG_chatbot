@@ -1,0 +1,96 @@
+SOURCE: WHO & Ministry of Health — Cardiovascular Emergency Guidelines
+CATEGORY: Cardiac, Emergency, Chest Pain
+TAGS: chest pain, shortness of breath, palpitations, rapid heartbeat, sweating, dizziness, fainting
+
+--- HEART ATTACK (MYOCARDIAL INFARCTION) ---
+
+A heart attack occurs when blood flow to the heart is blocked, causing heart muscle damage. This is a life-threatening emergency.
+
+Warning Signs of Heart Attack:
+- Chest pain or pressure (often described as squeezing, tightness, or crushing)
+- Pain radiating to left arm, shoulder, neck, jaw, or back
+- Shortness of breath
+- Cold sweats
+- Nausea and vomiting
+- Lightheadedness or dizziness
+- Sudden fatigue
+- Palpitations
+
+⚠️ EMERGENCY: Call 112 (India) or go to nearest emergency room immediately.
+
+Note: Women may present atypically — more nausea, back pain, jaw pain, fatigue without chest pain.
+
+First Aid:
+- Call emergency services immediately
+- Chew aspirin 300mg (if not allergic and not contraindicated)
+- Keep patient calm and still
+- Loosen tight clothing
+- Begin CPR if unconscious and not breathing
+
+--- ANGINA PECTORIS ---
+
+Chest pain caused by reduced blood flow to the heart, usually triggered by exertion.
+
+Symptoms:
+- Chest pain, pressure, or tightness
+- Usually triggered by physical activity or stress
+- Relieved by rest (stable angina) or occurs at rest (unstable angina)
+- May radiate to arm, jaw, or shoulder
+- Shortness of breath
+
+Treatment:
+- Sublingual nitroglycerine for acute episodes (prescribed)
+- Beta-blockers, calcium channel blockers (chronic management)
+- Lifestyle: quit smoking, reduce cholesterol, control blood pressure
+
+Unstable angina = Emergency — seek care immediately.
+
+--- HYPERTENSIVE URGENCY / EMERGENCY ---
+
+Severely elevated blood pressure (> 180/120 mmHg).
+
+Symptoms:
+- Severe headache
+- Shortness of breath
+- Chest pain
+- Nausea/vomiting
+- Vision changes
+- Confusion or altered consciousness
+
+⚠️ Seek emergency care immediately.
+
+--- CARDIAC ARRHYTHMIAS ---
+
+Irregular heart rhythms that can cause symptoms.
+
+Symptoms:
+- Palpitations (fluttering, racing heart)
+- Dizziness
+- Shortness of breath
+- Chest discomfort
+- Fainting or near-fainting
+
+Common types:
+- Atrial fibrillation (irregular, rapid)
+- Supraventricular tachycardia (SVT)
+- Bradycardia (slow heart rate)
+
+Treatment depends on type — requires ECG diagnosis and medical management.
+
+--- PULMONARY EMBOLISM ---
+
+Blood clot in the lungs.
+
+Symptoms:
+- Sudden shortness of breath
+- Chest pain (sharp, worsens with breathing)
+- Rapid heart rate
+- Coughing up blood
+- Leg pain/swelling (if DVT present)
+- Dizziness or fainting
+
+⚠️ EMERGENCY — Call 112 immediately.
+
+Risk factors: Prolonged immobility, surgery, obesity, prior clots, oral contraceptives
+
+Treatment: Anticoagulants (heparin, warfarin), thrombolytics in severe cases

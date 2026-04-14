@@ -1,0 +1,52 @@
+SOURCE: Ministry of Health and Family Welfare, India — Dengue Fever Guidelines
+CATEGORY: Dengue, Vector-Borne Disease
+TAGS: fever, headache, joint pain, body pain, rash, nausea, vomiting, fatigue
+
+--- DENGUE FEVER ---
+
+Dengue is a mosquito-borne viral infection caused by the dengue virus (DENV), transmitted by Aedes mosquitoes, particularly Aedes aegypti.
+
+Dengue is endemic in India and prevalent during and after monsoon season.
+
+Symptoms of Dengue (Classic):
+- Sudden high fever (39–40°C) lasting 2–7 days
+- Severe headache (especially behind the eyes — retro-orbital pain)
+- Joint pain and muscle pain (dengue is called "breakbone fever")
+- Body aches
+- Skin rash (appears 2–5 days after fever onset — flat red rash)
+- Nausea and vomiting
+- Fatigue
+
+Warning Signs of Severe Dengue (Seek Emergency Care Immediately):
+- Abdominal pain or tenderness
+- Persistent vomiting (3 or more times in 24 hours)
+- Bleeding from gums, nose, or in vomit/stool
+- Rapid breathing
+- Fatigue and restlessness
+- Blood in urine, stool, or vomit
+- Platelet count falling rapidly
+
+Diagnosis:
+- NS1 antigen test (positive in first 5 days)
+- Dengue IgM/IgG antibody test (after 5 days)
+- Complete Blood Count (CBC) — platelet and WBC count
+
+Treatment (No specific antiviral):
+- Strict bed rest
+- Oral rehydration — drink at least 2–3 liters of water/ORS daily
+- Paracetamol for fever (500–1000mg every 6 hours for adults)
+- AVOID: Aspirin, Ibuprofen, Diclofenac (increase bleeding risk)
+- Monitor platelet count daily from day 3 of fever
+- Hospitalization if platelet < 50,000/mm³ or warning signs present
+
+Prevention:
+- Eliminate mosquito breeding sites (stagnant water)
+- Use mosquito repellents and nets
+- Wear long-sleeved clothing
+- Community fogging programs
+
+Key Differentiating Features from Flu:
+- Retro-orbital eye pain
+- Rash appearance after 2–4 days
+- Thrombocytopenia (low platelet count)
+- More severe joint/muscle pain than flu

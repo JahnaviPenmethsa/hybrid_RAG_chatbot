@@ -1,0 +1,115 @@
+SOURCE: WHO & ICMR — Musculoskeletal and Neurological Conditions
+CATEGORY: Musculoskeletal, Neurological
+TAGS: joint pain, back pain, muscle pain, body pain, headache, dizziness, weakness, numbness
+
+--- MALARIA ---
+
+Malaria is a life-threatening disease caused by Plasmodium parasites, transmitted through Anopheles mosquito bites. Endemic in India.
+
+Symptoms:
+- Cyclical fever with chills (every 48–72 hours depending on type)
+- Severe headache
+- Muscle and joint pain
+- Nausea and vomiting
+- Fatigue
+- Sweating after fever breaks
+- Anemia (in chronic cases)
+
+Types prevalent in India:
+- P. vivax (most common, less severe)
+- P. falciparum (severe, potentially fatal)
+
+Diagnosis: Rapid Diagnostic Test (RDT), peripheral blood smear, PCR
+
+Treatment:
+- P. vivax: Chloroquine + Primaquine
+- P. falciparum: Artemisinin-based Combination Therapy (ACT) — artemether-lumefantrine
+
+⚠️ Severe malaria = Emergency. Signs: altered consciousness, respiratory distress, severe anemia, renal failure.
+
+Prevention: Insecticide-treated bed nets, indoor spraying, antimalarial prophylaxis for high-risk areas.
+
+--- TYPHOID FEVER ---
+
+Caused by Salmonella typhi, spread through contaminated food and water.
+
+Symptoms:
+- Prolonged fever (stepwise rise over 1 week, reaching 39–40°C)
+- Severe headache
+- Abdominal pain and distension
+- Loss of appetite
+- Constipation (early) then diarrhea
+- Rose spots on trunk (faint pink macules)
+- Weakness and fatigue
+- Relative bradycardia (slow pulse despite high fever)
+
+Diagnosis: Blood culture (gold standard), Widal test, Typhidot
+
+Treatment:
+- Ceftriaxone (IV) or azithromycin (oral) — for sensitive strains
+- Fluoroquinolones (ciprofloxacin) — where sensitivity confirmed
+
+--- ARTHRITIS / JOINT PAIN ---
+
+Joint pain can be caused by many conditions.
+
+Rheumatoid Arthritis:
+- Symmetric joint involvement (both sides)
+- Morning stiffness > 1 hour
+- Swelling, warmth, tenderness in joints
+- Small joints first (fingers, wrists)
+- Fatigue, fever
+
+Osteoarthritis:
+- Joint pain with activity, relieved by rest
+- Affects weight-bearing joints (knees, hips)
+- Morning stiffness < 30 minutes
+- No systemic inflammation
+
+Management:
+- NSAIDs (ibuprofen) for pain relief
+- Disease-modifying drugs (methotrexate) for RA
+- Physiotherapy and exercise
+- Weight management
+
+--- MIGRAINE ---
+
+A primary headache disorder with moderate-to-severe throbbing pain.
+
+Symptoms:
+- Throbbing, pulsating headache (often unilateral)
+- Nausea and vomiting
+- Sensitivity to light (photophobia) and sound (phonophobia)
+- Aura: visual disturbances, tingling (in some patients)
+- Duration: 4–72 hours
+
+Triggers: Stress, sleep changes, hormonal changes, certain foods (cheese, wine, chocolate), bright lights
+
+Acute treatment:
+- Triptans (sumatriptan) — most effective
+- NSAIDs (ibuprofen, aspirin)
+- Antiemetics (metoclopramide) if vomiting
+
+Preventive treatment (if > 4 attacks/month):
+- Beta-blockers (propranolol)
+- Topiramate
+- Amitriptyline
+
+--- STROKE ---
+
+A medical emergency caused by interruption of blood supply to the brain.
+
+Recognize Stroke — FAST:
+- F: Face drooping (uneven smile)
+- A: Arm weakness (one arm drifts down)
+- S: Speech difficulty (slurred, confused)
+- T: Time to call 112
+
+Additional symptoms:
+- Sudden numbness in face, arm, leg (especially one side)
+- Sudden confusion
+- Vision problems
+- Severe headache with no known cause
+- Loss of balance or coordination
+
+⚠️ EMERGENCY: Every minute counts. Clot-busting treatment (tPA) must be given within 4.5 hours.

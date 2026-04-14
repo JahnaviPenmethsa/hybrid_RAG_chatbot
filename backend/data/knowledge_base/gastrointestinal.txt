@@ -1,0 +1,91 @@
+SOURCE: Indian Council of Medical Research (ICMR) — Gastrointestinal Disease Guidelines
+CATEGORY: Gastrointestinal, Diarrhea, Food Poisoning, Gastroenteritis
+TAGS: diarrhea, vomiting, nausea, abdominal pain, stomach ache, loss of appetite, bloating
+
+--- ACUTE GASTROENTERITIS ---
+
+Gastroenteritis is inflammation of the stomach and intestines, typically caused by viral (norovirus, rotavirus) or bacterial infection.
+
+Symptoms:
+- Nausea and vomiting
+- Diarrhea (watery or loose stools)
+- Abdominal cramps and pain
+- Low-grade fever
+- Fatigue
+- Loss of appetite
+- Headache
+
+Duration: 1–3 days (viral), up to 5–7 days (bacterial)
+
+Treatment:
+- Oral Rehydration Solution (ORS): Gold standard. WHO-recommended ORS composition: 2.6g NaCl, 2.9g sodium citrate, 1.5g KCl, 13.5g glucose per liter of water.
+- Drink small sips frequently to prevent vomiting
+- BRAT diet: Bananas, Rice, Applesauce, Toast
+- Zinc supplementation for children (20mg/day for 10 days)
+- Probiotics (Lactobacillus) may reduce duration
+- Antibiotics only if bacterial infection confirmed (azithromycin, ciprofloxacin)
+
+Danger Signs — Seek Medical Attention:
+- Blood or mucus in stool
+- High fever (> 39°C)
+- Signs of dehydration: dry mouth, no urination, sunken eyes, dizziness
+- Persistent vomiting preventing oral rehydration
+- Diarrhea lasting more than 3 days
+
+--- FOOD POISONING ---
+
+Caused by consuming contaminated food with bacteria (Salmonella, E. coli, Staphylococcus) or their toxins.
+
+Symptoms (onset: 1–72 hours after contaminated food):
+- Sudden nausea
+- Vomiting
+- Diarrhea (may be bloody)
+- Abdominal cramps
+- Fever
+- Weakness
+
+High-risk foods in India:
+- Undercooked meat and poultry
+- Raw or improperly handled dairy
+- Leftover rice (Bacillus cereus)
+- Street food with poor hygiene
+
+Treatment: Similar to gastroenteritis (ORS, rest, BRAT diet)
+
+--- IRRITABLE BOWEL SYNDROME (IBS) ---
+
+IBS is a chronic functional disorder affecting the large intestine.
+
+Symptoms:
+- Abdominal pain or cramping (often relieved after bowel movement)
+- Bloating
+- Alternating constipation and diarrhea
+- Mucus in stool
+- Gas
+
+Management:
+- High-fiber diet
+- Avoid trigger foods (dairy, fatty foods, alcohol, caffeine)
+- Stress management
+- Antispasmodics (mebeverine) for cramps
+- Loperamide for diarrhea-predominant IBS
+- Fiber supplements (ispaghula husk) for constipation-predominant IBS
+
+--- PEPTIC ULCER DISEASE ---
+
+Sores in the lining of the stomach or upper small intestine.
+
+Symptoms:
+- Burning stomach pain (often between meals)
+- Nausea
+- Bloating
+- Heartburn
+- Loss of appetite
+- Dark or bloody stools (severe)
+
+Causes: H. pylori infection, NSAIDs, stress
+
+Treatment:
+- Proton pump inhibitors (omeprazole, pantoprazole)
+- H. pylori eradication therapy if confirmed (triple therapy: PPI + 2 antibiotics)
+- Avoid NSAIDs, alcohol, smoking

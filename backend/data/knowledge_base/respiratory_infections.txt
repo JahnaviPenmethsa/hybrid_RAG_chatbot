@@ -1,0 +1,106 @@
+SOURCE: World Health Organization (WHO) — Acute Respiratory Infections
+CATEGORY: Respiratory, Common Cold, COVID-19, Pneumonia
+TAGS: cough, sore throat, runny nose, shortness of breath, fever, chest pain, fatigue
+
+--- COMMON COLD ---
+
+The common cold is a viral upper respiratory tract infection, most often caused by rhinoviruses.
+
+Symptoms:
+- Runny or stuffy nose
+- Sore throat
+- Mild cough
+- Low-grade fever (rare in adults)
+- Sneezing
+- Mild headache
+- Fatigue
+
+Duration: 7–10 days
+
+Treatment:
+- Rest and hydration
+- Saline nasal sprays for congestion
+- Throat lozenges for sore throat
+- Paracetamol for fever/pain
+- Antihistamines for runny nose (first-generation)
+- No antibiotics required (viral cause)
+
+--- ACUTE BRONCHITIS ---
+
+Inflammation of the bronchial tubes, usually caused by viral infection.
+
+Symptoms:
+- Persistent cough (can last 2–3 weeks)
+- Production of mucus (clear, white, yellow, or green)
+- Shortness of breath
+- Chest tightness
+- Wheezing
+- Mild fever
+- Fatigue
+
+Treatment:
+- Rest and hydration
+- Honey and warm water for cough
+- Cough suppressants for dry, disturbing cough
+- Bronchodilators if wheezing (consult doctor)
+- Antibiotics not routinely indicated
+
+--- PNEUMONIA ---
+
+Pneumonia is an infection of the lungs, which can be bacterial, viral, or fungal.
+
+Symptoms:
+- Productive cough (may contain blood-tinged mucus)
+- High fever with chills
+- Shortness of breath
+- Chest pain (worsens with breathing or coughing)
+- Rapid breathing
+- Fatigue and weakness
+- Confusion (especially in elderly)
+
+Seek urgent medical care for pneumonia symptoms.
+
+Diagnosis: Chest X-ray, sputum culture, blood tests
+
+Treatment:
+- Antibiotics (bacterial pneumonia — azithromycin, amoxicillin)
+- Antivirals (viral pneumonia)
+- Oxygen therapy (if oxygen saturation < 94%)
+- Hospitalization often required
+
+--- COVID-19 ---
+
+COVID-19 is caused by the SARS-CoV-2 virus. It can range from mild to severe.
+
+Common Symptoms:
+- Fever or chills
+- Dry cough
+- Fatigue
+- Loss of taste or smell
+- Headache
+- Sore throat
+- Shortness of breath (moderate-severe)
+- Body aches
+
+Emergency Warning Signs (Call emergency services):
+- Difficulty breathing or shortness of breath
+- Persistent chest pain
+- Confusion or inability to wake
+- Bluish lips or face
+
+Prevention: Vaccination, masking, hand hygiene, ventilation
+
+--- ASTHMA EXACERBATION ---
+
+Asthma is a chronic condition with episodes of airway narrowing.
+
+Acute symptoms:
+- Wheezing
+- Shortness of breath
+- Chest tightness
+- Cough (especially at night)
+
+Management:
+- Short-acting bronchodilator (salbutamol inhaler) for immediate relief
+- Seek emergency care if no improvement after 2 puffs
+- Oral corticosteroids for severe exacerbations (prescribed)
