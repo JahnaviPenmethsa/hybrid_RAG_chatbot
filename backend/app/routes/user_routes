@@ -1,0 +1,31 @@
+from fastapi import APIRouter
+from services.preprocessing import preprocess
+from services.extraction import extract_symptoms
+from services.retriever import retrieve_documents
+from services.llm_generator import generate_response
+
+router = APIRouter()
+
+
+@router.post("/analyze")
+def analyze(data: dict):
+
+    user_input = data.get("text", "")
+
+    print("\n📥 User Input:", user_input)
+
+    clean_text = preprocess(user_input)
+    symptoms = extract_symptoms(clean_text)
+
+    symptom_text = " ".join(symptoms)
+
+    docs = retrieve_documents(symptom_text)
+    retrieved_texts = [doc["text"] for doc in docs]
+
+    response = generate_response(symptom_text, retrieved_texts)
+
+    return {
+        "input": user_input,
+        "symptoms": symptoms,
+        "response": response
+    }
