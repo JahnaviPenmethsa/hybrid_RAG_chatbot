@@ -97,3 +97,20 @@ def analyze_symptoms(request: SymptomRequest):
 @app.get("/health")
 def health_check():
     return {"status": "healthy"}
+
+@app.post("/login")
+async def login(data: dict):
+    return {"user": {"email": data.get("email"), "name": "User"}}
+
+@app.post("/signup")  
+async def signup(data: dict):
+    return {"message": "Account created"}
+
+@app.get("/profile")
+async def get_profile():
+    return {"full_name": "", "email": "", "age": 0, 
+            "blood_group": "", "height": 0, "weight": 0}
+
+@app.post("/profile")
+async def save_profile(data: dict):
+    return {"message": "Profile saved"}
