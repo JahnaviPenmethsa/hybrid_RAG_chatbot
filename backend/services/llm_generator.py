@@ -58,54 +58,54 @@ def generate_response(symptoms, retrieved_docs):
 
 # 🔹 Intelligent ML-style fallback (NO STATIC MESSAGE)
 def fallback_response(symptoms, retrieved_docs):
-
-    if not retrieved_docs:
-        return {
-            "possible_causes": ["Insufficient data"],
-            "risk_level": "unknown",
-            "next_steps": ["Consult a healthcare professional"]
-        }
-
-    combined_text = " ".join(retrieved_docs).lower()
+    symptoms_lower = symptoms.lower()  # check symptoms, not docs
+    combined_text = " ".join(retrieved_docs).lower()  # only use for risk level
 
     possible_causes = []
+    if any(w in symptoms_lower for w in ["stress", "anxiety", "pressure", "tension"]):
+        possible_causes.append("Stress or anxiety")
+    if any(w in symptoms_lower for w in ["fever", "temperature", "chills"]):
+        possible_causes.append("Viral or bacterial infection")
+    if any(w in symptoms_lower for w in ["headache", "head", "migraine"]):
+        possible_causes.append("Tension headache or migraine")
+    if any(w in symptoms_lower for w in ["cough", "cold", "throat"]):
+        possible_causes.append("Respiratory infection")
+    if any(w in symptoms_lower for w in ["stomach", "nausea", "vomit", "diarrhea"]):
+        possible_causes.append("Gastrointestinal issue")
+    if any(w in symptoms_lower for w in ["chest", "heart", "breathing"]):
+        possible_causes.append("Cardiac or respiratory concern")
+    if any(w in symptoms_lower for w in ["joint", "muscle", "body", "pain", "ache"]):
+        possible_causes.append("Musculoskeletal issue")
 
-    # 🔹 Cause detection (rule-based intelligence)
-    if "viral" in combined_text:
-        possible_causes.append("Viral infection")
+    if not possible_causes:
+        possible_causes = ["General discomfort — further assessment needed"]
 
-    if "bacterial" in combined_text:
-        possible_causes.append("Bacterial infection")
-
-    if "dengue" in combined_text:
-        possible_causes.append("Dengue fever")
-
-    if "influenza" in combined_text or "flu" in combined_text:
-        possible_causes.append("Influenza (Flu)")
-
-    if "infection" in combined_text:
-        possible_causes.append("General infection")
-
-    # 🔹 Risk estimation
-    if "high fever" in combined_text or "severe" in combined_text:
+    # Risk from symptoms, not docs
+    if any(w in symptoms_lower for w in ["severe", "extreme", "chest pain", "can't breathe"]):
         risk = "high"
-    elif "persistent" in combined_text:
+    elif any(w in symptoms_lower for w in ["persistent", "days", "weeks", "worsening"]):
         risk = "medium"
     else:
         risk = "low"
 
-    # 🔹 Recommendations
     steps = [
-        "Stay hydrated",
-        "Take adequate rest",
-        "Monitor symptoms regularly"
+        "Stay hydrated and get adequate rest",
+        "Monitor your symptoms regularly",
+        "Avoid self-medicating without professional advice"
     ]
-
     if risk == "high":
-        steps.append("Seek immediate medical attention")
+        steps.append("⚠️ Seek immediate medical attention")
 
-    return {
-        "possible_causes": list(set(possible_causes)),
-        "risk_level": risk,
-        "next_steps": steps
-    }
+    # Return as formatted STRING not dict
+    causes_text = "\n".join(f"- {c}" for c in set(possible_causes))
+    steps_text = "\n".join(f"- {s}" for s in steps)
+
+    return f"""**Possible Causes:**
+{causes_text}
+
+**Risk Level:** {risk.upper()}
+
+**Recommended Next Steps:**
+{steps_text}
+
+*Note: This is a rule-based assessment. Please consult a qualified healthcare professional for accurate diagnosis.*"""
