@@ -70,15 +70,21 @@ def retrieve_documents(query: str, top_k: int = TOP_K_DOCS) -> List[Dict]:
     scores, indices = _index.search(query_vec, top_k)
 
     results = []
+    seen_sources = set()
+
     for score, idx in zip(scores[0], indices[0]):
         if idx == -1:
             continue
         entry = dict(_metadata[idx])
-        entry["score"] = float(score)
-        results.append(entry)
+        source = entry["source"]
+
+        # Keep only the highest-scoring chunk per source
+        if source not in seen_sources:
+            entry["score"] = float(score)
+            results.append(entry)
+            seen_sources.add(source)
 
     return results
-
 
 # ------- Quick self-test -------
 if __name__ == "__main__":
