@@ -5,8 +5,10 @@ export async function POST(req: Request) {
     const { message, history } = await req.json();
     
     // Send all messages in history as context, plus the current message
-    const allSymptoms = history.map((msg: any) => msg.content).join(" ") + " " + message;
-
+    const allSymptoms = history
+    .filter((msg: any) => msg.role === "user")
+    .map((msg: any) => msg.content)
+    .join(" ") + " " + message;
     // Call the FastAPI backend
     const response = await fetch('http://127.0.0.1:8000/analyze', {
       method: 'POST',
@@ -22,6 +24,7 @@ export async function POST(req: Request) {
 
     const { data } = await response.json();
     data.symptoms_identified = data.symptoms_identified?.map((s: any) => s.symptom);
+    console.log("symptoms_identified:", data.symptoms_identified);
     
     let reply = data.guidance || "I have analyzed your symptoms.";
     if (data.emergency_alert) {
