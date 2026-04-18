@@ -21,10 +21,11 @@ export async function POST(req: Request) {
     }
 
     const { data } = await response.json();
+    data.symptoms_identified = data.symptoms_identified?.map((s: any) => s.symptom);
     
     let reply = data.guidance || "I have analyzed your symptoms.";
     if (data.emergency_alert) {
-      reply = `${data.emergency_message}\n\n${reply}`;
+      reply = `${data.emergency_alert}\n\n${reply}`;
     }
 
     return NextResponse.json({
