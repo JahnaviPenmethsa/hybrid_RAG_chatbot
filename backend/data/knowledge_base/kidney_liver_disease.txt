@@ -1,0 +1,160 @@
+SOURCE: ICMR & Ministry of Health — Kidney and Liver Disease Guidelines
+CATEGORY: Nephrology, Hepatology, Kidney, Liver
+TAGS: swelling, fatigue, dark urine, abdominal pain, jaundice, nausea, back pain, frequent urination, blood in urine
+
+--- CHRONIC KIDNEY DISEASE (CKD) ---
+
+Chronic kidney disease is the gradual loss of kidney function over months or years. India has a very high burden of CKD, largely driven by diabetes and hypertension.
+
+Stages of CKD (based on GFR — glomerular filtration rate):
+- Stage 1: GFR 90+ (kidney damage with normal function)
+- Stage 2: GFR 60-89 (mildly reduced)
+- Stage 3: GFR 30-59 (moderately reduced)
+- Stage 4: GFR 15-29 (severely reduced)
+- Stage 5: GFR below 15 (kidney failure — dialysis or transplant required)
+
+Symptoms (often absent in early stages):
+- Fatigue and weakness
+- Swelling of ankles, feet, and legs (oedema)
+- Shortness of breath (fluid in lungs)
+- Decreased urine output or changes in urination
+- Foamy or bubbly urine (protein in urine)
+- Blood in urine (haematuria)
+- Persistent itching (due to waste buildup)
+- Nausea and vomiting
+- Loss of appetite
+- Muscle cramps
+- Difficulty concentrating
+- High blood pressure
+
+Causes in India:
+- Diabetic nephropathy (most common)
+- Hypertensive nephropathy
+- Glomerulonephritis
+- Polycystic kidney disease
+- Recurrent urinary tract infections
+
+Management:
+- Control blood pressure: target below 130/80 mmHg (ACE inhibitors or ARBs preferred)
+- Control blood sugar in diabetics
+- Low protein diet (0.6-0.8 g/kg/day in advanced CKD)
+- Low potassium and phosphorus diet in advanced stages
+- Avoid NSAIDs and nephrotoxic medications
+- Annual kidney function tests (serum creatinine, eGFR, urine protein)
+- Dialysis or kidney transplant in Stage 5
+
+--- URINARY TRACT INFECTIONS (UTI) ---
+
+UTIs are among the most common infections, particularly in women. They can affect the bladder (cystitis) or kidneys (pyelonephritis).
+
+Symptoms of lower UTI (bladder infection):
+- Burning or painful urination (dysuria)
+- Frequent urge to urinate with little output
+- Cloudy or strong-smelling urine
+- Blood in urine (haematuria)
+- Pelvic pain or pressure
+- Low-grade fever
+
+Symptoms of upper UTI (kidney infection — pyelonephritis):
+- High fever with chills and rigors
+- Severe back or flank pain (below the ribs, on one or both sides)
+- Nausea and vomiting
+- General feeling of illness
+
+⚠️ Kidney infection requires prompt medical attention to prevent permanent kidney damage.
+
+Treatment:
+- Lower UTI: oral antibiotics for 3-7 days (trimethoprim, nitrofurantoin, ciprofloxacin)
+- Upper UTI: oral or IV antibiotics for 7-14 days
+- Increase fluid intake to flush bacteria
+- Cranberry juice may help prevent recurrence (not proven as treatment)
+- Avoid holding urine for long periods
+
+Prevention:
+- Wipe front to back after toilet use
+- Urinate after sexual intercourse
+- Stay well hydrated
+- Avoid harsh soaps in genital area
+- Change sanitary products frequently during menstruation
+
+--- KIDNEY STONES (NEPHROLITHIASIS) ---
+
+Hard deposits made of minerals and salts that form inside kidneys. Very common in India, particularly in the hot climate regions.
+
+Symptoms (when stone moves into ureter):
+- Severe, cramping pain in the back or side (renal colic) — often described as the worst pain experienced
+- Pain that radiates to the lower abdomen and groin
+- Pain that comes in waves and fluctuates in intensity
+- Nausea and vomiting
+- Blood in urine (pink, red, or brown)
+- Frequent, painful urination
+- Fever and chills if infection present
+
+Treatment:
+- Small stones (below 5mm): increased fluid intake (2-3 litres/day), pain relief (diclofenac), most pass naturally
+- Larger stones: medical expulsive therapy (tamsulosin), lithotripsy, ureteroscopy, or surgery
+- Pain management: NSAIDs are first choice for renal colic
+
+Prevention:
+- Drink 2.5-3 litres of water daily
+- Reduce salt and protein intake
+- Limit oxalate-rich foods (spinach, nuts, tea) for calcium oxalate stones
+
+--- LIVER DISEASE ---
+
+Hepatitis (Liver Inflammation):
+Caused by viruses, alcohol, medications, or autoimmune conditions.
+
+Hepatitis A:
+- Spread via contaminated food and water
+- Symptoms: fever, fatigue, nausea, abdominal pain, dark urine, jaundice
+- Usually self-limiting, no specific treatment
+- Prevention: hepatitis A vaccine, safe water and food
+
+Hepatitis B:
+- Spread via blood, sexual contact, mother to child
+- Can become chronic, leading to cirrhosis and liver cancer
+- Symptoms: fatigue, jaundice, abdominal pain, nausea (acute); often asymptomatic in chronic
+- Treatment: antiviral medications (tenofovir, entecavir)
+- Prevention: hepatitis B vaccine (part of India's national immunization programme)
+
+Hepatitis C:
+- Spread primarily via blood-to-blood contact
+- Often asymptomatic for years
+- Leads to chronic liver disease, cirrhosis, and liver cancer
+- Treatment: direct-acting antivirals (DAAs) — highly effective cure in most cases
+
+Alcoholic Liver Disease:
+- Fatty liver: early, reversible with abstinence
+- Alcoholic hepatitis: inflammation, may be severe
+- Cirrhosis: irreversible scarring of the liver
+
+Symptoms of advanced liver disease:
+- Jaundice (yellow skin and eyes)
+- Ascites (fluid accumulation in abdomen, causing distension)
+- Portal hypertension
+- Hepatic encephalopathy: confusion, altered consciousness due to toxin buildup
+- Oesophageal varices: risk of severe bleeding
+
+--- JAUNDICE ---
+
+Yellowing of skin and eyes due to elevated bilirubin (above 2 mg/dL).
+
+Causes:
+- Pre-hepatic: haemolysis (malaria, sickle cell disease)
+- Hepatic: hepatitis, cirrhosis, alcoholic liver disease
+- Post-hepatic (obstructive): gallstones, pancreatic cancer, bile duct obstruction
+
+Key diagnostic tests:
+- Liver function tests (LFT): AST, ALT, ALP, bilirubin, albumin
+- Ultrasound abdomen
+- Hepatitis serology (HBsAg, anti-HCV, anti-HAV IgM)
+- Complete blood count (CBC)
+
+⚠️ All cases of jaundice require medical evaluation — it is always a sign of underlying disease.
+
+Emergency signs in jaundice:
+- Confusion or altered consciousness (hepatic encephalopathy)
+- Severe abdominal pain
+- Vomiting blood
+- Rapid deterioration

@@ -1,0 +1,197 @@
+SOURCE: ICMR & WHO — Common Infectious Diseases in India Guidelines
+CATEGORY: Infectious Disease, Tropical Medicine, Fever
+TAGS: fever, chills, rash, body pain, diarrhea, vomiting, jaundice, cough, weight loss, night sweats, swollen glands
+
+--- TUBERCULOSIS (TB) ---
+
+Tuberculosis is caused by Mycobacterium tuberculosis. India has the highest TB burden in the world, accounting for approximately 26% of global cases.
+
+Pulmonary TB (lung TB) Symptoms:
+- Persistent cough lasting 2 weeks or more (may be productive with mucus or blood)
+- Coughing up blood (haemoptysis)
+- Chest pain
+- Fever (low-grade, often in the afternoons)
+- Night sweats
+- Unexplained weight loss
+- Fatigue and weakness
+- Loss of appetite
+
+Extra-pulmonary TB (TB in other organs):
+- TB meningitis: headache, fever, neck stiffness, confusion
+- TB lymphadenitis: swollen, non-tender lymph nodes in neck
+- TB spine (Pott's disease): back pain, neurological symptoms
+- TB abdomen: abdominal pain, distension, ascites
+
+Diagnosis:
+- Sputum smear microscopy (CBNAAT/GeneXpert — most sensitive)
+- Chest X-ray
+- Mantoux test (tuberculin skin test)
+- IGRA blood test (QuantiFERON)
+- CT scan for extrapulmonary TB
+
+Treatment (DOTS — Directly Observed Treatment, Short Course):
+- Intensive phase (2 months): Isoniazid + Rifampicin + Pyrazinamide + Ethambutol
+- Continuation phase (4 months): Isoniazid + Rifampicin
+- Drug-resistant TB (MDR-TB): longer regimens with second-line drugs
+- Treatment is FREE under India's National TB Elimination Programme (NTEP)
+
+⚠️ Never stop TB treatment midway — incomplete treatment causes drug resistance.
+
+Isolation: Pulmonary TB is infectious until 2 weeks of treatment. Use masks and improve ventilation.
+
+--- CHOLERA AND ACUTE WATERY DIARRHEA ---
+
+Cholera is caused by Vibrio cholerae, spread through contaminated water and food. Endemic in parts of India, especially during monsoon.
+
+Symptoms:
+- Profuse, watery diarrhea (rice-water stools)
+- Rapid dehydration
+- Vomiting
+- Muscle cramps
+- Weakness
+- Rapid heart rate
+- Low blood pressure
+
+⚠️ Severe dehydration can be fatal within hours — immediate treatment is essential.
+
+Treatment:
+- Oral Rehydration Solution (ORS): critical first step
+- IV fluids for severe dehydration
+- Antibiotics (doxycycline or azithromycin) to shorten duration
+
+Prevention:
+- Safe drinking water (boil or use water purification tablets)
+- Safe food handling
+- Handwashing with soap after toilet use and before eating
+- Cholera vaccine available for high-risk areas
+
+--- LEPTOSPIROSIS ---
+
+Bacterial infection (Leptospira) spread through water or soil contaminated with animal urine. Common during and after monsoon in India, particularly in urban flooding areas.
+
+Symptoms (appear 2-30 days after exposure):
+- Sudden high fever with chills
+- Severe headache
+- Muscle pain (especially calves)
+- Red eyes (conjunctival suffusion)
+- Nausea and vomiting
+- Skin rash (sometimes)
+
+Severe leptospirosis (Weil's disease):
+- Jaundice (yellow skin and eyes)
+- Kidney failure (oliguria, dark urine)
+- Bleeding (from gums, into skin)
+- Lung involvement: cough, shortness of breath
+- Meningitis
+
+⚠️ Weil's disease is a medical emergency requiring hospitalisation.
+
+Diagnosis: blood culture, serology (MAT test), urine culture.
+Treatment: Penicillin, doxycycline, or ceftriaxone (IV for severe cases).
+
+Prevention: avoid wading in floodwater, wear protective footwear, doxycycline prophylaxis in high-risk settings.
+
+--- SCRUB TYPHUS ---
+
+Bacterial infection (Orientia tsutsugamushi) transmitted by chigger mite bites. Increasingly common in India, often misdiagnosed.
+
+Symptoms:
+- Fever (high, sudden onset)
+- Headache
+- Body aches
+- Characteristic eschar (black, painless scab at bite site — look in hidden areas: armpits, groin, behind ears)
+- Rash (maculopapular, appears 5-8 days after fever)
+- Swollen lymph nodes
+
+Complications: pneumonia, meningitis, hepatitis, myocarditis.
+
+Diagnosis: Weil-Felix test (insensitive), IgM ELISA for Orientia, PCR.
+Treatment: Doxycycline 100mg twice daily for 7-14 days. Fever resolves dramatically within 24-48 hours of treatment (diagnostic response).
+
+--- VIRAL FEVER ---
+
+A broad category of febrile illnesses caused by various viruses. Very common in India, especially during seasonal changes and monsoon.
+
+General symptoms:
+- Sudden onset fever (38-40°C)
+- Headache
+- Body aches and joint pain
+- Fatigue and weakness
+- Sore throat
+- Runny nose or nasal congestion
+- Redness of eyes
+- Rash (in some viral fevers)
+- Nausea (sometimes)
+
+Duration: typically 3-7 days.
+
+Management:
+- Rest and adequate hydration
+- Paracetamol for fever and pain
+- Avoid aspirin and ibuprofen (dengue cannot be excluded initially)
+- Seek medical care if: fever persists beyond 3 days, rash develops, severe headache, bleeding signs, platelet count drops
+
+Differentiating common viral fevers in India:
+- Dengue: retro-orbital pain, rash day 2-5, low platelet count
+- Chikungunya: severe joint pain (arthralgia), rash, joint swelling
+- Influenza: respiratory symptoms predominate, sudden onset, severe body aches
+- Scrub typhus: eschar, lymphadenopathy
+- Malaria: cyclical fever pattern, chills and rigors
+
+--- CHIKUNGUNYA ---
+
+Viral infection transmitted by Aedes mosquitoes. Endemic in India.
+
+Symptoms:
+- Sudden high fever
+- Severe joint pain and swelling (can be debilitating — affects multiple joints)
+- Muscle pain
+- Headache
+- Skin rash (maculopapular, 2-5 days after fever)
+- Fatigue
+- Conjunctivitis
+
+Joint pain may persist for months to years (post-chikungunya arthritis).
+
+Treatment (symptomatic only, no antiviral):
+- Paracetamol for fever and pain
+- NSAIDs for joint pain (once dengue excluded)
+- Rest and hydration
+- Physiotherapy for persistent joint pain
+
+Prevention: mosquito control measures (same as dengue).
+
+--- COVID-19 (Updated Guidance) ---
+
+COVID-19 remains circulating with various variants. Most current infections are milder due to widespread immunity.
+
+Common symptoms (Omicron and variants):
+- Sore throat (often prominent)
+- Runny nose
+- Fatigue
+- Headache
+- Mild fever
+- Cough (often dry)
+- Body aches
+- Loss of taste or smell (less common with Omicron)
+
+High-risk groups for severe disease:
+- Age above 60 years
+- Unvaccinated individuals
+- Diabetes, heart disease, chronic lung disease
+- Immunocompromised individuals
+
+Emergency warning signs:
+- Difficulty breathing or shortness of breath
+- Persistent chest pain or pressure
+- Confusion or inability to wake up
+- Oxygen saturation below 94% (use pulse oximeter)
+- Bluish lips or face
+
+Prevention:
+- COVID-19 vaccination (including booster doses)
+- Mask in crowded enclosed spaces
+- Hand hygiene
+- Ventilation of indoor spaces
+
+Isolation: Current Indian guidelines — isolate for 5 days if testing positive. Wear mask for 10 days.

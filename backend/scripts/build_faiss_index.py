@@ -4,9 +4,6 @@ build_faiss_index.py
 Reads all .txt files from data/knowledge_base/processed/,
 chunks them, encodes with Sentence Transformers, and saves
 a FAISS index + metadata file.
-
-Run from project root:
-    python scripts/build_faiss_index.py
 """
 
 import os
@@ -20,23 +17,21 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "backend"))
 import faiss
 from sentence_transformers import SentenceTransformer
 
-# ---- Config (inline so script is self-contained) ----
+# Config (inline so script is self-contained) 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-KNOWLEDGE_BASE_DIR = os.path.join(
-    BASE_DIR, "data", "knowledge_base"
-)
+# Config (inline so script is self-contained)
+# Script is at: project/backend/scripts/build_faiss_index.py
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))        # project/backend/scripts
+BACKEND_DIR = os.path.dirname(SCRIPT_DIR)                       # project/backend
 
-FAISS_INDEX_PATH = os.path.join(
-    BASE_DIR, "vector_db", "faiss_index.faiss"
-)
+KNOWLEDGE_BASE_DIR = os.path.join(BACKEND_DIR, "data", "knowledge_base")
+FAISS_INDEX_PATH = os.path.join(BACKEND_DIR, "vector_db", "faiss_index.faiss")
+CHUNKS_METADATA_PATH = os.path.join(BACKEND_DIR, "vector_db", "chunks_metadata.json")
 
-CHUNKS_METADATA_PATH = os.path.join(
-    BASE_DIR, "vector_db", "chunks_metadata.json"
-)
 EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
-CHUNK_SIZE = 300       # words per chunk
-CHUNK_OVERLAP = 50     # word overlap between chunks
+CHUNK_SIZE = 100       # words per chunk
+CHUNK_OVERLAP = 20     # word overlap between chunks
 
 
 def chunk_text(text: str, chunk_size: int = CHUNK_SIZE, overlap: int = CHUNK_OVERLAP):

@@ -1,0 +1,172 @@
+SOURCE: Ministry of Health and Family Welfare, India — Women's Health Guidelines
+CATEGORY: Women's Health, Gynaecology, Reproductive Health
+TAGS: period pain, irregular periods, heavy bleeding, pelvic pain, pregnancy, breast pain, vaginal discharge, menopause
+
+--- MENSTRUAL DISORDERS ---
+
+Dysmenorrhea (Painful Periods):
+Painful menstrual cramps occurring before or during menstruation. Very common — affects up to 80% of women at some point.
+
+Primary dysmenorrhea: No underlying disease — caused by prostaglandins causing uterine contractions.
+Secondary dysmenorrhea: Due to underlying conditions (endometriosis, fibroids, pelvic inflammatory disease).
+
+Symptoms:
+- Cramping pain in lower abdomen, often radiating to lower back and thighs
+- Pain starting 1-2 days before period and lasting 2-3 days
+- Nausea and vomiting
+- Diarrhoea or loose stools
+- Headache
+- Fatigue
+- Dizziness
+
+Management:
+- NSAIDs (ibuprofen 400mg, mefenamic acid): start 1-2 days before period, most effective
+- Heat therapy: hot water bottle on lower abdomen
+- Exercise: regular physical activity reduces severity
+- Oral contraceptive pills (reduce severity in primary dysmenorrhea)
+- Investigation for secondary causes if severe or not responding to treatment
+
+Menorrhagia (Heavy Periods):
+Abnormally heavy or prolonged menstrual bleeding.
+
+Definition: Soaking a pad or tampon every hour for several consecutive hours, or periods lasting more than 7 days.
+
+Causes: fibroids, adenomyosis, polycystic ovary syndrome (PCOS), thyroid disorders, bleeding disorders, intrauterine device (IUD).
+
+Symptoms:
+- Heavy flow requiring frequent pad or tampon changes
+- Passing large blood clots
+- Prolonged periods (more than 7 days)
+- Anaemia symptoms: fatigue, shortness of breath, pallor
+- Pelvic pain
+
+Investigation: pelvic ultrasound, CBC, thyroid function, coagulation tests.
+
+Amenorrhea (Absent Periods):
+- Primary: no periods by age 16 — requires evaluation
+- Secondary: previously regular periods stop for 3 or more months (excluding pregnancy)
+- Causes: pregnancy, PCOS, thyroid disorders, hyperprolactinaemia, excessive exercise, low body weight, stress
+
+--- POLYCYSTIC OVARY SYNDROME (PCOS) ---
+
+PCOS is one of the most common hormonal disorders in women of reproductive age. India has a very high prevalence (approximately 20-25% of women).
+
+Features (Rotterdam criteria — 2 of 3):
+- Irregular or absent periods (oligo/anovulation)
+- Excess androgen (male hormones): symptoms or lab evidence
+- Polycystic ovaries on ultrasound
+
+Symptoms:
+- Irregular periods (fewer than 8 periods per year)
+- Excess facial and body hair (hirsutism)
+- Acne
+- Thinning hair or hair loss (scalp)
+- Weight gain, particularly around the abdomen
+- Skin darkening in body folds (acanthosis nigricans)
+- Difficulty getting pregnant (infertility)
+
+Associated risks:
+- Type 2 diabetes (insulin resistance is central to PCOS)
+- Cardiovascular disease
+- Depression and anxiety
+- Endometrial cancer (from irregular periods without ovulation)
+
+Management:
+- Weight loss: even 5-10% weight reduction significantly improves symptoms
+- Lifestyle: regular exercise, low glycaemic index diet
+- Oral contraceptive pills: regulate periods and reduce androgen symptoms
+- Metformin: improves insulin resistance
+- Anti-androgens (spironolactone) for hirsutism and acne
+- Ovulation induction for fertility (clomiphene, letrozole)
+
+--- PREGNANCY-RELATED CONDITIONS ---
+
+Signs of Normal Pregnancy:
+- Missed period
+- Breast tenderness
+- Nausea (morning sickness)
+- Fatigue
+- Frequent urination
+- Food cravings or aversions
+
+Warning Signs During Pregnancy (seek immediate care):
+⚠️ Vaginal bleeding at any stage
+⚠️ Severe abdominal pain or cramping
+⚠️ Severe headache with visual disturbance (pre-eclampsia)
+⚠️ Swelling of face and hands (pre-eclampsia)
+⚠️ Decreased fetal movement after 28 weeks
+⚠️ Signs of preterm labour: regular contractions before 37 weeks
+⚠️ Fever above 38°C
+⚠️ Burning urination (UTI, common in pregnancy)
+
+Gestational Diabetes:
+- Occurs in 10-20% of Indian pregnancies
+- Screening: oral glucose tolerance test at 24-28 weeks
+- Management: diet, exercise, insulin if needed
+- Increases risk of Type 2 diabetes later in life
+
+Pre-eclampsia:
+- High blood pressure (above 140/90) after 20 weeks with protein in urine
+- Symptoms: severe headache, visual changes, upper abdominal pain, swelling
+- ⚠️ EMERGENCY: Can lead to seizures (eclampsia) — requires immediate hospitalisation
+
+--- MENOPAUSE ---
+
+Menopause is defined as 12 consecutive months without a menstrual period, typically occurring between ages 45-55.
+
+Perimenopause symptoms (years before menopause):
+- Irregular periods
+- Hot flushes (sudden feelings of warmth, especially in face and upper body)
+- Night sweats
+- Sleep disturbances
+- Mood changes: irritability, anxiety, depression
+- Vaginal dryness
+- Decreased libido
+- Difficulty concentrating (brain fog)
+- Joint pain
+
+Long-term health risks after menopause:
+- Osteoporosis: bone density loss, increased fracture risk
+- Cardiovascular disease: oestrogen was protective
+- Urinary incontinence
+
+Management:
+- Hormone replacement therapy (HRT): most effective for hot flushes and vaginal symptoms
+- Non-hormonal options: SSRIs, clonidine for hot flushes
+- Calcium and vitamin D supplementation for bone health
+- Weight-bearing exercise
+- Vaginal moisturisers and lubricants for vaginal dryness
+
+--- BREAST HEALTH ---
+
+Breast Self-Examination (BSE):
+Recommended monthly, 1 week after period.
+Look for: new lumps, change in size or shape, skin dimpling, nipple changes or discharge, redness or rash.
+
+⚠️ Any new breast lump should be evaluated by a doctor — most are benign but require assessment.
+
+Breast conditions:
+- Fibrocystic changes: common benign lumps that fluctuate with menstrual cycle
+- Fibroadenoma: common benign tumour, smooth and mobile
+- Breast infection (mastitis): common in breastfeeding women — pain, redness, warmth, fever
+- Breast cancer: persistent lump, skin changes, nipple inversion or discharge, axillary lymph node enlargement
+
+Risk factors for breast cancer: family history, BRCA gene mutations, early menarche, late menopause, hormone therapy, alcohol, obesity.
+
+Screening: Clinical breast examination annually from age 40; mammography every 1-2 years from age 40-50 onwards.
+
+--- PELVIC INFLAMMATORY DISEASE (PID) ---
+
+Infection of the female reproductive organs (uterus, fallopian tubes, ovaries).
+
+Symptoms:
+- Lower abdominal and pelvic pain (can be mild to severe)
+- Fever and chills
+- Unusual or heavy vaginal discharge with odour
+- Painful intercourse
+- Painful or frequent urination
+- Irregular bleeding
+
+⚠️ Untreated PID can lead to infertility, ectopic pregnancy, and chronic pelvic pain.
+
+Treatment: Antibiotics (combination therapy — doxycycline + metronidazole or ceftriaxone). Hospitalisation for severe cases.

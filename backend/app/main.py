@@ -11,20 +11,22 @@ from services.retriever import retrieve_documents
 from services.llm_generator import generate_response
 from services.postprocessing import postprocess_response
 
+# ML classifier — lazy load, won't crash if model not trained yet
+try:
+    from models.triage_model import TriageModel
+    _triage_model = TriageModel()
+    ML_AVAILABLE = True
+except Exception:
+    _triage_model = None
+    ML_AVAILABLE = False
 
-# -------------------------------
-# FastAPI App Initialization
-# -------------------------------
+
 app = FastAPI(
     title="SymptoTrackAI",
-    description="AI-powered symptom analysis and medical guidance system",
+    description="AI-powered symptom analysis using RAG + ML",
     version="1.0.0"
 )
 
-
-# -------------------------------
-# CORS (for frontend later)
-# -------------------------------
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -33,9 +35,6 @@ app.add_middleware(
 )
 
 
-# -------------------------------
-# Request & Response Models
-# -------------------------------
 class SymptomRequest(BaseModel):
     symptoms: str
 
@@ -45,72 +44,93 @@ class SymptomResponse(BaseModel):
     data: dict
 
 
-# -------------------------------
-# Root Endpoint
-# -------------------------------
 @app.get("/")
 def root():
-    return {"message": "SymptoTrackAI API is running. Use POST /analyze to get results."}
+    return {
+        "message": "SymptoTrackAI API is running.",
+        "ml_classifier": "loaded" if ML_AVAILABLE else "not trained yet"
+    }
 
 
-# -------------------------------
-# Main Pipeline Endpoint
-# -------------------------------
 @app.post("/analyze", response_model=SymptomResponse)
 def analyze_symptoms(request: SymptomRequest):
 
     if not request.symptoms or len(request.symptoms.strip()) < 3:
-        raise HTTPException(status_code=400, detail="Please provide a valid symptom description.")
+        raise HTTPException(
+            status_code=400,
+            detail="Please provide a valid symptom description."
+        )
 
-    print("\n📥 User Input:", request.symptoms)
+    print("\nUser Input:", request.symptoms)
 
-    # 🔹 Step 1: Preprocessing
+    # Preprocessing
     cleaned = preprocess(request.symptoms)
-    print("🧹 Cleaned:", cleaned)
+    print("Cleaned:", cleaned)
 
-    # 🔹 Step 2: Symptom Extraction
+    # Symptom Extraction
     extracted = extract_symptoms(cleaned)
-    print("🧠 Extracted:", extracted)
+    print("Extracted:", extracted)
 
-    # 🔹 Step 3: Retrieval (FAISS)
+    # ML Classification
+    ml_prediction = None
+    if ML_AVAILABLE and _triage_model and extracted:
+        try:
+            ml_prediction = _triage_model.predict(extracted)
+            print(f"ML Prediction: {ml_prediction.get('primary_disease')} "
+                  f"({ml_prediction.get('primary_confidence', 0)*100:.0f}%)")
+        except Exception as e:
+            print(f"ML prediction failed: {e}")
+
+    # Retrieval (FAISS)
     docs = retrieve_documents(cleaned)
-    print(f"📚 Retrieved Docs: {len(docs)}")
+    print(f"Retrieved Docs: {len(docs)}")
 
-    # 🔹 Convert docs → text for LLM
     retrieved_texts = [doc["text"] for doc in docs]
 
-    # 🔹 Step 4: LLM Generation (RAG + fallback)
-    raw_response = generate_response(cleaned, retrieved_texts)
+    # LLM Generation (RAG + ML context)
+    raw_response = generate_response(cleaned, retrieved_texts, ml_prediction)
 
-    # 🔹 Step 5: Postprocessing
-    final_output = postprocess_response(raw_response, docs, extracted)
+    # Step 5: Postprocessing
+    final_output = postprocess_response(
+        raw_response, docs, extracted, ml_prediction
+    )
 
-    return {
-        "status": "success",
-        "data": final_output
-    }
+    return {"status": "success", "data": final_output}
 
 
-# -------------------------------
-# Health Check Endpoint
-# -------------------------------
 @app.get("/health")
 def health_check():
-    return {"status": "healthy"}
+    return {
+        "status": "healthy",
+        "ml_classifier": "loaded" if ML_AVAILABLE else "not trained"
+    }
+
 
 @app.post("/login")
 async def login(data: dict):
     return {"user": {"email": data.get("email"), "name": "User"}}
 
-@app.post("/signup")  
+@app.post("/signup")
 async def signup(data: dict):
     return {"message": "Account created"}
 
 @app.get("/profile")
 async def get_profile():
-    return {"full_name": "", "email": "", "age": 0, 
+    return {"full_name": "", "email": "", "age": 0,
             "blood_group": "", "height": 0, "weight": 0}
 
 @app.post("/profile")
 async def save_profile(data: dict):
     return {"message": "Profile saved"}
+
+
+class EvaluationRequest(BaseModel):
+    symptoms: str
+
+@app.post("/evaluate")
+def evaluate(request: EvaluationRequest):
+    from services.evaluation import evaluate_responses
+    cleaned = preprocess(request.symptoms)
+    docs = retrieve_documents(cleaned)
+    result = evaluate_responses(cleaned, docs)
+    return {"status": "success", "data": result}

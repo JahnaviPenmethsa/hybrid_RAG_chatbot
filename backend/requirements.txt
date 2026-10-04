@@ -1,20 +1,52 @@
-fastapi==0.111.0
+# SymptoTrackAI — Backend Requirements
+# Python 3.10+
+# Install: pip install -r requirements.txt
+
+
+# Web Framework 
+fastapi==0.115.0
 uvicorn[standard]==0.30.1
 pydantic==2.7.1
+python-multipart==0.0.9
 
-# NLP and Embeddings
+
+# Environment
+python-dotenv==1.0.1
+
+
+# NLP / Embeddings
 sentence-transformers==3.0.1
 transformers==4.41.2
-torch==2.3.1          # Use CPU-only: pip install torch --index-url https://download.pytorch.org/whl/cpu
 
-# Vector DB
-faiss-cpu==1.8.0      # Use faiss-gpu if you have a CUDA-capable GPU
+# CPU-only torch 
+torch==2.3.1 --index-url https://download.pytorch.org/whl/cpu
 
-# Utilities
+
+# Vector Database 
+faiss-cpu==1.8.0
+
+
+# ML Classifier 
+scikit-learn==1.5.1
+xgboost==2.1.1
+joblib==1.4.2
+
+
+# Data Processing
 numpy==1.26.4
-python-multipart==0.0.9
-httpx==0.27.0
+pandas==2.2.2
 
-# Optional: PDF processing (for loading raw PDFs into knowledge base)
-# pypdf2==3.0.1
-# pdfplumber==0.11.1
+
+# LLM API Clients 
+groq==0.9.0
+google-generativeai==0.7.2
+requests==2.32.3
+
+
+# Evaluation & Visualisation 
+matplotlib==3.9.1
+seaborn==0.13.2
+
+
+# HTTP Client (for evaluation script)
+httpx==0.27.0

@@ -1,0 +1,22 @@
+# Virtual environments
+venv/
+backend/venv/
+
+# Private files
+proj-plan.docx
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Frontend dependencies/build
+frontend/node_modules/
+frontend/.next/
+
+# Large dataset
+backend/data/ddxplus/
+
+# IDE
+.vscode/
+.idea/

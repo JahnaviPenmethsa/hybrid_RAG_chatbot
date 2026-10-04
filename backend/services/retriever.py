@@ -20,9 +20,7 @@ from app.config import (
     TOP_K_DOCS,
 )
 
-# ---------------------------------------------------------------------------
 # Lazy singleton — load once, reuse across requests
-# ---------------------------------------------------------------------------
 _index = None
 _metadata: List[Dict] = []
 _model: SentenceTransformer = None
@@ -86,7 +84,7 @@ def retrieve_documents(query: str, top_k: int = TOP_K_DOCS) -> List[Dict]:
 
     return results
 
-# ------- Quick self-test -------
+# Quick self-test
 if __name__ == "__main__":
     query = "fever headache cough for 2 days"
     print(f"Query: {query}\n")

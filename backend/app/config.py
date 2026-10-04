@@ -18,10 +18,17 @@ MAX_NEW_TOKENS = 512
 
 # Safety
 EMERGENCY_KEYWORDS = [
-    "chest pain", "difficulty breathing", "shortness of breath",
-    "stroke", "seizure", "unconscious", "severe bleeding",
-    "heart attack", "anaphylaxis", "suicide", "overdose",
-    "high fever", "paralysis", "sudden vision loss"
+    "chest pain", "chest_pain",
+    "difficulty breathing", "difficulty_breathing",
+    "shortness of breath", "shortness_of_breath",
+    "stroke", "seizure", "unconscious",
+    "severe bleeding", "severe_bleeding",
+    "heart attack", "heart_attack",
+    "anaphylaxis", "suicide", "overdose",
+    "high fever", "high_fever",
+    "paralysis", "sudden vision loss", "sudden_vision_loss",
+    "choking", "severe burns", "severe_burns",
+    "cannot breathe", "cannot_breathe"
 ]
 
 DISCLAIMER = (

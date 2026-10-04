@@ -15,7 +15,7 @@ class LLMModel:
         if self.gemini_key:
             genai.configure(api_key=self.gemini_key)
 
-    # 🔹 GROQ
+    # GROQ
     def call_groq(self, prompt):
         try:
             url = "https://api.groq.com/openai/v1/chat/completions"
@@ -44,7 +44,7 @@ class LLMModel:
             print("Groq Exception:", e)
             return None
 
-    # 🔹 GEMINI (FINAL WORKING MODEL)
+    # GEMINI
     def call_gemini(self, prompt):
         try:
             model = genai.GenerativeModel("gemini-flash-latest")

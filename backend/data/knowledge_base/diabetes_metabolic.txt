@@ -1,0 +1,147 @@
+SOURCE: Indian Council of Medical Research (ICMR) — Diabetes and Metabolic Disorders Guidelines
+CATEGORY: Diabetes, Metabolic, Endocrine
+TAGS: high blood sugar, thirst, frequent urination, fatigue, weight loss, blurred vision, slow healing, numbness
+
+--- TYPE 1 DIABETES ---
+
+Type 1 diabetes is an autoimmune condition where the pancreas produces little or no insulin. It can occur at any age but is most common in children and young adults.
+
+Symptoms (often sudden onset):
+- Excessive thirst (polydipsia)
+- Frequent urination (polyuria)
+- Unintended weight loss
+- Extreme hunger (polyphagia)
+- Fatigue and weakness
+- Blurred vision
+- Fruity-smelling breath (sign of diabetic ketoacidosis)
+- Irritability and mood changes
+
+Diabetic Ketoacidosis (DKA) — Emergency:
+DKA is a life-threatening complication of Type 1 diabetes.
+Signs: fruity breath, vomiting, abdominal pain, rapid breathing, confusion, loss of consciousness.
+⚠️ EMERGENCY: Call 112 immediately if DKA is suspected.
+
+Management:
+- Insulin therapy (multiple daily injections or insulin pump)
+- Regular blood glucose monitoring
+- Carbohydrate counting and meal planning
+- HbA1c target: below 7% (ICMR guidelines)
+
+--- TYPE 2 DIABETES ---
+
+Type 2 diabetes is the most common form, characterized by insulin resistance. India has one of the highest burdens of Type 2 diabetes globally.
+
+Symptoms (often gradual, may be silent for years):
+- Increased thirst and frequent urination
+- Fatigue
+- Blurred vision
+- Slow-healing wounds or frequent infections
+- Tingling or numbness in hands and feet (peripheral neuropathy)
+- Darkened skin in body creases (acanthosis nigricans)
+- Unexplained weight gain or loss
+
+Risk Factors in India:
+- Family history of diabetes
+- Overweight or obesity (especially central/abdominal obesity)
+- Physical inactivity
+- Age above 40 years
+- History of gestational diabetes
+- High blood pressure or abnormal cholesterol
+
+Diagnosis:
+- Fasting blood glucose: 126 mg/dL or higher (on two occasions)
+- HbA1c: 6.5% or higher
+- Random blood glucose: 200 mg/dL or higher with symptoms
+- Oral Glucose Tolerance Test (OGTT): 2-hour value 200 mg/dL or higher
+
+Management:
+- Lifestyle modification: diet, exercise (150 minutes/week moderate activity)
+- Oral medications: metformin (first line), sulfonylureas, DPP-4 inhibitors, SGLT2 inhibitors
+- Insulin therapy when oral medications are insufficient
+- Regular monitoring: HbA1c every 3 months, annual eye and kidney check
+- Blood pressure control (target below 130/80 mmHg)
+- Cholesterol management (statin therapy if indicated)
+
+--- HYPOGLYCEMIA (LOW BLOOD SUGAR) ---
+
+Blood glucose below 70 mg/dL. Can occur in diabetic patients on insulin or certain oral medications.
+
+Symptoms:
+- Shakiness and trembling
+- Sweating
+- Rapid heartbeat (palpitations)
+- Dizziness and lightheadedness
+- Confusion or difficulty concentrating
+- Headache
+- Irritability or anxiety
+- Hunger
+- Pale skin
+- Blurred vision
+
+Severe hypoglycemia: Loss of consciousness or seizure.
+⚠️ EMERGENCY if unconscious — do not give anything by mouth, call 112.
+
+Treatment of mild to moderate hypoglycemia (15-15 rule):
+- Take 15 grams of fast-acting carbohydrate (4 glucose tablets, 150mL fruit juice, 3 teaspoons of sugar)
+- Wait 15 minutes and recheck blood glucose
+- Repeat if still below 70 mg/dL
+- Follow with a snack or meal
+
+--- OBESITY AND METABOLIC SYNDROME ---
+
+Metabolic syndrome is a cluster of conditions increasing risk of heart disease, stroke, and Type 2 diabetes.
+
+Criteria (any 3 of 5):
+- Waist circumference above 90cm (men) or 80cm (women) — Indian-specific cutoffs
+- Triglycerides 150 mg/dL or higher
+- HDL cholesterol below 40 mg/dL (men) or 50 mg/dL (women)
+- Blood pressure 130/85 mmHg or higher
+- Fasting glucose 100 mg/dL or higher
+
+Management:
+- Weight loss of 5-10% significantly reduces risk
+- Low glycaemic index diet
+- Regular aerobic exercise
+- Smoking cessation
+- Reduce alcohol consumption
+
+--- THYROID DISORDERS ---
+
+Hypothyroidism (Underactive thyroid):
+Symptoms: fatigue, weight gain, cold intolerance, constipation, dry skin, hair loss, depression, slow heart rate, muscle weakness, puffy face.
+Treatment: Levothyroxine (daily oral tablet).
+
+Hyperthyroidism (Overactive thyroid):
+Symptoms: weight loss despite increased appetite, rapid or irregular heartbeat, anxiety, tremors, excessive sweating, heat intolerance, frequent bowel movements, bulging eyes (Graves disease).
+Treatment: Antithyroid medications (methimazole), radioiodine therapy, or surgery.
+
+Thyroid Storm — Emergency:
+Extreme hyperthyroidism with fever, rapid heart rate, confusion.
+⚠️ EMERGENCY: Requires immediate hospitalization.
+
+Diagnosis: TSH (thyroid stimulating hormone), Free T4, Free T3 blood tests.
+
+--- DIABETES COMPLICATIONS ---
+
+Long-term complications of poorly controlled diabetes:
+
+Diabetic Nephropathy (Kidney damage):
+- Symptoms: protein in urine, swelling in legs and feet, high blood pressure, fatigue
+- Monitoring: annual urine microalbumin test, serum creatinine
+
+Diabetic Retinopathy (Eye damage):
+- Symptoms: blurred vision, floaters, gradual vision loss
+- Monitoring: annual dilated eye examination
+
+Diabetic Neuropathy (Nerve damage):
+- Symptoms: tingling, numbness, burning pain in feet and hands, loss of sensation
+- Risk: foot ulcers and infections due to reduced sensation
+
+Diabetic Foot:
+- Any wound on a diabetic foot requires prompt medical attention
+- Risk of infection, gangrene, and amputation if untreated
+- Daily foot inspection is essential
+
+Cardiovascular Disease:
+- Diabetics have 2-4 times higher risk of heart attack and stroke
+- Aggressive management of blood pressure, cholesterol, and glucose is essential

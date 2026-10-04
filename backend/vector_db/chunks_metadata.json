@@ -2,71 +2,631 @@
   {
     "source": "cardiac_emergency.txt",
     "chunk_index": 0,
-    "text": "SOURCE: WHO & Ministry of Health \u2014 Cardiovascular Emergency Guidelines CATEGORY: Cardiac, Emergency, Chest Pain TAGS: chest pain, shortness of breath, palpitations, rapid heartbeat, sweating, dizziness, fainting --- HEART ATTACK (MYOCARDIAL INFARCTION) --- A heart attack occurs when blood flow to the heart is blocked, causing heart muscle damage. This is a life-threatening emergency. Warning Signs of Heart Attack: - Chest pain or pressure (often described as squeezing, tightness, or crushing) - Pain radiating to left arm, shoulder, neck, jaw, or back - Shortness of breath - Cold sweats - Nausea and vomiting - Lightheadedness or dizziness - Sudden fatigue - Palpitations \u26a0\ufe0f EMERGENCY: Call 112 (India) or go to nearest emergency room immediately. Note: Women may present atypically \u2014 more nausea, back pain, jaw pain, fatigue without chest pain. First Aid: - Call emergency services immediately - Chew aspirin 300mg (if not allergic and not contraindicated) - Keep patient calm and still - Loosen tight clothing - Begin CPR if unconscious and not breathing --- ANGINA PECTORIS --- Chest pain caused by reduced blood flow to the heart, usually triggered by exertion. Symptoms: - Chest pain, pressure, or tightness - Usually triggered by physical activity or stress - Relieved by rest (stable angina) or occurs at rest (unstable angina) - May radiate to arm, jaw, or shoulder - Shortness of breath Treatment: - Sublingual nitroglycerine for acute episodes (prescribed) - Beta-blockers, calcium channel blockers (chronic management) - Lifestyle: quit smoking, reduce cholesterol, control blood pressure Unstable angina = Emergency \u2014 seek care immediately. --- HYPERTENSIVE URGENCY / EMERGENCY --- Severely elevated blood pressure (> 180/120 mmHg). Symptoms: - Severe headache - Shortness of breath - Chest pain - Nausea/vomiting - Vision changes - Confusion or altered consciousness \u26a0\ufe0f Seek emergency care immediately. --- CARDIAC ARRHYTHMIAS --- Irregular heart rhythms"
+    "text": "SOURCE: WHO & Ministry of Health \u2014 Cardiovascular Emergency Guidelines CATEGORY: Cardiac, Emergency, Chest Pain TAGS: chest pain, shortness of breath, palpitations, rapid heartbeat, sweating, dizziness, fainting --- HEART ATTACK (MYOCARDIAL INFARCTION) --- A heart attack occurs when blood flow to the heart is blocked, causing heart muscle damage. This is a life-threatening emergency. Warning Signs of Heart Attack: - Chest pain or pressure (often described as squeezing, tightness, or crushing) - Pain radiating to left arm, shoulder, neck, jaw, or back - Shortness of breath - Cold sweats - Nausea and vomiting - Lightheadedness or dizziness - Sudden fatigue"
   },
   {
     "source": "cardiac_emergency.txt",
     "chunk_index": 1,
-    "text": "\u2014 seek care immediately. --- HYPERTENSIVE URGENCY / EMERGENCY --- Severely elevated blood pressure (> 180/120 mmHg). Symptoms: - Severe headache - Shortness of breath - Chest pain - Nausea/vomiting - Vision changes - Confusion or altered consciousness \u26a0\ufe0f Seek emergency care immediately. --- CARDIAC ARRHYTHMIAS --- Irregular heart rhythms that can cause symptoms. Symptoms: - Palpitations (fluttering, racing heart) - Dizziness - Shortness of breath - Chest discomfort - Fainting or near-fainting Common types: - Atrial fibrillation (irregular, rapid) - Supraventricular tachycardia (SVT) - Bradycardia (slow heart rate) Treatment depends on type \u2014 requires ECG diagnosis and medical management. --- PULMONARY EMBOLISM --- Blood clot in the lungs. Symptoms: - Sudden shortness of breath - Chest pain (sharp, worsens with breathing) - Rapid heart rate - Coughing up blood - Leg pain/swelling (if DVT present) - Dizziness or fainting \u26a0\ufe0f EMERGENCY \u2014 Call 112 immediately. Risk factors: Prolonged immobility, surgery, obesity, prior clots, oral contraceptives Treatment: Anticoagulants (heparin, warfarin), thrombolytics in severe cases"
+    "text": "or back - Shortness of breath - Cold sweats - Nausea and vomiting - Lightheadedness or dizziness - Sudden fatigue - Palpitations \u26a0\ufe0f EMERGENCY: Call 112 (India) or go to nearest emergency room immediately. Note: Women may present atypically \u2014 more nausea, back pain, jaw pain, fatigue without chest pain. First Aid: - Call emergency services immediately - Chew aspirin 300mg (if not allergic and not contraindicated) - Keep patient calm and still - Loosen tight clothing - Begin CPR if unconscious and not breathing --- ANGINA PECTORIS --- Chest pain caused by reduced blood flow to the heart, usually"
+  },
+  {
+    "source": "cardiac_emergency.txt",
+    "chunk_index": 2,
+    "text": "if unconscious and not breathing --- ANGINA PECTORIS --- Chest pain caused by reduced blood flow to the heart, usually triggered by exertion. Symptoms: - Chest pain, pressure, or tightness - Usually triggered by physical activity or stress - Relieved by rest (stable angina) or occurs at rest (unstable angina) - May radiate to arm, jaw, or shoulder - Shortness of breath Treatment: - Sublingual nitroglycerine for acute episodes (prescribed) - Beta-blockers, calcium channel blockers (chronic management) - Lifestyle: quit smoking, reduce cholesterol, control blood pressure Unstable angina = Emergency \u2014 seek care immediately. --- HYPERTENSIVE URGENCY / EMERGENCY ---"
+  },
+  {
+    "source": "cardiac_emergency.txt",
+    "chunk_index": 3,
+    "text": "smoking, reduce cholesterol, control blood pressure Unstable angina = Emergency \u2014 seek care immediately. --- HYPERTENSIVE URGENCY / EMERGENCY --- Severely elevated blood pressure (> 180/120 mmHg). Symptoms: - Severe headache - Shortness of breath - Chest pain - Nausea/vomiting - Vision changes - Confusion or altered consciousness \u26a0\ufe0f Seek emergency care immediately. --- CARDIAC ARRHYTHMIAS --- Irregular heart rhythms that can cause symptoms. Symptoms: - Palpitations (fluttering, racing heart) - Dizziness - Shortness of breath - Chest discomfort - Fainting or near-fainting Common types: - Atrial fibrillation (irregular, rapid) - Supraventricular tachycardia (SVT) - Bradycardia (slow heart rate) Treatment"
+  },
+  {
+    "source": "cardiac_emergency.txt",
+    "chunk_index": 4,
+    "text": "Fainting or near-fainting Common types: - Atrial fibrillation (irregular, rapid) - Supraventricular tachycardia (SVT) - Bradycardia (slow heart rate) Treatment depends on type \u2014 requires ECG diagnosis and medical management. --- PULMONARY EMBOLISM --- Blood clot in the lungs. Symptoms: - Sudden shortness of breath - Chest pain (sharp, worsens with breathing) - Rapid heart rate - Coughing up blood - Leg pain/swelling (if DVT present) - Dizziness or fainting \u26a0\ufe0f EMERGENCY \u2014 Call 112 immediately. Risk factors: Prolonged immobility, surgery, obesity, prior clots, oral contraceptives Treatment: Anticoagulants (heparin, warfarin), thrombolytics in severe cases"
+  },
+  {
+    "source": "cardiac_emergency.txt",
+    "chunk_index": 5,
+    "text": "surgery, obesity, prior clots, oral contraceptives Treatment: Anticoagulants (heparin, warfarin), thrombolytics in severe cases"
   },
   {
     "source": "dengue.txt",
     "chunk_index": 0,
-    "text": "SOURCE: Ministry of Health and Family Welfare, India \u2014 Dengue Fever Guidelines CATEGORY: Dengue, Vector-Borne Disease TAGS: fever, headache, joint pain, body pain, rash, nausea, vomiting, fatigue --- DENGUE FEVER --- Dengue is a mosquito-borne viral infection caused by the dengue virus (DENV), transmitted by Aedes mosquitoes, particularly Aedes aegypti. Dengue is endemic in India and prevalent during and after monsoon season. Symptoms of Dengue (Classic): - Sudden high fever (39\u201340\u00b0C) lasting 2\u20137 days - Severe headache (especially behind the eyes \u2014 retro-orbital pain) - Joint pain and muscle pain (dengue is called \"breakbone fever\") - Body aches - Skin rash (appears 2\u20135 days after fever onset \u2014 flat red rash) - Nausea and vomiting - Fatigue Warning Signs of Severe Dengue (Seek Emergency Care Immediately): - Abdominal pain or tenderness - Persistent vomiting (3 or more times in 24 hours) - Bleeding from gums, nose, or in vomit/stool - Rapid breathing - Fatigue and restlessness - Blood in urine, stool, or vomit - Platelet count falling rapidly Diagnosis: - NS1 antigen test (positive in first 5 days) - Dengue IgM/IgG antibody test (after 5 days) - Complete Blood Count (CBC) \u2014 platelet and WBC count Treatment (No specific antiviral): - Strict bed rest - Oral rehydration \u2014 drink at least 2\u20133 liters of water/ORS daily - Paracetamol for fever (500\u20131000mg every 6 hours for adults) - AVOID: Aspirin, Ibuprofen, Diclofenac (increase bleeding risk) - Monitor platelet count daily from day 3 of fever - Hospitalization if platelet < 50,000/mm\u00b3 or warning signs present Prevention: - Eliminate mosquito breeding sites (stagnant water) - Use mosquito repellents and nets - Wear long-sleeved clothing - Community fogging programs Key Differentiating Features from Flu: - Retro-orbital eye pain - Rash appearance after 2\u20134 days - Thrombocytopenia (low platelet count) - More severe joint/muscle"
+    "text": "SOURCE: Ministry of Health and Family Welfare, India \u2014 Dengue Fever Guidelines CATEGORY: Dengue, Vector-Borne Disease TAGS: fever, headache, joint pain, body pain, rash, nausea, vomiting, fatigue --- DENGUE FEVER --- Dengue is a mosquito-borne viral infection caused by the dengue virus (DENV), transmitted by Aedes mosquitoes, particularly Aedes aegypti. Dengue is endemic in India and prevalent during and after monsoon season. Symptoms of Dengue (Classic): - Sudden high fever (39\u201340\u00b0C) lasting 2\u20137 days - Severe headache (especially behind the eyes \u2014 retro-orbital pain) - Joint pain and muscle pain (dengue is called \"breakbone fever\") - Body aches - Skin"
   },
   {
     "source": "dengue.txt",
     "chunk_index": 1,
-    "text": "or warning signs present Prevention: - Eliminate mosquito breeding sites (stagnant water) - Use mosquito repellents and nets - Wear long-sleeved clothing - Community fogging programs Key Differentiating Features from Flu: - Retro-orbital eye pain - Rash appearance after 2\u20134 days - Thrombocytopenia (low platelet count) - More severe joint/muscle pain than flu"
+    "text": "eyes \u2014 retro-orbital pain) - Joint pain and muscle pain (dengue is called \"breakbone fever\") - Body aches - Skin rash (appears 2\u20135 days after fever onset \u2014 flat red rash) - Nausea and vomiting - Fatigue Warning Signs of Severe Dengue (Seek Emergency Care Immediately): - Abdominal pain or tenderness - Persistent vomiting (3 or more times in 24 hours) - Bleeding from gums, nose, or in vomit/stool - Rapid breathing - Fatigue and restlessness - Blood in urine, stool, or vomit - Platelet count falling rapidly Diagnosis: - NS1 antigen test (positive in first 5 days) - Dengue"
+  },
+  {
+    "source": "dengue.txt",
+    "chunk_index": 2,
+    "text": "stool, or vomit - Platelet count falling rapidly Diagnosis: - NS1 antigen test (positive in first 5 days) - Dengue IgM/IgG antibody test (after 5 days) - Complete Blood Count (CBC) \u2014 platelet and WBC count Treatment (No specific antiviral): - Strict bed rest - Oral rehydration \u2014 drink at least 2\u20133 liters of water/ORS daily - Paracetamol for fever (500\u20131000mg every 6 hours for adults) - AVOID: Aspirin, Ibuprofen, Diclofenac (increase bleeding risk) - Monitor platelet count daily from day 3 of fever - Hospitalization if platelet < 50,000/mm\u00b3 or warning signs present Prevention: - Eliminate mosquito breeding sites"
+  },
+  {
+    "source": "dengue.txt",
+    "chunk_index": 3,
+    "text": "day 3 of fever - Hospitalization if platelet < 50,000/mm\u00b3 or warning signs present Prevention: - Eliminate mosquito breeding sites (stagnant water) - Use mosquito repellents and nets - Wear long-sleeved clothing - Community fogging programs Key Differentiating Features from Flu: - Retro-orbital eye pain - Rash appearance after 2\u20134 days - Thrombocytopenia (low platelet count) - More severe joint/muscle pain than flu"
+  },
+  {
+    "source": "diabetes_metabolic.txt",
+    "chunk_index": 0,
+    "text": "SOURCE: Indian Council of Medical Research (ICMR) \u2014 Diabetes and Metabolic Disorders Guidelines CATEGORY: Diabetes, Metabolic, Endocrine TAGS: high blood sugar, thirst, frequent urination, fatigue, weight loss, blurred vision, slow healing, numbness --- TYPE 1 DIABETES --- Type 1 diabetes is an autoimmune condition where the pancreas produces little or no insulin. It can occur at any age but is most common in children and young adults. Symptoms (often sudden onset): - Excessive thirst (polydipsia) - Frequent urination (polyuria) - Unintended weight loss - Extreme hunger (polyphagia) - Fatigue and weakness - Blurred vision - Fruity-smelling breath (sign of diabetic"
+  },
+  {
+    "source": "diabetes_metabolic.txt",
+    "chunk_index": 1,
+    "text": "Unintended weight loss - Extreme hunger (polyphagia) - Fatigue and weakness - Blurred vision - Fruity-smelling breath (sign of diabetic ketoacidosis) - Irritability and mood changes Diabetic Ketoacidosis (DKA) \u2014 Emergency: DKA is a life-threatening complication of Type 1 diabetes. Signs: fruity breath, vomiting, abdominal pain, rapid breathing, confusion, loss of consciousness. \u26a0\ufe0f EMERGENCY: Call 112 immediately if DKA is suspected. Management: - Insulin therapy (multiple daily injections or insulin pump) - Regular blood glucose monitoring - Carbohydrate counting and meal planning - HbA1c target: below 7% (ICMR guidelines) --- TYPE 2 DIABETES --- Type 2 diabetes is the most"
+  },
+  {
+    "source": "diabetes_metabolic.txt",
+    "chunk_index": 2,
+    "text": "meal planning - HbA1c target: below 7% (ICMR guidelines) --- TYPE 2 DIABETES --- Type 2 diabetes is the most common form, characterized by insulin resistance. India has one of the highest burdens of Type 2 diabetes globally. Symptoms (often gradual, may be silent for years): - Increased thirst and frequent urination - Fatigue - Blurred vision - Slow-healing wounds or frequent infections - Tingling or numbness in hands and feet (peripheral neuropathy) - Darkened skin in body creases (acanthosis nigricans) - Unexplained weight gain or loss Risk Factors in India: - Family history of diabetes - Overweight or obesity"
+  },
+  {
+    "source": "diabetes_metabolic.txt",
+    "chunk_index": 3,
+    "text": "nigricans) - Unexplained weight gain or loss Risk Factors in India: - Family history of diabetes - Overweight or obesity (especially central/abdominal obesity) - Physical inactivity - Age above 40 years - History of gestational diabetes - High blood pressure or abnormal cholesterol Diagnosis: - Fasting blood glucose: 126 mg/dL or higher (on two occasions) - HbA1c: 6.5% or higher - Random blood glucose: 200 mg/dL or higher with symptoms - Oral Glucose Tolerance Test (OGTT): 2-hour value 200 mg/dL or higher Management: - Lifestyle modification: diet, exercise (150 minutes/week moderate activity) - Oral medications: metformin (first line), sulfonylureas, DPP-4"
+  },
+  {
+    "source": "diabetes_metabolic.txt",
+    "chunk_index": 4,
+    "text": "or higher Management: - Lifestyle modification: diet, exercise (150 minutes/week moderate activity) - Oral medications: metformin (first line), sulfonylureas, DPP-4 inhibitors, SGLT2 inhibitors - Insulin therapy when oral medications are insufficient - Regular monitoring: HbA1c every 3 months, annual eye and kidney check - Blood pressure control (target below 130/80 mmHg) - Cholesterol management (statin therapy if indicated) --- HYPOGLYCEMIA (LOW BLOOD SUGAR) --- Blood glucose below 70 mg/dL. Can occur in diabetic patients on insulin or certain oral medications. Symptoms: - Shakiness and trembling - Sweating - Rapid heartbeat (palpitations) - Dizziness and lightheadedness - Confusion or difficulty concentrating"
+  },
+  {
+    "source": "diabetes_metabolic.txt",
+    "chunk_index": 5,
+    "text": "Symptoms: - Shakiness and trembling - Sweating - Rapid heartbeat (palpitations) - Dizziness and lightheadedness - Confusion or difficulty concentrating - Headache - Irritability or anxiety - Hunger - Pale skin - Blurred vision Severe hypoglycemia: Loss of consciousness or seizure. \u26a0\ufe0f EMERGENCY if unconscious \u2014 do not give anything by mouth, call 112. Treatment of mild to moderate hypoglycemia (15-15 rule): - Take 15 grams of fast-acting carbohydrate (4 glucose tablets, 150mL fruit juice, 3 teaspoons of sugar) - Wait 15 minutes and recheck blood glucose - Repeat if still below 70 mg/dL - Follow with a snack or"
+  },
+  {
+    "source": "diabetes_metabolic.txt",
+    "chunk_index": 6,
+    "text": "Wait 15 minutes and recheck blood glucose - Repeat if still below 70 mg/dL - Follow with a snack or meal --- OBESITY AND METABOLIC SYNDROME --- Metabolic syndrome is a cluster of conditions increasing risk of heart disease, stroke, and Type 2 diabetes. Criteria (any 3 of 5): - Waist circumference above 90cm (men) or 80cm (women) \u2014 Indian-specific cutoffs - Triglycerides 150 mg/dL or higher - HDL cholesterol below 40 mg/dL (men) or 50 mg/dL (women) - Blood pressure 130/85 mmHg or higher - Fasting glucose 100 mg/dL or higher Management: - Weight loss of 5-10% significantly reduces"
+  },
+  {
+    "source": "diabetes_metabolic.txt",
+    "chunk_index": 7,
+    "text": "pressure 130/85 mmHg or higher - Fasting glucose 100 mg/dL or higher Management: - Weight loss of 5-10% significantly reduces risk - Low glycaemic index diet - Regular aerobic exercise - Smoking cessation - Reduce alcohol consumption --- THYROID DISORDERS --- Hypothyroidism (Underactive thyroid): Symptoms: fatigue, weight gain, cold intolerance, constipation, dry skin, hair loss, depression, slow heart rate, muscle weakness, puffy face. Treatment: Levothyroxine (daily oral tablet). Hyperthyroidism (Overactive thyroid): Symptoms: weight loss despite increased appetite, rapid or irregular heartbeat, anxiety, tremors, excessive sweating, heat intolerance, frequent bowel movements, bulging eyes (Graves disease). Treatment: Antithyroid medications (methimazole), radioiodine therapy,"
+  },
+  {
+    "source": "diabetes_metabolic.txt",
+    "chunk_index": 8,
+    "text": "heartbeat, anxiety, tremors, excessive sweating, heat intolerance, frequent bowel movements, bulging eyes (Graves disease). Treatment: Antithyroid medications (methimazole), radioiodine therapy, or surgery. Thyroid Storm \u2014 Emergency: Extreme hyperthyroidism with fever, rapid heart rate, confusion. \u26a0\ufe0f EMERGENCY: Requires immediate hospitalization. Diagnosis: TSH (thyroid stimulating hormone), Free T4, Free T3 blood tests. --- DIABETES COMPLICATIONS --- Long-term complications of poorly controlled diabetes: Diabetic Nephropathy (Kidney damage): - Symptoms: protein in urine, swelling in legs and feet, high blood pressure, fatigue - Monitoring: annual urine microalbumin test, serum creatinine Diabetic Retinopathy (Eye damage): - Symptoms: blurred vision, floaters, gradual vision loss - Monitoring:"
+  },
+  {
+    "source": "diabetes_metabolic.txt",
+    "chunk_index": 9,
+    "text": "annual urine microalbumin test, serum creatinine Diabetic Retinopathy (Eye damage): - Symptoms: blurred vision, floaters, gradual vision loss - Monitoring: annual dilated eye examination Diabetic Neuropathy (Nerve damage): - Symptoms: tingling, numbness, burning pain in feet and hands, loss of sensation - Risk: foot ulcers and infections due to reduced sensation Diabetic Foot: - Any wound on a diabetic foot requires prompt medical attention - Risk of infection, gangrene, and amputation if untreated - Daily foot inspection is essential Cardiovascular Disease: - Diabetics have 2-4 times higher risk of heart attack and stroke - Aggressive management of blood pressure, cholesterol,"
+  },
+  {
+    "source": "diabetes_metabolic.txt",
+    "chunk_index": 10,
+    "text": "Disease: - Diabetics have 2-4 times higher risk of heart attack and stroke - Aggressive management of blood pressure, cholesterol, and glucose is essential"
   },
   {
     "source": "fever_influenza.txt",
     "chunk_index": 0,
-    "text": "SOURCE: World Health Organization (WHO) \u2014 Influenza and Fever Guidelines CATEGORY: Fever, Influenza, Respiratory Infections TAGS: fever, headache, body pain, fatigue, chills, cough, sore throat --- FEVER --- Fever is defined as a body temperature above 38\u00b0C (100.4\u00b0F). It is a common sign of infection and the immune system's response to pathogens. Common Causes of Fever: - Viral infections: influenza, common cold, dengue, COVID-19 - Bacterial infections: typhoid, urinary tract infection, pneumonia - Other: heat exhaustion, autoimmune conditions, drug reactions Symptoms typically associated with fever: - Body temperature above 38\u00b0C - Chills and shivering - Sweating - Headache - Muscle pain and body aches - Fatigue and weakness - Loss of appetite Management of Fever: - Rest and hydration (oral rehydration salts if needed) - Paracetamol (acetaminophen): 500\u20131000mg every 4\u20136 hours for adults (do not exceed 4g/day) - Ibuprofen (if no contraindications): 400mg every 8 hours - Tepid sponging for comfort - Monitor temperature every 4 hours Seek emergency care if: - Temperature exceeds 40\u00b0C (104\u00b0F) - Fever in infants under 3 months (any fever = emergency) - Fever persists beyond 3 days - Associated with stiff neck, rash, confusion, or difficulty breathing - Febrile seizure occurs --- INFLUENZA (FLU) --- Influenza is a contagious respiratory illness caused by influenza viruses. It spreads via respiratory droplets. Symptoms of Influenza: - Sudden onset high fever (38\u201340\u00b0C) - Severe headache - Muscle aches and body pain - Extreme fatigue - Dry cough - Sore throat - Runny or stuffy nose - Chills Duration: 5\u20137 days for most symptoms; fatigue may last 2 weeks. Treatment: - Bed rest - Adequate hydration - Antipyretics for fever (paracetamol preferred) - Antiviral medications (oseltamivir/Tamiflu) within 48 hours for high-risk groups - Isolation to prevent spread Prevention: - Annual influenza vaccination (recommended by WHO) - Hand hygiene"
+    "text": "SOURCE: World Health Organization (WHO) \u2014 Influenza and Fever Guidelines CATEGORY: Fever, Influenza, Respiratory Infections TAGS: fever, headache, body pain, fatigue, chills, cough, sore throat --- FEVER --- Fever is defined as a body temperature above 38\u00b0C (100.4\u00b0F). It is a common sign of infection and the immune system's response to pathogens. Common Causes of Fever: - Viral infections: influenza, common cold, dengue, COVID-19 - Bacterial infections: typhoid, urinary tract infection, pneumonia - Other: heat exhaustion, autoimmune conditions, drug reactions Symptoms typically associated with fever: - Body temperature above 38\u00b0C - Chills and shivering - Sweating - Headache - Muscle"
   },
   {
     "source": "fever_influenza.txt",
     "chunk_index": 1,
-    "text": "Duration: 5\u20137 days for most symptoms; fatigue may last 2 weeks. Treatment: - Bed rest - Adequate hydration - Antipyretics for fever (paracetamol preferred) - Antiviral medications (oseltamivir/Tamiflu) within 48 hours for high-risk groups - Isolation to prevent spread Prevention: - Annual influenza vaccination (recommended by WHO) - Hand hygiene - Respiratory etiquette (covering mouth when coughing) - Avoiding close contact with sick individuals High-risk groups requiring early medical attention: - Children under 5 years - Adults over 65 years - Pregnant women - Immunocompromised individuals - Persons with chronic conditions (diabetes, heart disease, asthma)"
+    "text": "Symptoms typically associated with fever: - Body temperature above 38\u00b0C - Chills and shivering - Sweating - Headache - Muscle pain and body aches - Fatigue and weakness - Loss of appetite Management of Fever: - Rest and hydration (oral rehydration salts if needed) - Paracetamol (acetaminophen): 500\u20131000mg every 4\u20136 hours for adults (do not exceed 4g/day) - Ibuprofen (if no contraindications): 400mg every 8 hours - Tepid sponging for comfort - Monitor temperature every 4 hours Seek emergency care if: - Temperature exceeds 40\u00b0C (104\u00b0F) - Fever in infants under 3 months (any fever = emergency) - Fever persists"
+  },
+  {
+    "source": "fever_influenza.txt",
+    "chunk_index": 2,
+    "text": "if: - Temperature exceeds 40\u00b0C (104\u00b0F) - Fever in infants under 3 months (any fever = emergency) - Fever persists beyond 3 days - Associated with stiff neck, rash, confusion, or difficulty breathing - Febrile seizure occurs --- INFLUENZA (FLU) --- Influenza is a contagious respiratory illness caused by influenza viruses. It spreads via respiratory droplets. Symptoms of Influenza: - Sudden onset high fever (38\u201340\u00b0C) - Severe headache - Muscle aches and body pain - Extreme fatigue - Dry cough - Sore throat - Runny or stuffy nose - Chills Duration: 5\u20137 days for most symptoms; fatigue may last 2"
+  },
+  {
+    "source": "fever_influenza.txt",
+    "chunk_index": 3,
+    "text": "- Sore throat - Runny or stuffy nose - Chills Duration: 5\u20137 days for most symptoms; fatigue may last 2 weeks. Treatment: - Bed rest - Adequate hydration - Antipyretics for fever (paracetamol preferred) - Antiviral medications (oseltamivir/Tamiflu) within 48 hours for high-risk groups - Isolation to prevent spread Prevention: - Annual influenza vaccination (recommended by WHO) - Hand hygiene - Respiratory etiquette (covering mouth when coughing) - Avoiding close contact with sick individuals High-risk groups requiring early medical attention: - Children under 5 years - Adults over 65 years - Pregnant women - Immunocompromised individuals - Persons with chronic"
+  },
+  {
+    "source": "fever_influenza.txt",
+    "chunk_index": 4,
+    "text": "- Children under 5 years - Adults over 65 years - Pregnant women - Immunocompromised individuals - Persons with chronic conditions (diabetes, heart disease, asthma)"
   },
   {
     "source": "gastrointestinal.txt",
     "chunk_index": 0,
-    "text": "SOURCE: Indian Council of Medical Research (ICMR) \u2014 Gastrointestinal Disease Guidelines CATEGORY: Gastrointestinal, Diarrhea, Food Poisoning, Gastroenteritis TAGS: diarrhea, vomiting, nausea, abdominal pain, stomach ache, loss of appetite, bloating --- ACUTE GASTROENTERITIS --- Gastroenteritis is inflammation of the stomach and intestines, typically caused by viral (norovirus, rotavirus) or bacterial infection. Symptoms: - Nausea and vomiting - Diarrhea (watery or loose stools) - Abdominal cramps and pain - Low-grade fever - Fatigue - Loss of appetite - Headache Duration: 1\u20133 days (viral), up to 5\u20137 days (bacterial) Treatment: - Oral Rehydration Solution (ORS): Gold standard. WHO-recommended ORS composition: 2.6g NaCl, 2.9g sodium citrate, 1.5g KCl, 13.5g glucose per liter of water. - Drink small sips frequently to prevent vomiting - BRAT diet: Bananas, Rice, Applesauce, Toast - Zinc supplementation for children (20mg/day for 10 days) - Probiotics (Lactobacillus) may reduce duration - Antibiotics only if bacterial infection confirmed (azithromycin, ciprofloxacin) Danger Signs \u2014 Seek Medical Attention: - Blood or mucus in stool - High fever (> 39\u00b0C) - Signs of dehydration: dry mouth, no urination, sunken eyes, dizziness - Persistent vomiting preventing oral rehydration - Diarrhea lasting more than 3 days --- FOOD POISONING --- Caused by consuming contaminated food with bacteria (Salmonella, E. coli, Staphylococcus) or their toxins. Symptoms (onset: 1\u201372 hours after contaminated food): - Sudden nausea - Vomiting - Diarrhea (may be bloody) - Abdominal cramps - Fever - Weakness High-risk foods in India: - Undercooked meat and poultry - Raw or improperly handled dairy - Leftover rice (Bacillus cereus) - Street food with poor hygiene Treatment: Similar to gastroenteritis (ORS, rest, BRAT diet) --- IRRITABLE BOWEL SYNDROME (IBS) --- IBS is a chronic functional disorder affecting the large intestine. Symptoms: - Abdominal pain or cramping (often relieved after bowel movement) - Bloating - Alternating constipation and diarrhea"
+    "text": "SOURCE: Indian Council of Medical Research (ICMR) \u2014 Gastrointestinal Disease Guidelines CATEGORY: Gastrointestinal, Diarrhea, Food Poisoning, Gastroenteritis TAGS: diarrhea, vomiting, nausea, abdominal pain, stomach ache, loss of appetite, bloating --- ACUTE GASTROENTERITIS --- Gastroenteritis is inflammation of the stomach and intestines, typically caused by viral (norovirus, rotavirus) or bacterial infection. Symptoms: - Nausea and vomiting - Diarrhea (watery or loose stools) - Abdominal cramps and pain - Low-grade fever - Fatigue - Loss of appetite - Headache Duration: 1\u20133 days (viral), up to 5\u20137 days (bacterial) Treatment: - Oral Rehydration Solution (ORS): Gold standard. WHO-recommended ORS composition: 2.6g NaCl, 2.9g"
   },
   {
     "source": "gastrointestinal.txt",
     "chunk_index": 1,
-    "text": "(Bacillus cereus) - Street food with poor hygiene Treatment: Similar to gastroenteritis (ORS, rest, BRAT diet) --- IRRITABLE BOWEL SYNDROME (IBS) --- IBS is a chronic functional disorder affecting the large intestine. Symptoms: - Abdominal pain or cramping (often relieved after bowel movement) - Bloating - Alternating constipation and diarrhea - Mucus in stool - Gas Management: - High-fiber diet - Avoid trigger foods (dairy, fatty foods, alcohol, caffeine) - Stress management - Antispasmodics (mebeverine) for cramps - Loperamide for diarrhea-predominant IBS - Fiber supplements (ispaghula husk) for constipation-predominant IBS --- PEPTIC ULCER DISEASE --- Sores in the lining of the stomach or upper small intestine. Symptoms: - Burning stomach pain (often between meals) - Nausea - Bloating - Heartburn - Loss of appetite - Dark or bloody stools (severe) Causes: H. pylori infection, NSAIDs, stress Treatment: - Proton pump inhibitors (omeprazole, pantoprazole) - H. pylori eradication therapy if confirmed (triple therapy: PPI + 2 antibiotics) - Avoid NSAIDs, alcohol, smoking"
+    "text": "(viral), up to 5\u20137 days (bacterial) Treatment: - Oral Rehydration Solution (ORS): Gold standard. WHO-recommended ORS composition: 2.6g NaCl, 2.9g sodium citrate, 1.5g KCl, 13.5g glucose per liter of water. - Drink small sips frequently to prevent vomiting - BRAT diet: Bananas, Rice, Applesauce, Toast - Zinc supplementation for children (20mg/day for 10 days) - Probiotics (Lactobacillus) may reduce duration - Antibiotics only if bacterial infection confirmed (azithromycin, ciprofloxacin) Danger Signs \u2014 Seek Medical Attention: - Blood or mucus in stool - High fever (> 39\u00b0C) - Signs of dehydration: dry mouth, no urination, sunken eyes, dizziness - Persistent vomiting"
+  },
+  {
+    "source": "gastrointestinal.txt",
+    "chunk_index": 2,
+    "text": "stool - High fever (> 39\u00b0C) - Signs of dehydration: dry mouth, no urination, sunken eyes, dizziness - Persistent vomiting preventing oral rehydration - Diarrhea lasting more than 3 days --- FOOD POISONING --- Caused by consuming contaminated food with bacteria (Salmonella, E. coli, Staphylococcus) or their toxins. Symptoms (onset: 1\u201372 hours after contaminated food): - Sudden nausea - Vomiting - Diarrhea (may be bloody) - Abdominal cramps - Fever - Weakness High-risk foods in India: - Undercooked meat and poultry - Raw or improperly handled dairy - Leftover rice (Bacillus cereus) - Street food with poor hygiene Treatment: Similar"
+  },
+  {
+    "source": "gastrointestinal.txt",
+    "chunk_index": 3,
+    "text": "poultry - Raw or improperly handled dairy - Leftover rice (Bacillus cereus) - Street food with poor hygiene Treatment: Similar to gastroenteritis (ORS, rest, BRAT diet) --- IRRITABLE BOWEL SYNDROME (IBS) --- IBS is a chronic functional disorder affecting the large intestine. Symptoms: - Abdominal pain or cramping (often relieved after bowel movement) - Bloating - Alternating constipation and diarrhea - Mucus in stool - Gas Management: - High-fiber diet - Avoid trigger foods (dairy, fatty foods, alcohol, caffeine) - Stress management - Antispasmodics (mebeverine) for cramps - Loperamide for diarrhea-predominant IBS - Fiber supplements (ispaghula husk) for constipation-predominant IBS"
+  },
+  {
+    "source": "gastrointestinal.txt",
+    "chunk_index": 4,
+    "text": "Stress management - Antispasmodics (mebeverine) for cramps - Loperamide for diarrhea-predominant IBS - Fiber supplements (ispaghula husk) for constipation-predominant IBS --- PEPTIC ULCER DISEASE --- Sores in the lining of the stomach or upper small intestine. Symptoms: - Burning stomach pain (often between meals) - Nausea - Bloating - Heartburn - Loss of appetite - Dark or bloody stools (severe) Causes: H. pylori infection, NSAIDs, stress Treatment: - Proton pump inhibitors (omeprazole, pantoprazole) - H. pylori eradication therapy if confirmed (triple therapy: PPI + 2 antibiotics) - Avoid NSAIDs, alcohol, smoking"
+  },
+  {
+    "source": "gastrointestinal.txt",
+    "chunk_index": 5,
+    "text": "(triple therapy: PPI + 2 antibiotics) - Avoid NSAIDs, alcohol, smoking"
+  },
+  {
+    "source": "hypertension_cardiovascular.txt",
+    "chunk_index": 0,
+    "text": "SOURCE: Ministry of Health and Family Welfare, India \u2014 Hypertension and Cardiovascular Risk Guidelines CATEGORY: Hypertension, Blood Pressure, Cardiovascular TAGS: high blood pressure, headache, dizziness, chest pain, shortness of breath, vision changes, nosebleed, palpitations --- HYPERTENSION (HIGH BLOOD PRESSURE) --- Hypertension is defined as persistent blood pressure at or above 140/90 mmHg. It is called the \"silent killer\" because it often has no symptoms until serious damage has occurred. India has a very high burden of hypertension with over 200 million affected adults. Blood Pressure Classification (Indian Guidelines): - Normal: below 120/80 mmHg - Elevated: 120-129 / below 80 mmHg"
+  },
+  {
+    "source": "hypertension_cardiovascular.txt",
+    "chunk_index": 1,
+    "text": "million affected adults. Blood Pressure Classification (Indian Guidelines): - Normal: below 120/80 mmHg - Elevated: 120-129 / below 80 mmHg - Stage 1 Hypertension: 130-139 / 80-89 mmHg - Stage 2 Hypertension: 140/90 mmHg or higher - Hypertensive Crisis: above 180/120 mmHg \u2014 requires immediate care Symptoms (usually absent \u2014 hypertension is mostly asymptomatic): - Severe headache (especially in the back of the head, early morning) - Dizziness or lightheadedness - Nosebleeds (epistaxis) - Shortness of breath - Blurred or double vision - Chest pain or tightness - Palpitations - Fatigue Note: Most people with hypertension have NO symptoms. Regular"
+  },
+  {
+    "source": "hypertension_cardiovascular.txt",
+    "chunk_index": 2,
+    "text": "double vision - Chest pain or tightness - Palpitations - Fatigue Note: Most people with hypertension have NO symptoms. Regular blood pressure screening is essential. Risk Factors: - Age (above 40 years) - Family history of hypertension or heart disease - Obesity and overweight - High salt diet (India has very high dietary salt intake) - Physical inactivity - Smoking and tobacco use - Excessive alcohol consumption - Stress and psychological factors - Diabetes and kidney disease --- HYPERTENSIVE EMERGENCY --- Blood pressure above 180/120 mmHg with signs of organ damage. Warning signs requiring emergency care: - Severe chest pain"
+  },
+  {
+    "source": "hypertension_cardiovascular.txt",
+    "chunk_index": 3,
+    "text": "--- Blood pressure above 180/120 mmHg with signs of organ damage. Warning signs requiring emergency care: - Severe chest pain (possible heart attack) - Severe headache with confusion or visual disturbance (possible stroke) - Shortness of breath (possible heart failure) - Back pain radiating downward (possible aortic dissection) - Altered consciousness or seizure - Sudden vision loss \u26a0\ufe0f EMERGENCY: Call 112 immediately. Do NOT wait for symptoms to resolve on their own. Hypertensive Urgency: Very high blood pressure (above 180/120) WITHOUT signs of organ damage. Should be treated urgently in a medical setting but is not immediately life-threatening. --- MANAGEMENT"
+  },
+  {
+    "source": "hypertension_cardiovascular.txt",
+    "chunk_index": 4,
+    "text": "WITHOUT signs of organ damage. Should be treated urgently in a medical setting but is not immediately life-threatening. --- MANAGEMENT OF HYPERTENSION --- Lifestyle Modifications (essential for all stages): - Reduce salt intake to less than 5 grams per day (avoid pickles, papads, processed foods) - DASH diet: fruits, vegetables, whole grains, low-fat dairy, lean protein - Regular aerobic exercise: 30 minutes on most days of the week - Weight reduction: losing 5-10kg can reduce systolic BP by 5-10 mmHg - Limit alcohol: maximum 1 unit/day for women, 2 units/day for men - Quit smoking - Stress management: yoga, meditation,"
+  },
+  {
+    "source": "hypertension_cardiovascular.txt",
+    "chunk_index": 5,
+    "text": "- Limit alcohol: maximum 1 unit/day for women, 2 units/day for men - Quit smoking - Stress management: yoga, meditation, deep breathing Medications (prescribed by doctor): - ACE inhibitors: enalapril, ramipril, lisinopril - Calcium channel blockers: amlodipine, nifedipine (commonly used in India) - ARBs: losartan, telmisartan - Diuretics: hydrochlorothiazide, furosemide (for fluid retention) - Beta-blockers: atenolol, metoprolol Monitoring: - Home blood pressure monitoring: check BP twice daily initially - Target BP: below 130/80 mmHg for most patients - Below 140/90 mmHg for elderly (above 65 years) - Regular follow-up: every 1-3 months until controlled, then every 6 months --- STROKE"
+  },
+  {
+    "source": "hypertension_cardiovascular.txt",
+    "chunk_index": 6,
+    "text": "mmHg for elderly (above 65 years) - Regular follow-up: every 1-3 months until controlled, then every 6 months --- STROKE --- Stroke is a medical emergency where blood supply to the brain is cut off, causing brain damage. Hypertension is the single biggest risk factor for stroke. Types: - Ischaemic stroke (85%): blood clot blocking a brain artery - Haemorrhagic stroke (15%): blood vessel ruptures in the brain Recognize using FAST: - F \u2014 Face drooping: Is one side of the face drooping or numb? Ask to smile. - A \u2014 Arm weakness: Is one arm weak or numb? Ask"
+  },
+  {
+    "source": "hypertension_cardiovascular.txt",
+    "chunk_index": 7,
+    "text": "the face drooping or numb? Ask to smile. - A \u2014 Arm weakness: Is one arm weak or numb? Ask to raise both arms. - S \u2014 Speech difficulty: Is speech slurred or strange? Ask to repeat a phrase. - T \u2014 Time to call 112: If any of these signs are present, call emergency immediately. Additional symptoms: - Sudden severe headache with no known cause - Sudden confusion or trouble understanding - Sudden trouble seeing in one or both eyes - Sudden loss of balance or coordination \u26a0\ufe0f EMERGENCY: Every minute of delay causes death of approximately 2 million"
+  },
+  {
+    "source": "hypertension_cardiovascular.txt",
+    "chunk_index": 8,
+    "text": "eyes - Sudden loss of balance or coordination \u26a0\ufe0f EMERGENCY: Every minute of delay causes death of approximately 2 million brain cells. Treatment window for clot-busting therapy (tPA) is 4.5 hours from symptom onset. --- HEART FAILURE --- Heart failure occurs when the heart cannot pump enough blood to meet the body's needs. Often a result of longstanding hypertension or coronary artery disease. Symptoms: - Shortness of breath (especially lying flat \u2014 orthopnoea) - Waking up breathless at night (paroxysmal nocturnal dyspnoea) - Swelling of ankles, feet, and legs (oedema) - Fatigue and weakness - Rapid or irregular heartbeat -"
+  },
+  {
+    "source": "hypertension_cardiovascular.txt",
+    "chunk_index": 9,
+    "text": "nocturnal dyspnoea) - Swelling of ankles, feet, and legs (oedema) - Fatigue and weakness - Rapid or irregular heartbeat - Reduced ability to exercise - Persistent cough or wheezing - Sudden weight gain from fluid retention Management: - ACE inhibitors or ARBs (reduce heart workload) - Beta-blockers (slow heart rate) - Diuretics (remove excess fluid) - Low salt diet and fluid restriction - Daily weight monitoring (report gain of more than 1kg/day to doctor) - Avoid NSAIDs (worsen heart failure) --- CHOLESTEROL AND LIPID DISORDERS --- High LDL cholesterol is a major risk factor for heart attack and stroke. Normal"
+  },
+  {
+    "source": "hypertension_cardiovascular.txt",
+    "chunk_index": 10,
+    "text": "--- CHOLESTEROL AND LIPID DISORDERS --- High LDL cholesterol is a major risk factor for heart attack and stroke. Normal values: - Total cholesterol: below 200 mg/dL - LDL (bad cholesterol): below 100 mg/dL (below 70 mg/dL for high-risk patients) - HDL (good cholesterol): above 40 mg/dL (men), above 50 mg/dL (women) - Triglycerides: below 150 mg/dL Symptoms: Lipid disorders are usually asymptomatic. Xanthomas (fatty deposits under skin) may appear in severe cases. Management: - Dietary changes: reduce saturated fats, eliminate trans fats, increase fibre - Exercise: raises HDL cholesterol - Statins: atorvastatin, rosuvastatin \u2014 first-line medication - Annual lipid"
+  },
+  {
+    "source": "hypertension_cardiovascular.txt",
+    "chunk_index": 11,
+    "text": "eliminate trans fats, increase fibre - Exercise: raises HDL cholesterol - Statins: atorvastatin, rosuvastatin \u2014 first-line medication - Annual lipid profile screening after age 40 or earlier if risk factors present"
+  },
+  {
+    "source": "infections_in_india.txt",
+    "chunk_index": 0,
+    "text": "SOURCE: ICMR & WHO \u2014 Common Infectious Diseases in India Guidelines CATEGORY: Infectious Disease, Tropical Medicine, Fever TAGS: fever, chills, rash, body pain, diarrhea, vomiting, jaundice, cough, weight loss, night sweats, swollen glands --- TUBERCULOSIS (TB) --- Tuberculosis is caused by Mycobacterium tuberculosis. India has the highest TB burden in the world, accounting for approximately 26% of global cases. Pulmonary TB (lung TB) Symptoms: - Persistent cough lasting 2 weeks or more (may be productive with mucus or blood) - Coughing up blood (haemoptysis) - Chest pain - Fever (low-grade, often in the afternoons) - Night sweats - Unexplained weight"
+  },
+  {
+    "source": "infections_in_india.txt",
+    "chunk_index": 1,
+    "text": "Coughing up blood (haemoptysis) - Chest pain - Fever (low-grade, often in the afternoons) - Night sweats - Unexplained weight loss - Fatigue and weakness - Loss of appetite Extra-pulmonary TB (TB in other organs): - TB meningitis: headache, fever, neck stiffness, confusion - TB lymphadenitis: swollen, non-tender lymph nodes in neck - TB spine (Pott's disease): back pain, neurological symptoms - TB abdomen: abdominal pain, distension, ascites Diagnosis: - Sputum smear microscopy (CBNAAT/GeneXpert \u2014 most sensitive) - Chest X-ray - Mantoux test (tuberculin skin test) - IGRA blood test (QuantiFERON) - CT scan for extrapulmonary TB Treatment (DOTS \u2014"
+  },
+  {
+    "source": "infections_in_india.txt",
+    "chunk_index": 2,
+    "text": "- Mantoux test (tuberculin skin test) - IGRA blood test (QuantiFERON) - CT scan for extrapulmonary TB Treatment (DOTS \u2014 Directly Observed Treatment, Short Course): - Intensive phase (2 months): Isoniazid + Rifampicin + Pyrazinamide + Ethambutol - Continuation phase (4 months): Isoniazid + Rifampicin - Drug-resistant TB (MDR-TB): longer regimens with second-line drugs - Treatment is FREE under India's National TB Elimination Programme (NTEP) \u26a0\ufe0f Never stop TB treatment midway \u2014 incomplete treatment causes drug resistance. Isolation: Pulmonary TB is infectious until 2 weeks of treatment. Use masks and improve ventilation. --- CHOLERA AND ACUTE WATERY DIARRHEA --- Cholera"
+  },
+  {
+    "source": "infections_in_india.txt",
+    "chunk_index": 3,
+    "text": "is infectious until 2 weeks of treatment. Use masks and improve ventilation. --- CHOLERA AND ACUTE WATERY DIARRHEA --- Cholera is caused by Vibrio cholerae, spread through contaminated water and food. Endemic in parts of India, especially during monsoon. Symptoms: - Profuse, watery diarrhea (rice-water stools) - Rapid dehydration - Vomiting - Muscle cramps - Weakness - Rapid heart rate - Low blood pressure \u26a0\ufe0f Severe dehydration can be fatal within hours \u2014 immediate treatment is essential. Treatment: - Oral Rehydration Solution (ORS): critical first step - IV fluids for severe dehydration - Antibiotics (doxycycline or azithromycin) to shorten duration"
+  },
+  {
+    "source": "infections_in_india.txt",
+    "chunk_index": 4,
+    "text": "Rehydration Solution (ORS): critical first step - IV fluids for severe dehydration - Antibiotics (doxycycline or azithromycin) to shorten duration Prevention: - Safe drinking water (boil or use water purification tablets) - Safe food handling - Handwashing with soap after toilet use and before eating - Cholera vaccine available for high-risk areas --- LEPTOSPIROSIS --- Bacterial infection (Leptospira) spread through water or soil contaminated with animal urine. Common during and after monsoon in India, particularly in urban flooding areas. Symptoms (appear 2-30 days after exposure): - Sudden high fever with chills - Severe headache - Muscle pain (especially calves) -"
+  },
+  {
+    "source": "infections_in_india.txt",
+    "chunk_index": 5,
+    "text": "(appear 2-30 days after exposure): - Sudden high fever with chills - Severe headache - Muscle pain (especially calves) - Red eyes (conjunctival suffusion) - Nausea and vomiting - Skin rash (sometimes) Severe leptospirosis (Weil's disease): - Jaundice (yellow skin and eyes) - Kidney failure (oliguria, dark urine) - Bleeding (from gums, into skin) - Lung involvement: cough, shortness of breath - Meningitis \u26a0\ufe0f Weil's disease is a medical emergency requiring hospitalisation. Diagnosis: blood culture, serology (MAT test), urine culture. Treatment: Penicillin, doxycycline, or ceftriaxone (IV for severe cases). Prevention: avoid wading in floodwater, wear protective footwear, doxycycline prophylaxis in"
+  },
+  {
+    "source": "infections_in_india.txt",
+    "chunk_index": 6,
+    "text": "Treatment: Penicillin, doxycycline, or ceftriaxone (IV for severe cases). Prevention: avoid wading in floodwater, wear protective footwear, doxycycline prophylaxis in high-risk settings. --- SCRUB TYPHUS --- Bacterial infection (Orientia tsutsugamushi) transmitted by chigger mite bites. Increasingly common in India, often misdiagnosed. Symptoms: - Fever (high, sudden onset) - Headache - Body aches - Characteristic eschar (black, painless scab at bite site \u2014 look in hidden areas: armpits, groin, behind ears) - Rash (maculopapular, appears 5-8 days after fever) - Swollen lymph nodes Complications: pneumonia, meningitis, hepatitis, myocarditis. Diagnosis: Weil-Felix test (insensitive), IgM ELISA for Orientia, PCR. Treatment: Doxycycline 100mg twice"
+  },
+  {
+    "source": "infections_in_india.txt",
+    "chunk_index": 7,
+    "text": "lymph nodes Complications: pneumonia, meningitis, hepatitis, myocarditis. Diagnosis: Weil-Felix test (insensitive), IgM ELISA for Orientia, PCR. Treatment: Doxycycline 100mg twice daily for 7-14 days. Fever resolves dramatically within 24-48 hours of treatment (diagnostic response). --- VIRAL FEVER --- A broad category of febrile illnesses caused by various viruses. Very common in India, especially during seasonal changes and monsoon. General symptoms: - Sudden onset fever (38-40\u00b0C) - Headache - Body aches and joint pain - Fatigue and weakness - Sore throat - Runny nose or nasal congestion - Redness of eyes - Rash (in some viral fevers) - Nausea (sometimes) Duration:"
+  },
+  {
+    "source": "infections_in_india.txt",
+    "chunk_index": 8,
+    "text": "- Runny nose or nasal congestion - Redness of eyes - Rash (in some viral fevers) - Nausea (sometimes) Duration: typically 3-7 days. Management: - Rest and adequate hydration - Paracetamol for fever and pain - Avoid aspirin and ibuprofen (dengue cannot be excluded initially) - Seek medical care if: fever persists beyond 3 days, rash develops, severe headache, bleeding signs, platelet count drops Differentiating common viral fevers in India: - Dengue: retro-orbital pain, rash day 2-5, low platelet count - Chikungunya: severe joint pain (arthralgia), rash, joint swelling - Influenza: respiratory symptoms predominate, sudden onset, severe body aches -"
+  },
+  {
+    "source": "infections_in_india.txt",
+    "chunk_index": 9,
+    "text": "- Chikungunya: severe joint pain (arthralgia), rash, joint swelling - Influenza: respiratory symptoms predominate, sudden onset, severe body aches - Scrub typhus: eschar, lymphadenopathy - Malaria: cyclical fever pattern, chills and rigors --- CHIKUNGUNYA --- Viral infection transmitted by Aedes mosquitoes. Endemic in India. Symptoms: - Sudden high fever - Severe joint pain and swelling (can be debilitating \u2014 affects multiple joints) - Muscle pain - Headache - Skin rash (maculopapular, 2-5 days after fever) - Fatigue - Conjunctivitis Joint pain may persist for months to years (post-chikungunya arthritis). Treatment (symptomatic only, no antiviral): - Paracetamol for fever and pain"
+  },
+  {
+    "source": "infections_in_india.txt",
+    "chunk_index": 10,
+    "text": "pain may persist for months to years (post-chikungunya arthritis). Treatment (symptomatic only, no antiviral): - Paracetamol for fever and pain - NSAIDs for joint pain (once dengue excluded) - Rest and hydration - Physiotherapy for persistent joint pain Prevention: mosquito control measures (same as dengue). --- COVID-19 (Updated Guidance) --- COVID-19 remains circulating with various variants. Most current infections are milder due to widespread immunity. Common symptoms (Omicron and variants): - Sore throat (often prominent) - Runny nose - Fatigue - Headache - Mild fever - Cough (often dry) - Body aches - Loss of taste or smell (less common"
+  },
+  {
+    "source": "infections_in_india.txt",
+    "chunk_index": 11,
+    "text": "- Headache - Mild fever - Cough (often dry) - Body aches - Loss of taste or smell (less common with Omicron) High-risk groups for severe disease: - Age above 60 years - Unvaccinated individuals - Diabetes, heart disease, chronic lung disease - Immunocompromised individuals Emergency warning signs: - Difficulty breathing or shortness of breath - Persistent chest pain or pressure - Confusion or inability to wake up - Oxygen saturation below 94% (use pulse oximeter) - Bluish lips or face Prevention: - COVID-19 vaccination (including booster doses) - Mask in crowded enclosed spaces - Hand hygiene - Ventilation of"
+  },
+  {
+    "source": "infections_in_india.txt",
+    "chunk_index": 12,
+    "text": "face Prevention: - COVID-19 vaccination (including booster doses) - Mask in crowded enclosed spaces - Hand hygiene - Ventilation of indoor spaces Isolation: Current Indian guidelines \u2014 isolate for 5 days if testing positive. Wear mask for 10 days."
+  },
+  {
+    "source": "kidney_liver_disease.txt",
+    "chunk_index": 0,
+    "text": "SOURCE: ICMR & Ministry of Health \u2014 Kidney and Liver Disease Guidelines CATEGORY: Nephrology, Hepatology, Kidney, Liver TAGS: swelling, fatigue, dark urine, abdominal pain, jaundice, nausea, back pain, frequent urination, blood in urine --- CHRONIC KIDNEY DISEASE (CKD) --- Chronic kidney disease is the gradual loss of kidney function over months or years. India has a very high burden of CKD, largely driven by diabetes and hypertension. Stages of CKD (based on GFR \u2014 glomerular filtration rate): - Stage 1: GFR 90+ (kidney damage with normal function) - Stage 2: GFR 60-89 (mildly reduced) - Stage 3: GFR 30-59 (moderately"
+  },
+  {
+    "source": "kidney_liver_disease.txt",
+    "chunk_index": 1,
+    "text": "GFR 90+ (kidney damage with normal function) - Stage 2: GFR 60-89 (mildly reduced) - Stage 3: GFR 30-59 (moderately reduced) - Stage 4: GFR 15-29 (severely reduced) - Stage 5: GFR below 15 (kidney failure \u2014 dialysis or transplant required) Symptoms (often absent in early stages): - Fatigue and weakness - Swelling of ankles, feet, and legs (oedema) - Shortness of breath (fluid in lungs) - Decreased urine output or changes in urination - Foamy or bubbly urine (protein in urine) - Blood in urine (haematuria) - Persistent itching (due to waste buildup) - Nausea and vomiting - Loss"
+  },
+  {
+    "source": "kidney_liver_disease.txt",
+    "chunk_index": 2,
+    "text": "in urine) - Blood in urine (haematuria) - Persistent itching (due to waste buildup) - Nausea and vomiting - Loss of appetite - Muscle cramps - Difficulty concentrating - High blood pressure Causes in India: - Diabetic nephropathy (most common) - Hypertensive nephropathy - Glomerulonephritis - Polycystic kidney disease - Recurrent urinary tract infections Management: - Control blood pressure: target below 130/80 mmHg (ACE inhibitors or ARBs preferred) - Control blood sugar in diabetics - Low protein diet (0.6-0.8 g/kg/day in advanced CKD) - Low potassium and phosphorus diet in advanced stages - Avoid NSAIDs and nephrotoxic medications - Annual"
+  },
+  {
+    "source": "kidney_liver_disease.txt",
+    "chunk_index": 3,
+    "text": "in advanced CKD) - Low potassium and phosphorus diet in advanced stages - Avoid NSAIDs and nephrotoxic medications - Annual kidney function tests (serum creatinine, eGFR, urine protein) - Dialysis or kidney transplant in Stage 5 --- URINARY TRACT INFECTIONS (UTI) --- UTIs are among the most common infections, particularly in women. They can affect the bladder (cystitis) or kidneys (pyelonephritis). Symptoms of lower UTI (bladder infection): - Burning or painful urination (dysuria) - Frequent urge to urinate with little output - Cloudy or strong-smelling urine - Blood in urine (haematuria) - Pelvic pain or pressure - Low-grade fever Symptoms"
+  },
+  {
+    "source": "kidney_liver_disease.txt",
+    "chunk_index": 4,
+    "text": "output - Cloudy or strong-smelling urine - Blood in urine (haematuria) - Pelvic pain or pressure - Low-grade fever Symptoms of upper UTI (kidney infection \u2014 pyelonephritis): - High fever with chills and rigors - Severe back or flank pain (below the ribs, on one or both sides) - Nausea and vomiting - General feeling of illness \u26a0\ufe0f Kidney infection requires prompt medical attention to prevent permanent kidney damage. Treatment: - Lower UTI: oral antibiotics for 3-7 days (trimethoprim, nitrofurantoin, ciprofloxacin) - Upper UTI: oral or IV antibiotics for 7-14 days - Increase fluid intake to flush bacteria - Cranberry"
+  },
+  {
+    "source": "kidney_liver_disease.txt",
+    "chunk_index": 5,
+    "text": "ciprofloxacin) - Upper UTI: oral or IV antibiotics for 7-14 days - Increase fluid intake to flush bacteria - Cranberry juice may help prevent recurrence (not proven as treatment) - Avoid holding urine for long periods Prevention: - Wipe front to back after toilet use - Urinate after sexual intercourse - Stay well hydrated - Avoid harsh soaps in genital area - Change sanitary products frequently during menstruation --- KIDNEY STONES (NEPHROLITHIASIS) --- Hard deposits made of minerals and salts that form inside kidneys. Very common in India, particularly in the hot climate regions. Symptoms (when stone moves into ureter):"
+  },
+  {
+    "source": "kidney_liver_disease.txt",
+    "chunk_index": 6,
+    "text": "that form inside kidneys. Very common in India, particularly in the hot climate regions. Symptoms (when stone moves into ureter): - Severe, cramping pain in the back or side (renal colic) \u2014 often described as the worst pain experienced - Pain that radiates to the lower abdomen and groin - Pain that comes in waves and fluctuates in intensity - Nausea and vomiting - Blood in urine (pink, red, or brown) - Frequent, painful urination - Fever and chills if infection present Treatment: - Small stones (below 5mm): increased fluid intake (2-3 litres/day), pain relief (diclofenac), most pass naturally -"
+  },
+  {
+    "source": "kidney_liver_disease.txt",
+    "chunk_index": 7,
+    "text": "infection present Treatment: - Small stones (below 5mm): increased fluid intake (2-3 litres/day), pain relief (diclofenac), most pass naturally - Larger stones: medical expulsive therapy (tamsulosin), lithotripsy, ureteroscopy, or surgery - Pain management: NSAIDs are first choice for renal colic Prevention: - Drink 2.5-3 litres of water daily - Reduce salt and protein intake - Limit oxalate-rich foods (spinach, nuts, tea) for calcium oxalate stones --- LIVER DISEASE --- Hepatitis (Liver Inflammation): Caused by viruses, alcohol, medications, or autoimmune conditions. Hepatitis A: - Spread via contaminated food and water - Symptoms: fever, fatigue, nausea, abdominal pain, dark urine, jaundice -"
+  },
+  {
+    "source": "kidney_liver_disease.txt",
+    "chunk_index": 8,
+    "text": "Hepatitis A: - Spread via contaminated food and water - Symptoms: fever, fatigue, nausea, abdominal pain, dark urine, jaundice - Usually self-limiting, no specific treatment - Prevention: hepatitis A vaccine, safe water and food Hepatitis B: - Spread via blood, sexual contact, mother to child - Can become chronic, leading to cirrhosis and liver cancer - Symptoms: fatigue, jaundice, abdominal pain, nausea (acute); often asymptomatic in chronic - Treatment: antiviral medications (tenofovir, entecavir) - Prevention: hepatitis B vaccine (part of India's national immunization programme) Hepatitis C: - Spread primarily via blood-to-blood contact - Often asymptomatic for years - Leads to"
+  },
+  {
+    "source": "kidney_liver_disease.txt",
+    "chunk_index": 9,
+    "text": "India's national immunization programme) Hepatitis C: - Spread primarily via blood-to-blood contact - Often asymptomatic for years - Leads to chronic liver disease, cirrhosis, and liver cancer - Treatment: direct-acting antivirals (DAAs) \u2014 highly effective cure in most cases Alcoholic Liver Disease: - Fatty liver: early, reversible with abstinence - Alcoholic hepatitis: inflammation, may be severe - Cirrhosis: irreversible scarring of the liver Symptoms of advanced liver disease: - Jaundice (yellow skin and eyes) - Ascites (fluid accumulation in abdomen, causing distension) - Portal hypertension - Hepatic encephalopathy: confusion, altered consciousness due to toxin buildup - Oesophageal varices: risk of"
+  },
+  {
+    "source": "kidney_liver_disease.txt",
+    "chunk_index": 10,
+    "text": "causing distension) - Portal hypertension - Hepatic encephalopathy: confusion, altered consciousness due to toxin buildup - Oesophageal varices: risk of severe bleeding --- JAUNDICE --- Yellowing of skin and eyes due to elevated bilirubin (above 2 mg/dL). Causes: - Pre-hepatic: haemolysis (malaria, sickle cell disease) - Hepatic: hepatitis, cirrhosis, alcoholic liver disease - Post-hepatic (obstructive): gallstones, pancreatic cancer, bile duct obstruction Key diagnostic tests: - Liver function tests (LFT): AST, ALT, ALP, bilirubin, albumin - Ultrasound abdomen - Hepatitis serology (HBsAg, anti-HCV, anti-HAV IgM) - Complete blood count (CBC) \u26a0\ufe0f All cases of jaundice require medical evaluation \u2014 it is"
+  },
+  {
+    "source": "kidney_liver_disease.txt",
+    "chunk_index": 11,
+    "text": "(HBsAg, anti-HCV, anti-HAV IgM) - Complete blood count (CBC) \u26a0\ufe0f All cases of jaundice require medical evaluation \u2014 it is always a sign of underlying disease. Emergency signs in jaundice: - Confusion or altered consciousness (hepatic encephalopathy) - Severe abdominal pain - Vomiting blood - Rapid deterioration"
+  },
+  {
+    "source": "mental_health.txt",
+    "chunk_index": 0,
+    "text": "SOURCE: National Institute of Mental Health and Neurosciences (NIMHANS) & WHO \u2014 Mental Health Guidelines CATEGORY: Mental Health, Psychiatry, Psychological Wellbeing TAGS: stress, anxiety, depression, insomnia, panic attack, mood changes, hopelessness, fatigue, no appetite, no sleep --- DEPRESSION (MAJOR DEPRESSIVE DISORDER) --- Depression is a common and serious medical condition that negatively affects how a person feels, thinks, and acts. It is not a sign of weakness and is highly treatable. India has one of the highest burdens of depression globally. Symptoms (present for at least 2 weeks): - Persistent sadness, emptiness, or hopelessness - Loss of interest or pleasure"
+  },
+  {
+    "source": "mental_health.txt",
+    "chunk_index": 1,
+    "text": "globally. Symptoms (present for at least 2 weeks): - Persistent sadness, emptiness, or hopelessness - Loss of interest or pleasure in activities once enjoyed (anhedonia) - Significant changes in appetite (weight loss or gain) - Sleep disturbances: insomnia or sleeping too much - Fatigue and loss of energy - Feelings of worthlessness or excessive guilt - Difficulty thinking, concentrating, or making decisions - Psychomotor changes: moving or speaking more slowly, or being restless - Recurrent thoughts of death or suicide Severity levels: - Mild: symptoms present but person can function - Moderate: symptoms significantly affect daily functioning - Severe: symptoms"
+  },
+  {
+    "source": "mental_health.txt",
+    "chunk_index": 2,
+    "text": "Severity levels: - Mild: symptoms present but person can function - Moderate: symptoms significantly affect daily functioning - Severe: symptoms severely impair daily life, may include psychosis When to seek help immediately: \u26a0\ufe0f If experiencing thoughts of self-harm or suicide, seek help immediately. Call iCall (9152987821) or Vandrevala Foundation (1860-2662-345, 24/7). Treatment: - Psychotherapy: Cognitive Behavioural Therapy (CBT), interpersonal therapy - Antidepressants: SSRIs (fluoxetine, sertraline, escitalopram) \u2014 take 4-6 weeks to show effect - Combination of therapy and medication is most effective - Lifestyle: regular exercise, sleep hygiene, social support - Never stop antidepressants abruptly without doctor guidance --- ANXIETY"
+  },
+  {
+    "source": "mental_health.txt",
+    "chunk_index": 3,
+    "text": "most effective - Lifestyle: regular exercise, sleep hygiene, social support - Never stop antidepressants abruptly without doctor guidance --- ANXIETY DISORDERS --- Anxiety disorders are the most common mental health conditions worldwide. They involve excessive fear or worry that interferes with daily life. Generalized Anxiety Disorder (GAD): - Excessive, uncontrollable worry about multiple areas of life - Restlessness or feeling on edge - Fatigue - Difficulty concentrating - Irritability - Muscle tension - Sleep disturbances Panic Disorder: Recurrent unexpected panic attacks \u2014 intense episodes of fear peaking within minutes. Symptoms during panic attack: - Rapid heartbeat (palpitations) - Chest pain"
+  },
+  {
+    "source": "mental_health.txt",
+    "chunk_index": 4,
+    "text": "attacks \u2014 intense episodes of fear peaking within minutes. Symptoms during panic attack: - Rapid heartbeat (palpitations) - Chest pain or tightness - Shortness of breath - Dizziness or lightheadedness - Sweating and trembling - Nausea - Feeling of choking - Numbness or tingling - Chills or hot flushes - Fear of losing control or dying Note: Panic attacks are not dangerous but can feel like a heart attack. If first episode, seek medical evaluation to rule out cardiac cause. Social Anxiety Disorder: - Intense fear of social situations and being judged or embarrassed - Avoidance of social situations -"
+  },
+  {
+    "source": "mental_health.txt",
+    "chunk_index": 5,
+    "text": "Social Anxiety Disorder: - Intense fear of social situations and being judged or embarrassed - Avoidance of social situations - Physical symptoms in social settings: blushing, sweating, trembling Treatment: - CBT (most effective) - Exposure therapy - SSRIs and SNRIs - Short-term benzodiazepines for acute anxiety (caution: dependence risk) - Relaxation techniques, mindfulness, deep breathing --- STRESS AND BURNOUT --- Stress is the body's response to demands that exceed perceived resources. Chronic stress leads to burnout and physical health problems. Symptoms of chronic stress: - Persistent headaches - Muscle tension and pain (especially neck and shoulders) - Fatigue despite adequate"
+  },
+  {
+    "source": "mental_health.txt",
+    "chunk_index": 6,
+    "text": "Symptoms of chronic stress: - Persistent headaches - Muscle tension and pain (especially neck and shoulders) - Fatigue despite adequate sleep - Sleep problems: difficulty falling asleep or staying asleep - Digestive problems: nausea, diarrhea, stomach ache - Chest tightness - Irritability and mood changes - Difficulty concentrating - Withdrawal from social activities - Increased use of alcohol, tobacco, or caffeine Burnout (work-related exhaustion): - Emotional exhaustion: feeling emotionally drained and depleted - Depersonalization: cynicism, detachment from work or people - Reduced personal accomplishment: feeling ineffective and incompetent Management: - Identify and reduce stressors where possible - Time management and"
+  },
+  {
+    "source": "mental_health.txt",
+    "chunk_index": 7,
+    "text": "- Reduced personal accomplishment: feeling ineffective and incompetent Management: - Identify and reduce stressors where possible - Time management and setting boundaries - Regular physical exercise (reduces cortisol) - Mindfulness and meditation (proven to reduce anxiety) - Adequate sleep: 7-9 hours per night - Social support: talk to trusted friends or family - Professional help if stress is persistent or severe --- INSOMNIA AND SLEEP DISORDERS --- Insomnia is difficulty falling asleep, staying asleep, or waking too early, causing daytime impairment. Symptoms: - Difficulty falling asleep at night - Waking up during the night - Waking up too early -"
+  },
+  {
+    "source": "mental_health.txt",
+    "chunk_index": 8,
+    "text": "impairment. Symptoms: - Difficulty falling asleep at night - Waking up during the night - Waking up too early - Not feeling rested after sleep - Daytime tiredness or sleepiness - Difficulty concentrating - Irritability, depression, or anxiety - Errors or accidents due to fatigue Types: - Acute insomnia: brief, often caused by stress or a life event - Chronic insomnia: occurs at least 3 nights per week for 3 months or more Sleep Hygiene (first-line treatment): - Maintain a consistent sleep schedule (same time every day including weekends) - Keep bedroom cool, dark, and quiet - Avoid screens 1"
+  },
+  {
+    "source": "mental_health.txt",
+    "chunk_index": 9,
+    "text": "consistent sleep schedule (same time every day including weekends) - Keep bedroom cool, dark, and quiet - Avoid screens 1 hour before bed (blue light suppresses melatonin) - Avoid caffeine after 2pm - Avoid large meals and alcohol close to bedtime - Regular daytime exercise (but not within 3 hours of sleep) - Use bed only for sleep (not work or TV) Treatment: - Cognitive Behavioural Therapy for Insomnia (CBT-I): most effective long-term treatment - Short-term sleep aids: melatonin (0.5-5mg), antihistamines - Prescription medications (short-term only): benzodiazepines, Z-drugs (zolpidem) --- GRIEF AND ADJUSTMENT DISORDERS --- Grief is a natural response"
+  },
+  {
+    "source": "mental_health.txt",
+    "chunk_index": 10,
+    "text": "antihistamines - Prescription medications (short-term only): benzodiazepines, Z-drugs (zolpidem) --- GRIEF AND ADJUSTMENT DISORDERS --- Grief is a natural response to loss. Adjustment disorder occurs when stress or life changes cause emotional or behavioural symptoms beyond what is expected. Normal grief symptoms: - Sadness and crying - Shock and disbelief - Anger or guilt - Anxiety about the future - Physical symptoms: fatigue, sleep disturbance, appetite changes Complicated grief (prolonged grief disorder): - Intense longing for the deceased that does not diminish over time - Difficulty accepting the loss - Bitterness or anger about the loss - Feeling that life"
+  },
+  {
+    "source": "mental_health.txt",
+    "chunk_index": 11,
+    "text": "not diminish over time - Difficulty accepting the loss - Bitterness or anger about the loss - Feeling that life is meaningless without the deceased Treatment: Psychotherapy, support groups, time. Medication if depression develops. --- WHEN TO SEEK PROFESSIONAL HELP --- Seek mental health support if: - Symptoms persist for more than 2 weeks - Symptoms significantly affect work, relationships, or daily life - You are using substances to cope - You have thoughts of harming yourself or others Resources in India: - iCall: 9152987821 (Monday-Saturday, 8am-10pm) - Vandrevala Foundation: 1860-2662-345 (24/7, free) - NIMHANS: +91-80-46110007 - Snehi: 044-24640050 \u26a0\ufe0f"
+  },
+  {
+    "source": "mental_health.txt",
+    "chunk_index": 12,
+    "text": "in India: - iCall: 9152987821 (Monday-Saturday, 8am-10pm) - Vandrevala Foundation: 1860-2662-345 (24/7, free) - NIMHANS: +91-80-46110007 - Snehi: 044-24640050 \u26a0\ufe0f Mental health conditions are medical conditions. Seeking help is a sign of strength, not weakness."
   },
   {
     "source": "musculoskeletal_neurological.txt",
     "chunk_index": 0,
-    "text": "SOURCE: WHO & ICMR \u2014 Musculoskeletal and Neurological Conditions CATEGORY: Musculoskeletal, Neurological TAGS: joint pain, back pain, muscle pain, body pain, headache, dizziness, weakness, numbness --- MALARIA --- Malaria is a life-threatening disease caused by Plasmodium parasites, transmitted through Anopheles mosquito bites. Endemic in India. Symptoms: - Cyclical fever with chills (every 48\u201372 hours depending on type) - Severe headache - Muscle and joint pain - Nausea and vomiting - Fatigue - Sweating after fever breaks - Anemia (in chronic cases) Types prevalent in India: - P. vivax (most common, less severe) - P. falciparum (severe, potentially fatal) Diagnosis: Rapid Diagnostic Test (RDT), peripheral blood smear, PCR Treatment: - P. vivax: Chloroquine + Primaquine - P. falciparum: Artemisinin-based Combination Therapy (ACT) \u2014 artemether-lumefantrine \u26a0\ufe0f Severe malaria = Emergency. Signs: altered consciousness, respiratory distress, severe anemia, renal failure. Prevention: Insecticide-treated bed nets, indoor spraying, antimalarial prophylaxis for high-risk areas. --- TYPHOID FEVER --- Caused by Salmonella typhi, spread through contaminated food and water. Symptoms: - Prolonged fever (stepwise rise over 1 week, reaching 39\u201340\u00b0C) - Severe headache - Abdominal pain and distension - Loss of appetite - Constipation (early) then diarrhea - Rose spots on trunk (faint pink macules) - Weakness and fatigue - Relative bradycardia (slow pulse despite high fever) Diagnosis: Blood culture (gold standard), Widal test, Typhidot Treatment: - Ceftriaxone (IV) or azithromycin (oral) \u2014 for sensitive strains - Fluoroquinolones (ciprofloxacin) \u2014 where sensitivity confirmed --- ARTHRITIS / JOINT PAIN --- Joint pain can be caused by many conditions. Rheumatoid Arthritis: - Symmetric joint involvement (both sides) - Morning stiffness > 1 hour - Swelling, warmth, tenderness in joints - Small joints first (fingers, wrists) - Fatigue, fever Osteoarthritis: - Joint pain with activity, relieved by rest - Affects weight-bearing joints (knees, hips) - Morning stiffness < 30 minutes"
+    "text": "SOURCE: WHO & ICMR \u2014 Musculoskeletal and Neurological Conditions CATEGORY: Musculoskeletal, Neurological TAGS: joint pain, back pain, muscle pain, body pain, headache, dizziness, weakness, numbness --- MALARIA --- Malaria is a life-threatening disease caused by Plasmodium parasites, transmitted through Anopheles mosquito bites. Endemic in India. Symptoms: - Cyclical fever with chills (every 48\u201372 hours depending on type) - Severe headache - Muscle and joint pain - Nausea and vomiting - Fatigue - Sweating after fever breaks - Anemia (in chronic cases) Types prevalent in India: - P. vivax (most common, less severe) - P. falciparum (severe, potentially fatal) Diagnosis: Rapid"
   },
   {
     "source": "musculoskeletal_neurological.txt",
     "chunk_index": 1,
-    "text": "Rheumatoid Arthritis: - Symmetric joint involvement (both sides) - Morning stiffness > 1 hour - Swelling, warmth, tenderness in joints - Small joints first (fingers, wrists) - Fatigue, fever Osteoarthritis: - Joint pain with activity, relieved by rest - Affects weight-bearing joints (knees, hips) - Morning stiffness < 30 minutes - No systemic inflammation Management: - NSAIDs (ibuprofen) for pain relief - Disease-modifying drugs (methotrexate) for RA - Physiotherapy and exercise - Weight management --- MIGRAINE --- A primary headache disorder with moderate-to-severe throbbing pain. Symptoms: - Throbbing, pulsating headache (often unilateral) - Nausea and vomiting - Sensitivity to light (photophobia) and sound (phonophobia) - Aura: visual disturbances, tingling (in some patients) - Duration: 4\u201372 hours Triggers: Stress, sleep changes, hormonal changes, certain foods (cheese, wine, chocolate), bright lights Acute treatment: - Triptans (sumatriptan) \u2014 most effective - NSAIDs (ibuprofen, aspirin) - Antiemetics (metoclopramide) if vomiting Preventive treatment (if > 4 attacks/month): - Beta-blockers (propranolol) - Topiramate - Amitriptyline --- STROKE --- A medical emergency caused by interruption of blood supply to the brain. Recognize Stroke \u2014 FAST: - F: Face drooping (uneven smile) - A: Arm weakness (one arm drifts down) - S: Speech difficulty (slurred, confused) - T: Time to call 112 Additional symptoms: - Sudden numbness in face, arm, leg (especially one side) - Sudden confusion - Vision problems - Severe headache with no known cause - Loss of balance or coordination \u26a0\ufe0f EMERGENCY: Every minute counts. Clot-busting treatment (tPA) must be given within 4.5 hours."
+    "text": "cases) Types prevalent in India: - P. vivax (most common, less severe) - P. falciparum (severe, potentially fatal) Diagnosis: Rapid Diagnostic Test (RDT), peripheral blood smear, PCR Treatment: - P. vivax: Chloroquine + Primaquine - P. falciparum: Artemisinin-based Combination Therapy (ACT) \u2014 artemether-lumefantrine \u26a0\ufe0f Severe malaria = Emergency. Signs: altered consciousness, respiratory distress, severe anemia, renal failure. Prevention: Insecticide-treated bed nets, indoor spraying, antimalarial prophylaxis for high-risk areas. --- TYPHOID FEVER --- Caused by Salmonella typhi, spread through contaminated food and water. Symptoms: - Prolonged fever (stepwise rise over 1 week, reaching 39\u201340\u00b0C) - Severe headache - Abdominal pain and"
+  },
+  {
+    "source": "musculoskeletal_neurological.txt",
+    "chunk_index": 2,
+    "text": "and water. Symptoms: - Prolonged fever (stepwise rise over 1 week, reaching 39\u201340\u00b0C) - Severe headache - Abdominal pain and distension - Loss of appetite - Constipation (early) then diarrhea - Rose spots on trunk (faint pink macules) - Weakness and fatigue - Relative bradycardia (slow pulse despite high fever) Diagnosis: Blood culture (gold standard), Widal test, Typhidot Treatment: - Ceftriaxone (IV) or azithromycin (oral) \u2014 for sensitive strains - Fluoroquinolones (ciprofloxacin) \u2014 where sensitivity confirmed --- ARTHRITIS / JOINT PAIN --- Joint pain can be caused by many conditions. Rheumatoid Arthritis: - Symmetric joint involvement (both sides) - Morning"
+  },
+  {
+    "source": "musculoskeletal_neurological.txt",
+    "chunk_index": 3,
+    "text": "PAIN --- Joint pain can be caused by many conditions. Rheumatoid Arthritis: - Symmetric joint involvement (both sides) - Morning stiffness > 1 hour - Swelling, warmth, tenderness in joints - Small joints first (fingers, wrists) - Fatigue, fever Osteoarthritis: - Joint pain with activity, relieved by rest - Affects weight-bearing joints (knees, hips) - Morning stiffness < 30 minutes - No systemic inflammation Management: - NSAIDs (ibuprofen) for pain relief - Disease-modifying drugs (methotrexate) for RA - Physiotherapy and exercise - Weight management --- MIGRAINE --- A primary headache disorder with moderate-to-severe throbbing pain. Symptoms: - Throbbing, pulsating headache"
+  },
+  {
+    "source": "musculoskeletal_neurological.txt",
+    "chunk_index": 4,
+    "text": "exercise - Weight management --- MIGRAINE --- A primary headache disorder with moderate-to-severe throbbing pain. Symptoms: - Throbbing, pulsating headache (often unilateral) - Nausea and vomiting - Sensitivity to light (photophobia) and sound (phonophobia) - Aura: visual disturbances, tingling (in some patients) - Duration: 4\u201372 hours Triggers: Stress, sleep changes, hormonal changes, certain foods (cheese, wine, chocolate), bright lights Acute treatment: - Triptans (sumatriptan) \u2014 most effective - NSAIDs (ibuprofen, aspirin) - Antiemetics (metoclopramide) if vomiting Preventive treatment (if > 4 attacks/month): - Beta-blockers (propranolol) - Topiramate - Amitriptyline --- STROKE --- A medical emergency caused by interruption of blood"
+  },
+  {
+    "source": "musculoskeletal_neurological.txt",
+    "chunk_index": 5,
+    "text": "4 attacks/month): - Beta-blockers (propranolol) - Topiramate - Amitriptyline --- STROKE --- A medical emergency caused by interruption of blood supply to the brain. Recognize Stroke \u2014 FAST: - F: Face drooping (uneven smile) - A: Arm weakness (one arm drifts down) - S: Speech difficulty (slurred, confused) - T: Time to call 112 Additional symptoms: - Sudden numbness in face, arm, leg (especially one side) - Sudden confusion - Vision problems - Severe headache with no known cause - Loss of balance or coordination \u26a0\ufe0f EMERGENCY: Every minute counts. Clot-busting treatment (tPA) must be given within 4.5 hours."
+  },
+  {
+    "source": "musculoskeletal_neurological.txt",
+    "chunk_index": 6,
+    "text": "Loss of balance or coordination \u26a0\ufe0f EMERGENCY: Every minute counts. Clot-busting treatment (tPA) must be given within 4.5 hours."
+  },
+  {
+    "source": "paediatric_elderly.txt",
+    "chunk_index": 0,
+    "text": "SOURCE: Indian Academy of Pediatrics (IAP) & WHO \u2014 Paediatric and Elderly Health Guidelines CATEGORY: Paediatrics, Elderly Care, Age-Specific Conditions TAGS: child fever, rash, vomiting, diarrhea, difficulty breathing, elderly fall, confusion, memory loss, bone pain --- FEVER IN CHILDREN --- Fever management varies significantly by age group. Fever in Infants Under 3 Months: \u26a0\ufe0f ANY fever (above 38\u00b0C) in a baby under 3 months is a medical emergency. Call 112 or go to emergency immediately. Do not give paracetamol without medical advice in this age group. Fever in Children 3-36 Months: - Fever above 39\u00b0C warrants medical evaluation - Febrile"
+  },
+  {
+    "source": "paediatric_elderly.txt",
+    "chunk_index": 1,
+    "text": "medical advice in this age group. Fever in Children 3-36 Months: - Fever above 39\u00b0C warrants medical evaluation - Febrile seizures can occur (3-5% of children): brief convulsion during fever - Febrile seizure first aid: place child on side, do not restrain, time the seizure, call 112 if lasting more than 5 minutes Fever in Children Above 3 Years: - Paracetamol (15mg/kg every 4-6 hours, max 4 doses/day) - Ibuprofen (10mg/kg every 6-8 hours, from 6 months of age) - Do not use aspirin in children (risk of Reye's syndrome) - Tepid sponging for comfort (not alcohol) - Ensure adequate"
+  },
+  {
+    "source": "paediatric_elderly.txt",
+    "chunk_index": 2,
+    "text": "Do not use aspirin in children (risk of Reye's syndrome) - Tepid sponging for comfort (not alcohol) - Ensure adequate hydration Seek emergency care if: - Fever above 40\u00b0C - Stiff neck - Skin rash (especially non-blanching purple/red spots \u2014 meningococcal disease) - Difficulty breathing - Extreme lethargy or difficulty waking - Severe headache - Persistent vomiting --- COMMON CHILDHOOD ILLNESSES --- Acute Otitis Media (Ear Infection): - Common in children under 5 years - Symptoms: ear pain (child may tug or rub ear), fever, irritability, difficulty hearing, sometimes discharge from ear - Treatment: paracetamol for pain, antibiotics if bacterial"
+  },
+  {
+    "source": "paediatric_elderly.txt",
+    "chunk_index": 3,
+    "text": "tug or rub ear), fever, irritability, difficulty hearing, sometimes discharge from ear - Treatment: paracetamol for pain, antibiotics if bacterial (amoxicillin first line) Croup: - Viral infection causing swelling around vocal cords - Symptoms: barking cough (seal-like), hoarse voice, stridor (high-pitched sound when breathing in), low fever - Management: cool mist humidifier, oral dexamethasone, nebulised adrenaline for severe cases - \u26a0\ufe0f Severe stridor at rest or respiratory distress = emergency Bronchiolitis: - Viral infection of small airways, most common in infants under 2 years - Caused mainly by RSV (Respiratory Syncytial Virus) - Symptoms: runny nose progressing to wheeze and"
+  },
+  {
+    "source": "paediatric_elderly.txt",
+    "chunk_index": 4,
+    "text": "infants under 2 years - Caused mainly by RSV (Respiratory Syncytial Virus) - Symptoms: runny nose progressing to wheeze and increased breathing effort, fever, poor feeding - Management: supportive (oxygen if needed, fluids), no antibiotics - \u26a0\ufe0f Hospital admission if oxygen saturation below 92%, unable to feed, severe respiratory distress Hand, Foot and Mouth Disease: - Viral illness in young children - Symptoms: fever, sores in mouth, rash with blisters on hands, feet, and buttocks - Management: symptomatic, paracetamol, ensure hydration - Highly contagious \u2014 keep child away from school until fever-free and blisters dried Rotavirus Diarrhea: - Leading cause"
+  },
+  {
+    "source": "paediatric_elderly.txt",
+    "chunk_index": 5,
+    "text": "hydration - Highly contagious \u2014 keep child away from school until fever-free and blisters dried Rotavirus Diarrhea: - Leading cause of severe diarrhea in children under 5 years - Prevention: Rotavirus vaccine (part of India's national immunisation programme) - Treatment: ORS is the cornerstone of management --- CHILDHOOD VACCINATIONS (India National Immunisation Programme) --- Birth: BCG, Hepatitis B, OPV (oral polio vaccine) 6 weeks: DTP, IPV, Hib, Hepatitis B, OPV, Rotavirus, PCV 10 weeks: DTP, IPV, Hib, Hepatitis B, OPV, Rotavirus, PCV 14 weeks: DTP, IPV, Hib, Hepatitis B, OPV, Rotavirus, PCV 6 months: Influenza (annual) 9 months: Measles-Rubella (MR),"
+  },
+  {
+    "source": "paediatric_elderly.txt",
+    "chunk_index": 6,
+    "text": "Rotavirus, PCV 14 weeks: DTP, IPV, Hib, Hepatitis B, OPV, Rotavirus, PCV 6 months: Influenza (annual) 9 months: Measles-Rubella (MR), OPV 12 months: Hepatitis A (1st dose) 15 months: MMR, Varicella, PCV booster 18 months: DTP booster, IPV booster, Hib booster, Hepatitis A (2nd dose) 2 years: Typhoid conjugate vaccine 5 years: DTP booster 10 and 16 years: Td booster \u26a0\ufe0f Ensure your child's vaccinations are up to date. Vaccination cards should be maintained carefully. --- MALNUTRITION IN CHILDREN --- Malnutrition remains a significant problem in India, affecting child growth and development. Signs of malnutrition: - Severe acute malnutrition (SAM):"
+  },
+  {
+    "source": "paediatric_elderly.txt",
+    "chunk_index": 7,
+    "text": "Malnutrition remains a significant problem in India, affecting child growth and development. Signs of malnutrition: - Severe acute malnutrition (SAM): very low weight-for-height, visible wasting, oedema - Moderate acute malnutrition (MAM): low weight-for-height - Stunting: low height-for-age (chronic malnutrition) Warning signs requiring immediate attention: - Bilateral pitting oedema (swelling of both feet \u2014 kwashiorkor) - Very severe wasting - Inability to eat or drink Management: therapeutic feeding (RUTF \u2014 ready-to-use therapeutic food), treatment of infections, micronutrient supplementation. --- HEALTH CONCERNS IN THE ELDERLY --- Falls and Fall Prevention: Falls are the leading cause of injury in older adults. Major risk"
+  },
+  {
+    "source": "paediatric_elderly.txt",
+    "chunk_index": 8,
+    "text": "IN THE ELDERLY --- Falls and Fall Prevention: Falls are the leading cause of injury in older adults. Major risk factors: muscle weakness, balance problems, vision changes, medications (sedatives, blood pressure drugs), environmental hazards. Consequences: hip fractures (high mortality in elderly), head injury, loss of confidence and independence. Prevention: - Exercise: strength and balance training (Tai Chi proven effective) - Home modifications: remove rugs, install grab bars, ensure good lighting - Medication review: reduce sedating medications - Vision correction - Calcium and vitamin D supplementation Dementia and Alzheimer's Disease: - Progressive loss of memory and cognitive function - Early symptoms:"
+  },
+  {
+    "source": "paediatric_elderly.txt",
+    "chunk_index": 9,
+    "text": "Calcium and vitamin D supplementation Dementia and Alzheimer's Disease: - Progressive loss of memory and cognitive function - Early symptoms: forgetting recent events, difficulty finding words, getting lost in familiar places, personality changes - Diagnosis: clinical assessment, neuropsychological testing, CT or MRI brain - Management: no cure \u2014 cholinesterase inhibitors (donepezil) for mild-moderate, carer support, safety planning Confusion in the Elderly (Delirium): - Acute confusion is a medical emergency in elderly patients - Causes: infection (UTI, pneumonia most common), medication side effects, metabolic disturbance, pain - \u26a0\ufe0f New confusion in an elderly person requires urgent medical evaluation Osteoporosis: - Loss"
+  },
+  {
+    "source": "paediatric_elderly.txt",
+    "chunk_index": 10,
+    "text": "side effects, metabolic disturbance, pain - \u26a0\ufe0f New confusion in an elderly person requires urgent medical evaluation Osteoporosis: - Loss of bone density, increasing fracture risk - Often silent until fracture occurs (wrist, spine, hip) - Diagnosis: DEXA scan (bone mineral density) - Treatment: calcium (1000-1200mg/day), vitamin D (800-1000 IU/day), bisphosphonates (alendronate, risedronate) - Prevention: weight-bearing exercise, adequate calcium and vitamin D throughout life Polypharmacy (Multiple Medications): - Common in elderly with multiple conditions - Increases risk of drug interactions and side effects - Regular medication review by doctor is essential - Never stop or change medications without medical advice"
+  },
+  {
+    "source": "paediatric_elderly.txt",
+    "chunk_index": 11,
+    "text": "and side effects - Regular medication review by doctor is essential - Never stop or change medications without medical advice"
   },
   {
     "source": "respiratory_infections.txt",
     "chunk_index": 0,
-    "text": "SOURCE: World Health Organization (WHO) \u2014 Acute Respiratory Infections CATEGORY: Respiratory, Common Cold, COVID-19, Pneumonia TAGS: cough, sore throat, runny nose, shortness of breath, fever, chest pain, fatigue --- COMMON COLD --- The common cold is a viral upper respiratory tract infection, most often caused by rhinoviruses. Symptoms: - Runny or stuffy nose - Sore throat - Mild cough - Low-grade fever (rare in adults) - Sneezing - Mild headache - Fatigue Duration: 7\u201310 days Treatment: - Rest and hydration - Saline nasal sprays for congestion - Throat lozenges for sore throat - Paracetamol for fever/pain - Antihistamines for runny nose (first-generation) - No antibiotics required (viral cause) --- ACUTE BRONCHITIS --- Inflammation of the bronchial tubes, usually caused by viral infection. Symptoms: - Persistent cough (can last 2\u20133 weeks) - Production of mucus (clear, white, yellow, or green) - Shortness of breath - Chest tightness - Wheezing - Mild fever - Fatigue Treatment: - Rest and hydration - Honey and warm water for cough - Cough suppressants for dry, disturbing cough - Bronchodilators if wheezing (consult doctor) - Antibiotics not routinely indicated --- PNEUMONIA --- Pneumonia is an infection of the lungs, which can be bacterial, viral, or fungal. Symptoms: - Productive cough (may contain blood-tinged mucus) - High fever with chills - Shortness of breath - Chest pain (worsens with breathing or coughing) - Rapid breathing - Fatigue and weakness - Confusion (especially in elderly) Seek urgent medical care for pneumonia symptoms. Diagnosis: Chest X-ray, sputum culture, blood tests Treatment: - Antibiotics (bacterial pneumonia \u2014 azithromycin, amoxicillin) - Antivirals (viral pneumonia) - Oxygen therapy (if oxygen saturation < 94%) - Hospitalization often required --- COVID-19 --- COVID-19 is caused by the SARS-CoV-2 virus. It can range from mild to severe. Common Symptoms: - Fever or chills - Dry"
+    "text": "SOURCE: World Health Organization (WHO) \u2014 Acute Respiratory Infections CATEGORY: Respiratory, Common Cold, COVID-19, Pneumonia TAGS: cough, sore throat, runny nose, shortness of breath, fever, chest pain, fatigue --- COMMON COLD --- The common cold is a viral upper respiratory tract infection, most often caused by rhinoviruses. Symptoms: - Runny or stuffy nose - Sore throat - Mild cough - Low-grade fever (rare in adults) - Sneezing - Mild headache - Fatigue Duration: 7\u201310 days Treatment: - Rest and hydration - Saline nasal sprays for congestion - Throat lozenges for sore throat - Paracetamol for fever/pain - Antihistamines for runny"
   },
   {
     "source": "respiratory_infections.txt",
     "chunk_index": 1,
-    "text": "tests Treatment: - Antibiotics (bacterial pneumonia \u2014 azithromycin, amoxicillin) - Antivirals (viral pneumonia) - Oxygen therapy (if oxygen saturation < 94%) - Hospitalization often required --- COVID-19 --- COVID-19 is caused by the SARS-CoV-2 virus. It can range from mild to severe. Common Symptoms: - Fever or chills - Dry cough - Fatigue - Loss of taste or smell - Headache - Sore throat - Shortness of breath (moderate-severe) - Body aches Emergency Warning Signs (Call emergency services): - Difficulty breathing or shortness of breath - Persistent chest pain - Confusion or inability to wake - Bluish lips or face Prevention: Vaccination, masking, hand hygiene, ventilation --- ASTHMA EXACERBATION --- Asthma is a chronic condition with episodes of airway narrowing. Acute symptoms: - Wheezing - Shortness of breath - Chest tightness - Cough (especially at night) Management: - Short-acting bronchodilator (salbutamol inhaler) for immediate relief - Seek emergency care if no improvement after 2 puffs - Oral corticosteroids for severe exacerbations (prescribed)"
+    "text": "- Saline nasal sprays for congestion - Throat lozenges for sore throat - Paracetamol for fever/pain - Antihistamines for runny nose (first-generation) - No antibiotics required (viral cause) --- ACUTE BRONCHITIS --- Inflammation of the bronchial tubes, usually caused by viral infection. Symptoms: - Persistent cough (can last 2\u20133 weeks) - Production of mucus (clear, white, yellow, or green) - Shortness of breath - Chest tightness - Wheezing - Mild fever - Fatigue Treatment: - Rest and hydration - Honey and warm water for cough - Cough suppressants for dry, disturbing cough - Bronchodilators if wheezing (consult doctor) - Antibiotics"
+  },
+  {
+    "source": "respiratory_infections.txt",
+    "chunk_index": 2,
+    "text": "and warm water for cough - Cough suppressants for dry, disturbing cough - Bronchodilators if wheezing (consult doctor) - Antibiotics not routinely indicated --- PNEUMONIA --- Pneumonia is an infection of the lungs, which can be bacterial, viral, or fungal. Symptoms: - Productive cough (may contain blood-tinged mucus) - High fever with chills - Shortness of breath - Chest pain (worsens with breathing or coughing) - Rapid breathing - Fatigue and weakness - Confusion (especially in elderly) Seek urgent medical care for pneumonia symptoms. Diagnosis: Chest X-ray, sputum culture, blood tests Treatment: - Antibiotics (bacterial pneumonia \u2014 azithromycin, amoxicillin) -"
+  },
+  {
+    "source": "respiratory_infections.txt",
+    "chunk_index": 3,
+    "text": "care for pneumonia symptoms. Diagnosis: Chest X-ray, sputum culture, blood tests Treatment: - Antibiotics (bacterial pneumonia \u2014 azithromycin, amoxicillin) - Antivirals (viral pneumonia) - Oxygen therapy (if oxygen saturation < 94%) - Hospitalization often required --- COVID-19 --- COVID-19 is caused by the SARS-CoV-2 virus. It can range from mild to severe. Common Symptoms: - Fever or chills - Dry cough - Fatigue - Loss of taste or smell - Headache - Sore throat - Shortness of breath (moderate-severe) - Body aches Emergency Warning Signs (Call emergency services): - Difficulty breathing or shortness of breath - Persistent chest pain -"
+  },
+  {
+    "source": "respiratory_infections.txt",
+    "chunk_index": 4,
+    "text": "Body aches Emergency Warning Signs (Call emergency services): - Difficulty breathing or shortness of breath - Persistent chest pain - Confusion or inability to wake - Bluish lips or face Prevention: Vaccination, masking, hand hygiene, ventilation --- ASTHMA EXACERBATION --- Asthma is a chronic condition with episodes of airway narrowing. Acute symptoms: - Wheezing - Shortness of breath - Chest tightness - Cough (especially at night) Management: - Short-acting bronchodilator (salbutamol inhaler) for immediate relief - Seek emergency care if no improvement after 2 puffs - Oral corticosteroids for severe exacerbations (prescribed)"
+  },
+  {
+    "source": "respiratory_infections.txt",
+    "chunk_index": 5,
+    "text": "no improvement after 2 puffs - Oral corticosteroids for severe exacerbations (prescribed)"
   },
   {
     "source": "skin_allergy.txt",
     "chunk_index": 0,
-    "text": "SOURCE: ICMR \u2014 Dermatological and Allergic Conditions CATEGORY: Skin, Allergy, Dermatology TAGS: skin rash, itching, swelling, jaundice, urticaria, allergic reaction --- URTICARIA (HIVES) --- Urticaria is an itchy skin rash characterized by raised, red welts (wheals). Causes: - Allergic reactions (food, drugs, insect stings) - Infections - Physical triggers (cold, heat, pressure) - Autoimmune conditions Symptoms: - Raised, red, itchy welts on skin - Can appear anywhere on the body - Individual welts typically resolve within 24 hours - May be associated with angioedema (swelling of lips, eyes, throat) \u26a0\ufe0f Seek emergency care if throat swelling or difficulty breathing (anaphylaxis). Treatment: - Antihistamines (cetirizine, loratadine, fexofenadine) \u2014 first line - Oral corticosteroids (short course) for severe cases - Epinephrine (adrenaline) auto-injector for anaphylaxis --- CONTACT DERMATITIS --- Inflammatory skin reaction from direct contact with an irritant or allergen. Symptoms: - Red rash at contact site - Itching, burning, or stinging - Blisters (in severe cases) - Dry, cracked skin Common triggers: - Metals (nickel), soaps, detergents - Cosmetics, perfumes - Plants (Parthenium, poison ivy) Treatment: - Identify and avoid trigger - Hydrocortisone cream (mild-moderate) - Antihistamines for itching - Moisturizers and emollients --- CHICKENPOX (VARICELLA) --- A highly contagious viral disease caused by Varicella-Zoster Virus (VZV). Symptoms: - Fever - Fatigue and malaise - Characteristic rash: starts as red spots \u2192 fluid-filled blisters \u2192 crusts - Intense itching - Rash progresses from trunk to face and limbs Management: - Calamine lotion for itching - Antihistamines (oral) for itching - Acyclovir (antiviral) for high-risk groups - Keep nails short to prevent scratching - Isolate until all lesions have crusted --- JAUNDICE --- Yellowing of skin and eyes due to elevated bilirubin levels. Symptoms: - Yellow skin and sclera (whites of eyes) - Dark urine (tea-colored) - Pale stools - Fatigue -"
+    "text": "SOURCE: ICMR \u2014 Dermatological and Allergic Conditions CATEGORY: Skin, Allergy, Dermatology TAGS: skin rash, itching, swelling, jaundice, urticaria, allergic reaction --- URTICARIA (HIVES) --- Urticaria is an itchy skin rash characterized by raised, red welts (wheals). Causes: - Allergic reactions (food, drugs, insect stings) - Infections - Physical triggers (cold, heat, pressure) - Autoimmune conditions Symptoms: - Raised, red, itchy welts on skin - Can appear anywhere on the body - Individual welts typically resolve within 24 hours - May be associated with angioedema (swelling of lips, eyes, throat) \u26a0\ufe0f Seek emergency care if throat swelling or difficulty breathing (anaphylaxis)."
   },
   {
     "source": "skin_allergy.txt",
     "chunk_index": 1,
-    "text": "(antiviral) for high-risk groups - Keep nails short to prevent scratching - Isolate until all lesions have crusted --- JAUNDICE --- Yellowing of skin and eyes due to elevated bilirubin levels. Symptoms: - Yellow skin and sclera (whites of eyes) - Dark urine (tea-colored) - Pale stools - Fatigue - Itching - Abdominal pain (if liver disease) Causes: - Hepatitis A, B, C - Gallstones - Liver cirrhosis - Hemolytic anemia Diagnosis: Liver function tests (LFT), bilirubin levels, liver ultrasound, hepatitis serology \u26a0\ufe0f Always seek medical evaluation \u2014 jaundice is a sign of underlying disease. --- ANAPHYLAXIS --- A severe, life-threatening allergic reaction. Symptoms (develop within minutes of exposure): - Throat tightening or swelling - Difficulty breathing - Rapid heart rate - Severe skin rash - Vomiting - Dizziness or fainting - Loss of consciousness \u26a0\ufe0f EMERGENCY: Inject epinephrine (EpiPen) immediately and call 112. Triggers: Food (peanuts, shellfish), bee stings, medications (penicillin), latex"
+    "text": "be associated with angioedema (swelling of lips, eyes, throat) \u26a0\ufe0f Seek emergency care if throat swelling or difficulty breathing (anaphylaxis). Treatment: - Antihistamines (cetirizine, loratadine, fexofenadine) \u2014 first line - Oral corticosteroids (short course) for severe cases - Epinephrine (adrenaline) auto-injector for anaphylaxis --- CONTACT DERMATITIS --- Inflammatory skin reaction from direct contact with an irritant or allergen. Symptoms: - Red rash at contact site - Itching, burning, or stinging - Blisters (in severe cases) - Dry, cracked skin Common triggers: - Metals (nickel), soaps, detergents - Cosmetics, perfumes - Plants (Parthenium, poison ivy) Treatment: - Identify and avoid trigger"
+  },
+  {
+    "source": "skin_allergy.txt",
+    "chunk_index": 2,
+    "text": "triggers: - Metals (nickel), soaps, detergents - Cosmetics, perfumes - Plants (Parthenium, poison ivy) Treatment: - Identify and avoid trigger - Hydrocortisone cream (mild-moderate) - Antihistamines for itching - Moisturizers and emollients --- CHICKENPOX (VARICELLA) --- A highly contagious viral disease caused by Varicella-Zoster Virus (VZV). Symptoms: - Fever - Fatigue and malaise - Characteristic rash: starts as red spots \u2192 fluid-filled blisters \u2192 crusts - Intense itching - Rash progresses from trunk to face and limbs Management: - Calamine lotion for itching - Antihistamines (oral) for itching - Acyclovir (antiviral) for high-risk groups - Keep nails short to prevent"
+  },
+  {
+    "source": "skin_allergy.txt",
+    "chunk_index": 3,
+    "text": "lotion for itching - Antihistamines (oral) for itching - Acyclovir (antiviral) for high-risk groups - Keep nails short to prevent scratching - Isolate until all lesions have crusted --- JAUNDICE --- Yellowing of skin and eyes due to elevated bilirubin levels. Symptoms: - Yellow skin and sclera (whites of eyes) - Dark urine (tea-colored) - Pale stools - Fatigue - Itching - Abdominal pain (if liver disease) Causes: - Hepatitis A, B, C - Gallstones - Liver cirrhosis - Hemolytic anemia Diagnosis: Liver function tests (LFT), bilirubin levels, liver ultrasound, hepatitis serology \u26a0\ufe0f Always seek medical evaluation \u2014 jaundice is"
+  },
+  {
+    "source": "skin_allergy.txt",
+    "chunk_index": 4,
+    "text": "anemia Diagnosis: Liver function tests (LFT), bilirubin levels, liver ultrasound, hepatitis serology \u26a0\ufe0f Always seek medical evaluation \u2014 jaundice is a sign of underlying disease. --- ANAPHYLAXIS --- A severe, life-threatening allergic reaction. Symptoms (develop within minutes of exposure): - Throat tightening or swelling - Difficulty breathing - Rapid heart rate - Severe skin rash - Vomiting - Dizziness or fainting - Loss of consciousness \u26a0\ufe0f EMERGENCY: Inject epinephrine (EpiPen) immediately and call 112. Triggers: Food (peanuts, shellfish), bee stings, medications (penicillin), latex"
+  },
+  {
+    "source": "skin_allergy.txt",
+    "chunk_index": 5,
+    "text": "medications (penicillin), latex"
+  },
+  {
+    "source": "womens_health.txt",
+    "chunk_index": 0,
+    "text": "SOURCE: Ministry of Health and Family Welfare, India \u2014 Women's Health Guidelines CATEGORY: Women's Health, Gynaecology, Reproductive Health TAGS: period pain, irregular periods, heavy bleeding, pelvic pain, pregnancy, breast pain, vaginal discharge, menopause --- MENSTRUAL DISORDERS --- Dysmenorrhea (Painful Periods): Painful menstrual cramps occurring before or during menstruation. Very common \u2014 affects up to 80% of women at some point. Primary dysmenorrhea: No underlying disease \u2014 caused by prostaglandins causing uterine contractions. Secondary dysmenorrhea: Due to underlying conditions (endometriosis, fibroids, pelvic inflammatory disease). Symptoms: - Cramping pain in lower abdomen, often radiating to lower back and thighs - Pain starting"
+  },
+  {
+    "source": "womens_health.txt",
+    "chunk_index": 1,
+    "text": "pelvic inflammatory disease). Symptoms: - Cramping pain in lower abdomen, often radiating to lower back and thighs - Pain starting 1-2 days before period and lasting 2-3 days - Nausea and vomiting - Diarrhoea or loose stools - Headache - Fatigue - Dizziness Management: - NSAIDs (ibuprofen 400mg, mefenamic acid): start 1-2 days before period, most effective - Heat therapy: hot water bottle on lower abdomen - Exercise: regular physical activity reduces severity - Oral contraceptive pills (reduce severity in primary dysmenorrhea) - Investigation for secondary causes if severe or not responding to treatment Menorrhagia (Heavy Periods): Abnormally heavy or"
+  },
+  {
+    "source": "womens_health.txt",
+    "chunk_index": 2,
+    "text": "primary dysmenorrhea) - Investigation for secondary causes if severe or not responding to treatment Menorrhagia (Heavy Periods): Abnormally heavy or prolonged menstrual bleeding. Definition: Soaking a pad or tampon every hour for several consecutive hours, or periods lasting more than 7 days. Causes: fibroids, adenomyosis, polycystic ovary syndrome (PCOS), thyroid disorders, bleeding disorders, intrauterine device (IUD). Symptoms: - Heavy flow requiring frequent pad or tampon changes - Passing large blood clots - Prolonged periods (more than 7 days) - Anaemia symptoms: fatigue, shortness of breath, pallor - Pelvic pain Investigation: pelvic ultrasound, CBC, thyroid function, coagulation tests. Amenorrhea (Absent Periods):"
+  },
+  {
+    "source": "womens_health.txt",
+    "chunk_index": 3,
+    "text": "symptoms: fatigue, shortness of breath, pallor - Pelvic pain Investigation: pelvic ultrasound, CBC, thyroid function, coagulation tests. Amenorrhea (Absent Periods): - Primary: no periods by age 16 \u2014 requires evaluation - Secondary: previously regular periods stop for 3 or more months (excluding pregnancy) - Causes: pregnancy, PCOS, thyroid disorders, hyperprolactinaemia, excessive exercise, low body weight, stress --- POLYCYSTIC OVARY SYNDROME (PCOS) --- PCOS is one of the most common hormonal disorders in women of reproductive age. India has a very high prevalence (approximately 20-25% of women). Features (Rotterdam criteria \u2014 2 of 3): - Irregular or absent periods (oligo/anovulation) -"
+  },
+  {
+    "source": "womens_health.txt",
+    "chunk_index": 4,
+    "text": "high prevalence (approximately 20-25% of women). Features (Rotterdam criteria \u2014 2 of 3): - Irregular or absent periods (oligo/anovulation) - Excess androgen (male hormones): symptoms or lab evidence - Polycystic ovaries on ultrasound Symptoms: - Irregular periods (fewer than 8 periods per year) - Excess facial and body hair (hirsutism) - Acne - Thinning hair or hair loss (scalp) - Weight gain, particularly around the abdomen - Skin darkening in body folds (acanthosis nigricans) - Difficulty getting pregnant (infertility) Associated risks: - Type 2 diabetes (insulin resistance is central to PCOS) - Cardiovascular disease - Depression and anxiety - Endometrial"
+  },
+  {
+    "source": "womens_health.txt",
+    "chunk_index": 5,
+    "text": "risks: - Type 2 diabetes (insulin resistance is central to PCOS) - Cardiovascular disease - Depression and anxiety - Endometrial cancer (from irregular periods without ovulation) Management: - Weight loss: even 5-10% weight reduction significantly improves symptoms - Lifestyle: regular exercise, low glycaemic index diet - Oral contraceptive pills: regulate periods and reduce androgen symptoms - Metformin: improves insulin resistance - Anti-androgens (spironolactone) for hirsutism and acne - Ovulation induction for fertility (clomiphene, letrozole) --- PREGNANCY-RELATED CONDITIONS --- Signs of Normal Pregnancy: - Missed period - Breast tenderness - Nausea (morning sickness) - Fatigue - Frequent urination - Food cravings"
+  },
+  {
+    "source": "womens_health.txt",
+    "chunk_index": 6,
+    "text": "Normal Pregnancy: - Missed period - Breast tenderness - Nausea (morning sickness) - Fatigue - Frequent urination - Food cravings or aversions Warning Signs During Pregnancy (seek immediate care): \u26a0\ufe0f Vaginal bleeding at any stage \u26a0\ufe0f Severe abdominal pain or cramping \u26a0\ufe0f Severe headache with visual disturbance (pre-eclampsia) \u26a0\ufe0f Swelling of face and hands (pre-eclampsia) \u26a0\ufe0f Decreased fetal movement after 28 weeks \u26a0\ufe0f Signs of preterm labour: regular contractions before 37 weeks \u26a0\ufe0f Fever above 38\u00b0C \u26a0\ufe0f Burning urination (UTI, common in pregnancy) Gestational Diabetes: - Occurs in 10-20% of Indian pregnancies - Screening: oral glucose tolerance test at 24-28"
+  },
+  {
+    "source": "womens_health.txt",
+    "chunk_index": 7,
+    "text": "common in pregnancy) Gestational Diabetes: - Occurs in 10-20% of Indian pregnancies - Screening: oral glucose tolerance test at 24-28 weeks - Management: diet, exercise, insulin if needed - Increases risk of Type 2 diabetes later in life Pre-eclampsia: - High blood pressure (above 140/90) after 20 weeks with protein in urine - Symptoms: severe headache, visual changes, upper abdominal pain, swelling - \u26a0\ufe0f EMERGENCY: Can lead to seizures (eclampsia) \u2014 requires immediate hospitalisation --- MENOPAUSE --- Menopause is defined as 12 consecutive months without a menstrual period, typically occurring between ages 45-55. Perimenopause symptoms (years before menopause): - Irregular"
+  },
+  {
+    "source": "womens_health.txt",
+    "chunk_index": 8,
+    "text": "as 12 consecutive months without a menstrual period, typically occurring between ages 45-55. Perimenopause symptoms (years before menopause): - Irregular periods - Hot flushes (sudden feelings of warmth, especially in face and upper body) - Night sweats - Sleep disturbances - Mood changes: irritability, anxiety, depression - Vaginal dryness - Decreased libido - Difficulty concentrating (brain fog) - Joint pain Long-term health risks after menopause: - Osteoporosis: bone density loss, increased fracture risk - Cardiovascular disease: oestrogen was protective - Urinary incontinence Management: - Hormone replacement therapy (HRT): most effective for hot flushes and vaginal symptoms - Non-hormonal options: SSRIs,"
+  },
+  {
+    "source": "womens_health.txt",
+    "chunk_index": 9,
+    "text": "Urinary incontinence Management: - Hormone replacement therapy (HRT): most effective for hot flushes and vaginal symptoms - Non-hormonal options: SSRIs, clonidine for hot flushes - Calcium and vitamin D supplementation for bone health - Weight-bearing exercise - Vaginal moisturisers and lubricants for vaginal dryness --- BREAST HEALTH --- Breast Self-Examination (BSE): Recommended monthly, 1 week after period. Look for: new lumps, change in size or shape, skin dimpling, nipple changes or discharge, redness or rash. \u26a0\ufe0f Any new breast lump should be evaluated by a doctor \u2014 most are benign but require assessment. Breast conditions: - Fibrocystic changes: common benign"
+  },
+  {
+    "source": "womens_health.txt",
+    "chunk_index": 10,
+    "text": "should be evaluated by a doctor \u2014 most are benign but require assessment. Breast conditions: - Fibrocystic changes: common benign lumps that fluctuate with menstrual cycle - Fibroadenoma: common benign tumour, smooth and mobile - Breast infection (mastitis): common in breastfeeding women \u2014 pain, redness, warmth, fever - Breast cancer: persistent lump, skin changes, nipple inversion or discharge, axillary lymph node enlargement Risk factors for breast cancer: family history, BRCA gene mutations, early menarche, late menopause, hormone therapy, alcohol, obesity. Screening: Clinical breast examination annually from age 40; mammography every 1-2 years from age 40-50 onwards. --- PELVIC INFLAMMATORY DISEASE"
+  },
+  {
+    "source": "womens_health.txt",
+    "chunk_index": 11,
+    "text": "Screening: Clinical breast examination annually from age 40; mammography every 1-2 years from age 40-50 onwards. --- PELVIC INFLAMMATORY DISEASE (PID) --- Infection of the female reproductive organs (uterus, fallopian tubes, ovaries). Symptoms: - Lower abdominal and pelvic pain (can be mild to severe) - Fever and chills - Unusual or heavy vaginal discharge with odour - Painful intercourse - Painful or frequent urination - Irregular bleeding \u26a0\ufe0f Untreated PID can lead to infertility, ectopic pregnancy, and chronic pelvic pain. Treatment: Antibiotics (combination therapy \u2014 doxycycline + metronidazole or ceftriaxone). Hospitalisation for severe cases."
+  },
+  {
+    "source": "womens_health.txt",
+    "chunk_index": 12,
+    "text": "Treatment: Antibiotics (combination therapy \u2014 doxycycline + metronidazole or ceftriaxone). Hospitalisation for severe cases."
   }
 ]

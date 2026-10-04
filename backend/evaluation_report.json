@@ -1,0 +1,464 @@
+{
+  "timestamp": "2026-04-27T11:50:18.537414",
+  "sections": {
+    "ml_classifier": {
+      "model": "XGBoost (DDXPlus)",
+      "validation_samples": 50000,
+      "disease_classes": 49,
+      "feature_dimensions": 223,
+      "top1_accuracy": 0.9925,
+      "top3_accuracy": 0.9999,
+      "precision_macro": 0.9934,
+      "recall_macro": 0.9907,
+      "f1_macro": 0.9914,
+      "precision_weighted": 0.9931,
+      "recall_weighted": 0.9925,
+      "f1_weighted": 0.9923,
+      "per_class_report": {
+        "Acute COPD exacerbation / infection": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 809
+        },
+        "Acute dystonic reactions": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1226
+        },
+        "Acute laryngitis": {
+          "precision": 0.985,
+          "recall": 0.994,
+          "f1": 0.989,
+          "support": 1279
+        },
+        "Acute otitis media": {
+          "precision": 0.986,
+          "recall": 1.0,
+          "f1": 0.993,
+          "support": 1293
+        },
+        "Acute pulmonary edema": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 942
+        },
+        "Acute rhinosinusitis": {
+          "precision": 0.966,
+          "recall": 0.69,
+          "f1": 0.805,
+          "support": 699
+        },
+        "Allergic sinusitis": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 781
+        },
+        "Anaphylaxis": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1426
+        },
+        "Anemia": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2558
+        },
+        "Atrial fibrillation": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1002
+        },
+        "Boerhaave": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 789
+        },
+        "Bronchiectasis": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 876
+        },
+        "Bronchiolitis": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 9
+        },
+        "Bronchitis": {
+          "precision": 0.998,
+          "recall": 0.993,
+          "f1": 0.995,
+          "support": 1343
+        },
+        "Bronchospasm / acute asthma exacerbation": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 816
+        },
+        "Chagas": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 455
+        },
+        "Chronic rhinosinusitis": {
+          "precision": 0.825,
+          "recall": 0.984,
+          "f1": 0.897,
+          "support": 1039
+        },
+        "Cluster headache": {
+          "precision": 1.0,
+          "recall": 0.994,
+          "f1": 0.997,
+          "support": 1032
+        },
+        "Croup": {
+          "precision": 1.0,
+          "recall": 0.989,
+          "f1": 0.995,
+          "support": 95
+        },
+        "Ebola": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 36
+        },
+        "Epiglottitis": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 862
+        },
+        "GERD": {
+          "precision": 1.0,
+          "recall": 0.999,
+          "f1": 1.0,
+          "support": 1227
+        },
+        "Guillain-Barr\u00e9 syndrome": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 980
+        },
+        "HIV (initial infection)": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1449
+        },
+        "Influenza": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1364
+        },
+        "Inguinal hernia": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 994
+        },
+        "Larygospasm": {
+          "precision": 0.996,
+          "recall": 1.0,
+          "f1": 0.998,
+          "support": 250
+        },
+        "Localized edema": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1415
+        },
+        "Myasthenia gravis": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 834
+        },
+        "Myocarditis": {
+          "precision": 0.995,
+          "recall": 0.948,
+          "f1": 0.971,
+          "support": 618
+        },
+        "PSVT": {
+          "precision": 0.999,
+          "recall": 1.0,
+          "f1": 0.999,
+          "support": 907
+        },
+        "Pancreatic neoplasm": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1021
+        },
+        "Panic attack": {
+          "precision": 1.0,
+          "recall": 0.999,
+          "f1": 1.0,
+          "support": 1213
+        },
+        "Pericarditis": {
+          "precision": 0.972,
+          "recall": 0.997,
+          "f1": 0.984,
+          "support": 1114
+        },
+        "Pneumonia": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1352
+        },
+        "Possible NSTEMI / STEMI": {
+          "precision": 0.998,
+          "recall": 0.997,
+          "f1": 0.998,
+          "support": 1116
+        },
+        "Pulmonary embolism": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1410
+        },
+        "Pulmonary neoplasm": {
+          "precision": 1.0,
+          "recall": 0.999,
+          "f1": 0.999,
+          "support": 733
+        },
+        "SLE": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 577
+        },
+        "Sarcoidosis": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1116
+        },
+        "Scombroid food poisoning": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 824
+        },
+        "Spontaneous pneumothorax": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 539
+        },
+        "Spontaneous rib fracture": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 282
+        },
+        "Stable angina": {
+          "precision": 0.97,
+          "recall": 1.0,
+          "f1": 0.985,
+          "support": 897
+        },
+        "Tuberculosis": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 757
+        },
+        "URTI": {
+          "precision": 0.999,
+          "recall": 0.992,
+          "f1": 0.995,
+          "support": 3260
+        },
+        "Unstable angina": {
+          "precision": 1.0,
+          "recall": 0.975,
+          "f1": 0.987,
+          "support": 1059
+        },
+        "Viral pharyngitis": {
+          "precision": 0.99,
+          "recall": 0.993,
+          "f1": 0.992,
+          "support": 3115
+        },
+        "Whooping cough": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 210
+        }
+      }
+    },
+    "rag_pipeline": {
+      "cases_evaluated": 19,
+      "avg_rag_score": 0.7268,
+      "avg_no_rag_score": 0.6416,
+      "avg_improvement": 0.0853,
+      "rag_wins_pct": 1.0,
+      "per_case": [
+        {
+          "label": "cardiac_emergency",
+          "symptoms": "chest pain and difficulty breathing",
+          "rag_score": 0.7,
+          "no_rag_score": 0.6,
+          "improvement": 0.1
+        },
+        {
+          "label": "seizure",
+          "symptoms": "i had a seizure yesterday",
+          "rag_score": 0.82,
+          "no_rag_score": 0.55,
+          "improvement": 0.27
+        },
+        {
+          "label": "heart_attack",
+          "symptoms": "severe chest pain radiating to left arm",
+          "rag_score": 0.72,
+          "no_rag_score": 0.66,
+          "improvement": 0.06
+        },
+        {
+          "label": "stroke",
+          "symptoms": "sudden face drooping arm weakness slurred speech",
+          "rag_score": 0.7,
+          "no_rag_score": 0.65,
+          "improvement": 0.05
+        },
+        {
+          "label": "anaphylaxis",
+          "symptoms": "anaphylaxis throat swelling difficulty breathing",
+          "rag_score": 0.71,
+          "no_rag_score": 0.67,
+          "improvement": 0.04
+        },
+        {
+          "label": "dengue",
+          "symptoms": "fever headache joint pain rash nausea for 3 days",
+          "rag_score": 0.79,
+          "no_rag_score": 0.67,
+          "improvement": 0.12
+        },
+        {
+          "label": "malaria",
+          "symptoms": "high fever chills severe headache sweating",
+          "rag_score": 0.74,
+          "no_rag_score": 0.63,
+          "improvement": 0.11
+        },
+        {
+          "label": "tuberculosis",
+          "symptoms": "persistent cough blood in sputum weight loss night sweats",
+          "rag_score": 0.71,
+          "no_rag_score": 0.7,
+          "improvement": 0.01
+        },
+        {
+          "label": "gi_emergency",
+          "symptoms": "severe abdominal pain vomiting blood",
+          "rag_score": 0.69,
+          "no_rag_score": 0.63,
+          "improvement": 0.06
+        },
+        {
+          "label": "viral_fever",
+          "symptoms": "fever and headache for 2 days",
+          "rag_score": 0.84,
+          "no_rag_score": 0.63,
+          "improvement": 0.21
+        },
+        {
+          "label": "common_cold",
+          "symptoms": "cough sore throat runny nose mild fever",
+          "rag_score": 0.8,
+          "no_rag_score": 0.7,
+          "improvement": 0.1
+        },
+        {
+          "label": "gastroenteritis",
+          "symptoms": "nausea vomiting diarrhea stomach ache",
+          "rag_score": 0.61,
+          "no_rag_score": 0.57,
+          "improvement": 0.04
+        },
+        {
+          "label": "arthritis",
+          "symptoms": "joint pain swelling morning stiffness",
+          "rag_score": 0.75,
+          "no_rag_score": 0.67,
+          "improvement": 0.08
+        },
+        {
+          "label": "uti",
+          "symptoms": "burning urination frequent urination",
+          "rag_score": 0.69,
+          "no_rag_score": 0.67,
+          "improvement": 0.02
+        },
+        {
+          "label": "tension_headache",
+          "symptoms": "mild headache and fatigue",
+          "rag_score": 0.74,
+          "no_rag_score": 0.67,
+          "improvement": 0.07
+        },
+        {
+          "label": "stress",
+          "symptoms": "lots of stress and no sleep",
+          "rag_score": 0.73,
+          "no_rag_score": 0.65,
+          "improvement": 0.08
+        },
+        {
+          "label": "skin_allergy",
+          "symptoms": "skin rash itching on arms",
+          "rag_score": 0.71,
+          "no_rag_score": 0.63,
+          "improvement": 0.08
+        },
+        {
+          "label": "ibs",
+          "symptoms": "bloating and gas after meals",
+          "rag_score": 0.69,
+          "no_rag_score": 0.63,
+          "improvement": 0.06
+        },
+        {
+          "label": "cold",
+          "symptoms": "runny nose sneezing no fever",
+          "rag_score": 0.67,
+          "no_rag_score": 0.61,
+          "improvement": 0.06
+        }
+      ]
+    },
+    "pipeline_accuracy": {
+      "total_cases": 19,
+      "emergency_accuracy": 0.9474,
+      "triage_exact_accuracy": 0.5789,
+      "triage_within_1_accuracy": 0.8947,
+      "avg_citation_confidence": 0.5788
+    }
+  }
+}

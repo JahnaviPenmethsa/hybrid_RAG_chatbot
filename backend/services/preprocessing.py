@@ -61,7 +61,7 @@ def preprocess(text: str, remove_stops: bool = False) -> str:
     return text
 
 
-# ------- Quick self-test -------
+# Quick self-test
 if __name__ == "__main__":
     samples = [
         "I've been having Fever and a bad Headache for 2 days!!!",

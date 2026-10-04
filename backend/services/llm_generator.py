@@ -1,68 +1,86 @@
 from models.llm_model import LLMModel
 
-# Initialize LLM
 llm = LLMModel()
 
 
-# 🔹 Build RAG Prompt
-def build_prompt(symptoms, retrieved_docs):
-    context = "\n".join(retrieved_docs)
+def build_prompt(symptoms: str, retrieved_docs: list, ml_prediction: dict = None) -> str:
+    context = "\n".join(retrieved_docs) if retrieved_docs else "No context retrieved."
 
-    prompt = f"""
-You are a medical AI assistant.
+    # Build ML prediction section
+    ml_section = ""
+    if ml_prediction and ml_prediction.get("primary_disease"):
+        top = ml_prediction.get("top_predictions", [])
+        predictions_text = "\n".join(
+            f"  - {p['disease']}: {p['confidence']*100:.0f}% confidence"
+            for p in top[:3]
+        )
+        ml_section = f"""
+ML Classifier Predictions (Random Forest, trained on symptom-disease dataset):
+{predictions_text}
 
-Patient symptoms:
-{symptoms}
+Consider these predictions when forming your response, but rely primarily on the medical context below.
+"""
 
+    prompt = f"""You are a medical AI assistant trained on WHO, ICMR, and Ministry of Health guidelines.
+
+Patient symptoms: {symptoms}
+{ml_section}
 Relevant medical knowledge:
 {context}
 
 Instructions:
-- Give possible causes
-- Suggest next steps
+- Give 2-3 possible causes (consider the ML predictions above as supporting evidence)
+- Suggest next steps and home care
 - Mention risk level (low/medium/high)
-- Do NOT hallucinate
-- Use only the provided context
+- Do NOT hallucinate or invent information
+- Use only the provided context and ML predictions
 
 Answer:
 """
     return prompt
 
 
-# 🔹 Main Response Generator (Multi-LLM + ML Fallback)
-def generate_response(symptoms, retrieved_docs):
+def generate_response(symptoms: str, retrieved_docs: list,
+                      ml_prediction: dict = None) -> str:
 
-    prompt = build_prompt(symptoms, retrieved_docs)
+    prompt = build_prompt(symptoms, retrieved_docs, ml_prediction)
 
-    print("🔄 Trying GROQ...")
-
-    # 1️⃣ Try GROQ
+    print("Trying GROQ...")
     response = llm.call_groq(prompt)
     if response and len(response.strip()) > 0:
-        print("✅ Using GROQ")
+        print("Using GROQ")
         return response
 
-    print("⚠️ GROQ failed, trying GEMINI...")
-
-    # 2️⃣ Try GEMINI
+    print("GROQ failed, trying GEMINI...")
     response = llm.call_gemini(prompt)
     if response and len(response.strip()) > 0:
-        print("✅ Using GEMINI")
+        print("Using GEMINI")
         return response
 
-    print("❌ Both LLMs failed, using ML fallback...")
-
-    # 3️⃣ ML-style fallback
-    return fallback_response(symptoms, retrieved_docs)
+    print("Both LLMs failed, using rule-based fallback...")
+    return fallback_response(symptoms, retrieved_docs, ml_prediction)
 
 
-# 🔹 Intelligent ML-style fallback (NO STATIC MESSAGE)
-def fallback_response(symptoms, retrieved_docs):
-    symptoms_lower = symptoms.lower()  # check symptoms, not docs
-    combined_text = " ".join(retrieved_docs).lower()  # only use for risk level
+def fallback_response(symptoms: str, retrieved_docs: list,
+                      ml_prediction: dict = None) -> str:
+    if not retrieved_docs and not ml_prediction:
+        return ("Insufficient data to analyze symptoms. "
+                "Please consult a healthcare professional.")
+
+    symptoms_lower = symptoms.lower()
+    combined_text = " ".join(retrieved_docs).lower() if retrieved_docs else ""
 
     possible_causes = []
-    if any(w in symptoms_lower for w in ["stress", "anxiety", "pressure", "tension"]):
+
+    # Use ML predictions first if available
+    if ml_prediction and ml_prediction.get("top_predictions"):
+        for p in ml_prediction["top_predictions"][:2]:
+            possible_causes.append(
+                f"{p['disease']} ({p['confidence']*100:.0f}% ML confidence)"
+            )
+
+    # Supplement with symptom-based rules
+    if any(w in symptoms_lower for w in ["stress", "anxiety", "tension"]):
         possible_causes.append("Stress or anxiety")
     if any(w in symptoms_lower for w in ["fever", "temperature", "chills"]):
         possible_causes.append("Viral or bacterial infection")
@@ -74,16 +92,25 @@ def fallback_response(symptoms, retrieved_docs):
         possible_causes.append("Gastrointestinal issue")
     if any(w in symptoms_lower for w in ["chest", "heart", "breathing"]):
         possible_causes.append("Cardiac or respiratory concern")
-    if any(w in symptoms_lower for w in ["joint", "muscle", "body", "pain", "ache"]):
-        possible_causes.append("Musculoskeletal issue")
 
-    if not possible_causes:
-        possible_causes = ["General discomfort — further assessment needed"]
+    # Remove duplicates
+    seen = set()
+    unique_causes = []
+    for c in possible_causes:
+        key = c.lower().split("(")[0].strip()
+        if key not in seen:
+            seen.add(key)
+            unique_causes.append(c)
 
-    # Risk from symptoms, not docs
-    if any(w in symptoms_lower for w in ["severe", "extreme", "chest pain", "can't breathe"]):
+    if not unique_causes:
+        unique_causes = ["General discomfort — further assessment needed"]
+
+    # Risk from symptoms
+    if any(w in symptoms_lower for w in
+           ["severe", "extreme", "chest pain", "can't breathe", "unconscious"]):
         risk = "high"
-    elif any(w in symptoms_lower for w in ["persistent", "days", "weeks", "worsening"]):
+    elif any(w in symptoms_lower for w in
+             ["persistent", "days", "weeks", "worsening"]):
         risk = "medium"
     else:
         risk = "low"
@@ -91,14 +118,20 @@ def fallback_response(symptoms, retrieved_docs):
     steps = [
         "Stay hydrated and get adequate rest",
         "Monitor your symptoms regularly",
-        "Avoid self-medicating without professional advice"
+        "Avoid self-medicating without professional advice",
     ]
     if risk == "high":
-        steps.append("⚠️ Seek immediate medical attention")
+        steps.append("Seek immediate medical attention")
 
-    # Return as formatted STRING not dict
-    causes_text = "\n".join(f"- {c}" for c in set(possible_causes))
+    causes_text = "\n".join(f"- {c}" for c in unique_causes)
     steps_text = "\n".join(f"- {s}" for s in steps)
+
+    ml_note = ""
+    if ml_prediction and ml_prediction.get("primary_disease"):
+        ml_note = (f"\n\n**ML Model Prediction:** The Random Forest classifier "
+                   f"suggests **{ml_prediction['primary_disease']}** as the most "
+                   f"likely condition based on your symptoms "
+                   f"({ml_prediction['primary_confidence']*100:.0f}% confidence).")
 
     return f"""**Possible Causes:**
 {causes_text}
@@ -106,6 +139,6 @@ def fallback_response(symptoms, retrieved_docs):
 **Risk Level:** {risk.upper()}
 
 **Recommended Next Steps:**
-{steps_text}
+{steps_text}{ml_note}
 
 *Note: This is a rule-based assessment. Please consult a qualified healthcare professional for accurate diagnosis.*"""

@@ -1,0 +1,135 @@
+SOURCE: Indian Academy of Pediatrics (IAP) & WHO — Paediatric and Elderly Health Guidelines
+CATEGORY: Paediatrics, Elderly Care, Age-Specific Conditions
+TAGS: child fever, rash, vomiting, diarrhea, difficulty breathing, elderly fall, confusion, memory loss, bone pain
+
+--- FEVER IN CHILDREN ---
+
+Fever management varies significantly by age group.
+
+Fever in Infants Under 3 Months:
+⚠️ ANY fever (above 38°C) in a baby under 3 months is a medical emergency.
+Call 112 or go to emergency immediately.
+Do not give paracetamol without medical advice in this age group.
+
+Fever in Children 3-36 Months:
+- Fever above 39°C warrants medical evaluation
+- Febrile seizures can occur (3-5% of children): brief convulsion during fever
+- Febrile seizure first aid: place child on side, do not restrain, time the seizure, call 112 if lasting more than 5 minutes
+
+Fever in Children Above 3 Years:
+- Paracetamol (15mg/kg every 4-6 hours, max 4 doses/day)
+- Ibuprofen (10mg/kg every 6-8 hours, from 6 months of age)
+- Do not use aspirin in children (risk of Reye's syndrome)
+- Tepid sponging for comfort (not alcohol)
+- Ensure adequate hydration
+
+Seek emergency care if:
+- Fever above 40°C
+- Stiff neck
+- Skin rash (especially non-blanching purple/red spots — meningococcal disease)
+- Difficulty breathing
+- Extreme lethargy or difficulty waking
+- Severe headache
+- Persistent vomiting
+
+--- COMMON CHILDHOOD ILLNESSES ---
+
+Acute Otitis Media (Ear Infection):
+- Common in children under 5 years
+- Symptoms: ear pain (child may tug or rub ear), fever, irritability, difficulty hearing, sometimes discharge from ear
+- Treatment: paracetamol for pain, antibiotics if bacterial (amoxicillin first line)
+
+Croup:
+- Viral infection causing swelling around vocal cords
+- Symptoms: barking cough (seal-like), hoarse voice, stridor (high-pitched sound when breathing in), low fever
+- Management: cool mist humidifier, oral dexamethasone, nebulised adrenaline for severe cases
+- ⚠️ Severe stridor at rest or respiratory distress = emergency
+
+Bronchiolitis:
+- Viral infection of small airways, most common in infants under 2 years
+- Caused mainly by RSV (Respiratory Syncytial Virus)
+- Symptoms: runny nose progressing to wheeze and increased breathing effort, fever, poor feeding
+- Management: supportive (oxygen if needed, fluids), no antibiotics
+- ⚠️ Hospital admission if oxygen saturation below 92%, unable to feed, severe respiratory distress
+
+Hand, Foot and Mouth Disease:
+- Viral illness in young children
+- Symptoms: fever, sores in mouth, rash with blisters on hands, feet, and buttocks
+- Management: symptomatic, paracetamol, ensure hydration
+- Highly contagious — keep child away from school until fever-free and blisters dried
+
+Rotavirus Diarrhea:
+- Leading cause of severe diarrhea in children under 5 years
+- Prevention: Rotavirus vaccine (part of India's national immunisation programme)
+- Treatment: ORS is the cornerstone of management
+
+--- CHILDHOOD VACCINATIONS (India National Immunisation Programme) ---
+
+Birth: BCG, Hepatitis B, OPV (oral polio vaccine)
+6 weeks: DTP, IPV, Hib, Hepatitis B, OPV, Rotavirus, PCV
+10 weeks: DTP, IPV, Hib, Hepatitis B, OPV, Rotavirus, PCV
+14 weeks: DTP, IPV, Hib, Hepatitis B, OPV, Rotavirus, PCV
+6 months: Influenza (annual)
+9 months: Measles-Rubella (MR), OPV
+12 months: Hepatitis A (1st dose)
+15 months: MMR, Varicella, PCV booster
+18 months: DTP booster, IPV booster, Hib booster, Hepatitis A (2nd dose)
+2 years: Typhoid conjugate vaccine
+5 years: DTP booster
+10 and 16 years: Td booster
+
+⚠️ Ensure your child's vaccinations are up to date. Vaccination cards should be maintained carefully.
+
+--- MALNUTRITION IN CHILDREN ---
+
+Malnutrition remains a significant problem in India, affecting child growth and development.
+
+Signs of malnutrition:
+- Severe acute malnutrition (SAM): very low weight-for-height, visible wasting, oedema
+- Moderate acute malnutrition (MAM): low weight-for-height
+- Stunting: low height-for-age (chronic malnutrition)
+
+Warning signs requiring immediate attention:
+- Bilateral pitting oedema (swelling of both feet — kwashiorkor)
+- Very severe wasting
+- Inability to eat or drink
+
+Management: therapeutic feeding (RUTF — ready-to-use therapeutic food), treatment of infections, micronutrient supplementation.
+
+--- HEALTH CONCERNS IN THE ELDERLY ---
+
+Falls and Fall Prevention:
+Falls are the leading cause of injury in older adults. Major risk factors: muscle weakness, balance problems, vision changes, medications (sedatives, blood pressure drugs), environmental hazards.
+
+Consequences: hip fractures (high mortality in elderly), head injury, loss of confidence and independence.
+
+Prevention:
+- Exercise: strength and balance training (Tai Chi proven effective)
+- Home modifications: remove rugs, install grab bars, ensure good lighting
+- Medication review: reduce sedating medications
+- Vision correction
+- Calcium and vitamin D supplementation
+
+Dementia and Alzheimer's Disease:
+- Progressive loss of memory and cognitive function
+- Early symptoms: forgetting recent events, difficulty finding words, getting lost in familiar places, personality changes
+- Diagnosis: clinical assessment, neuropsychological testing, CT or MRI brain
+- Management: no cure — cholinesterase inhibitors (donepezil) for mild-moderate, carer support, safety planning
+
+Confusion in the Elderly (Delirium):
+- Acute confusion is a medical emergency in elderly patients
+- Causes: infection (UTI, pneumonia most common), medication side effects, metabolic disturbance, pain
+- ⚠️ New confusion in an elderly person requires urgent medical evaluation
+
+Osteoporosis:
+- Loss of bone density, increasing fracture risk
+- Often silent until fracture occurs (wrist, spine, hip)
+- Diagnosis: DEXA scan (bone mineral density)
+- Treatment: calcium (1000-1200mg/day), vitamin D (800-1000 IU/day), bisphosphonates (alendronate, risedronate)
+- Prevention: weight-bearing exercise, adequate calcium and vitamin D throughout life
+
+Polypharmacy (Multiple Medications):
+- Common in elderly with multiple conditions
+- Increases risk of drug interactions and side effects
+- Regular medication review by doctor is essential
+- Never stop or change medications without medical advice
